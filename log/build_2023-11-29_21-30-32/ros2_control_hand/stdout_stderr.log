@@ -1,0 +1,9 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/ros2_control_hand.dir/hardware/rrbot.cpp.o[0m
+In file included from [01m[K/home/lucas/dev_ws/src/ros2_control_hand/hardware/rrbot.cpp:15[m[K:
+[01m[K/home/lucas/dev_ws/src/ros2_control_hand/hardware/include/ros2_control_hand/rrbot.hpp:21:10:[m[K [01;31m[Kfatal error: [m[Kthermios.h: Aucun fichier ou dossier de ce type
+   21 | #include [01;31m[K<thermios.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/ros2_control_hand.dir/build.make:76 : CMakeFiles/ros2_control_hand.dir/hardware/rrbot.cpp.o] Erreur 1
+gmake[1]: *** [CMakeFiles/Makefile2:137 : CMakeFiles/ros2_control_hand.dir/all] Erreur 2
+gmake: *** [Makefile:146 : all] Erreur 2

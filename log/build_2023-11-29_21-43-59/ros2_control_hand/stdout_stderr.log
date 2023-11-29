@@ -1,0 +1,16 @@
+[35m[1mConsolidate compiler generated dependencies of target ros2_control_hand[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/ros2_control_hand.dir/hardware/rrbot.cpp.o[0m
+[01m[K/home/lucas/dev_ws/src/ros2_control_hand/hardware/rrbot.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::CallbackReturn ros2_control_hand::CustomHardware::on_deactivate(const rclcpp_lifecycle::State&)[m[K’:
+[01m[K/home/lucas/dev_ws/src/ros2_control_hand/hardware/rrbot.cpp:184:12:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kvoid[m[K’
+  184 |     return [01;31m[Kvoid[m[K;
+      |            [01;31m[K^~~~[m[K
+[01m[K/home/lucas/dev_ws/src/ros2_control_hand/hardware/rrbot.cpp:184:11:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kvoid[m[K’
+  184 |     return[01;31m[K [m[K[32m[Kvoid[m[K;
+      |           [01;31m[K^[m[K[32m[K~~~~[m[K
+      |           [32m[K;[m[K
+[01m[K/home/lucas/dev_ws/src/ros2_control_hand/hardware/rrbot.cpp:184:12:[m[K [01;31m[Kerror: [m[Kdeclaration does not declare anything [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+  184 |     return [01;31m[Kvoid[m[K;
+      |            [01;31m[K^~~~[m[K
+gmake[2]: *** [CMakeFiles/ros2_control_hand.dir/build.make:76 : CMakeFiles/ros2_control_hand.dir/hardware/rrbot.cpp.o] Erreur 1
+gmake[1]: *** [CMakeFiles/Makefile2:137 : CMakeFiles/ros2_control_hand.dir/all] Erreur 2
+gmake: *** [Makefile:146 : all] Erreur 2

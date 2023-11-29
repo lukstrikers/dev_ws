@@ -1,0 +1,8 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/ros2_control_hand.dir/hardware/rrbot.cpp.o[0m
+[01m[K/home/lucas/dev_ws/src/ros2_control_hand/hardware/rrbot.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::CallbackReturn ros2_control_hand::CustomHardware::on_deactivate(const rclcpp_lifecycle::State&)[m[K’:
+[01m[K/home/lucas/dev_ws/src/ros2_control_hand/hardware/rrbot.cpp:184:5:[m[K [01;31m[Kerror: [m[Kreturn-statement with no value, in function returning ‘[01m[Khardware_interface::CallbackReturn[m[K’ {aka ‘[01m[Krclcpp_lifecycle::node_interfaces::LifecycleNodeInterface::CallbackReturn[m[K’} [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+  184 |     [01;31m[Kreturn[m[K;
+      |     [01;31m[K^~~~~~[m[K
+gmake[2]: *** [CMakeFiles/ros2_control_hand.dir/build.make:76 : CMakeFiles/ros2_control_hand.dir/hardware/rrbot.cpp.o] Erreur 1
+gmake[1]: *** [CMakeFiles/Makefile2:137 : CMakeFiles/ros2_control_hand.dir/all] Erreur 2
+gmake: *** [Makefile:146 : all] Erreur 2

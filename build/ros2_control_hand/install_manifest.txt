@@ -1,0 +1,3 @@
+/home/lucas/dev_ws/install/ros2_control_hand/lib/libros2_control_hand.so
+/home/lucas/dev_ws/install/ros2_control_hand/share/ros2_control_hand/cmake/export_ros2_control_handExport.cmake
+/home/lucas/dev_ws/install/ros2_control_hand/share/ros2_control_hand/cmake/export_ros2_control_handExport-noconfig.cmake

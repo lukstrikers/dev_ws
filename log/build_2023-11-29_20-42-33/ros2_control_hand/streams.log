@@ -1,0 +1,11 @@
+[0.063s] Invoking command in '/home/lucas/dev_ws/build/ros2_control_hand': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lucas/dev_ws/build/ros2_control_hand -- -j8 -l8
+[0.113s] [ 50%] [32mBuilding CXX object CMakeFiles/ros2_control_hand.dir/hardware/rrbot.cpp.o[0m
+[0.201s] In file included from [01m[K/home/lucas/dev_ws/src/ros2_control_hand/hardware/rrbot.cpp:15[m[K:
+[0.201s] [01m[K/home/lucas/dev_ws/src/ros2_control_hand/hardware/include/ros2_control_hand/rrbot.hpp:29:10:[m[K [01;31m[Kfatal error: [m[Kros2_control_demo_example_1/visibility_control.h: Aucun fichier ou dossier de ce type
+[0.201s]    29 | #include [01;31m[K"ros2_control_demo_example_1/visibility_control.h"[m[K
+[0.201s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.201s] compilation terminated.
+[0.203s] gmake[2]: *** [CMakeFiles/ros2_control_hand.dir/build.make:76 : CMakeFiles/ros2_control_hand.dir/hardware/rrbot.cpp.o] Erreur 1
+[0.203s] gmake[1]: *** [CMakeFiles/Makefile2:137 : CMakeFiles/ros2_control_hand.dir/all] Erreur 2
+[0.203s] gmake: *** [Makefile:146 : all] Erreur 2
+[0.205s] Invoked command in '/home/lucas/dev_ws/build/ros2_control_hand' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lucas/dev_ws/build/ros2_control_hand -- -j8 -l8

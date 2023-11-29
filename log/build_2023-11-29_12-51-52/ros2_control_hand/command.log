@@ -1,0 +1,6 @@
+Invoking command in '/home/lucas/dev_ws/build/ros2_control_hand': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/lucas/dev_ws/src/ros2_control_hand -DCMAKE_INSTALL_PREFIX=/home/lucas/dev_ws/install/ros2_control_hand
+Invoked command in '/home/lucas/dev_ws/build/ros2_control_hand' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/lucas/dev_ws/src/ros2_control_hand -DCMAKE_INSTALL_PREFIX=/home/lucas/dev_ws/install/ros2_control_hand
+Invoking command in '/home/lucas/dev_ws/build/ros2_control_hand': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lucas/dev_ws/build/ros2_control_hand -- -j8 -l8
+Invoked command in '/home/lucas/dev_ws/build/ros2_control_hand' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lucas/dev_ws/build/ros2_control_hand -- -j8 -l8
+Invoking command in '/home/lucas/dev_ws/build/ros2_control_hand': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lucas/dev_ws/build/ros2_control_hand
+Invoked command in '/home/lucas/dev_ws/build/ros2_control_hand' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lucas/dev_ws/build/ros2_control_hand

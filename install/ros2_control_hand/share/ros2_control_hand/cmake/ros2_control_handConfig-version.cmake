@@ -1,0 +1,1 @@
+/home/lucas/dev_ws/build/ros2_control_hand/ament_cmake_core/ros2_control_handConfig-version.cmake

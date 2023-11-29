@@ -1,0 +1,12 @@
+[0.058s] Invoking command in '/home/lucas/dev_ws/build/ros2_control_hand': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lucas/dev_ws/build/ros2_control_hand -- -j8 -l8
+[0.092s] [35m[1mConsolidate compiler generated dependencies of target ros2_control_hand[0m
+[0.112s] [ 50%] [32mBuilding CXX object CMakeFiles/ros2_control_hand.dir/hardware/rrbot.cpp.o[0m
+[0.161s] In file included from [01m[K/home/lucas/dev_ws/src/ros2_control_hand/hardware/rrbot.cpp:15[m[K:
+[0.161s] [01m[K/home/lucas/dev_ws/src/ros2_control_hand/hardware/include/ros2_control_hand/rrbot.hpp:21:10:[m[K [01;31m[Kfatal error: [m[Kthermios.h: Aucun fichier ou dossier de ce type
+[0.161s]    21 | #include [01;31m[K<thermios.h>[m[K
+[0.161s]       |          [01;31m[K^~~~~~~~~~~~[m[K
+[0.161s] compilation terminated.
+[0.162s] gmake[2]: *** [CMakeFiles/ros2_control_hand.dir/build.make:76 : CMakeFiles/ros2_control_hand.dir/hardware/rrbot.cpp.o] Erreur 1
+[0.162s] gmake[1]: *** [CMakeFiles/Makefile2:137 : CMakeFiles/ros2_control_hand.dir/all] Erreur 2
+[0.162s] gmake: *** [Makefile:146 : all] Erreur 2
+[0.164s] Invoked command in '/home/lucas/dev_ws/build/ros2_control_hand' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lucas/dev_ws/build/ros2_control_hand -- -j8 -l8

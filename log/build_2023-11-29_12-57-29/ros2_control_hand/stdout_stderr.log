@@ -1,0 +1,27 @@
+-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found pluginlib: 5.1.0 (/opt/ros/humble/share/pluginlib/cmake)
+-- Found hardware_interface: 2.35.0 (/opt/ros/humble/share/hardware_interface/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found kdl_parser: 2.6.4 (/opt/ros/humble/share/kdl_parser/cmake)
+-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found controller_interface: 2.35.0 (/opt/ros/humble/share/controller_interface/cmake)
+-- Found realtime_tools: 2.5.0 (/opt/ros/humble/share/realtime_tools/cmake)
+[31mCMake Error at /opt/ros/humble/share/pluginlib/cmake/pluginlib_export_plugin_description_file.cmake:84 (message):
+  Given plugin description file
+  '/home/lucas/dev_ws/src/ros2_control_hand/ros2_control_hand.xml' does not
+  exist
+Call Stack (most recent call first):
+  CMakeLists.txt:72 (pluginlib_export_plugin_description_file)
+
+[0m
+-- Configuring incomplete, errors occurred!
+See also "/home/lucas/dev_ws/build/ros2_control_hand/CMakeFiles/CMakeOutput.log".
+gmake: *** [Makefile:335 : cmake_check_build_system] Erreur 1

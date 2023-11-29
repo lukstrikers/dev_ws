@@ -1,0 +1,1 @@
+/home/lucas/dev_ws/src/ros2_control_hand/description/launch/view_robot.launch.py

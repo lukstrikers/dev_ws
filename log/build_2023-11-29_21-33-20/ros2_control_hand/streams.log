@@ -1,0 +1,11 @@
+[0.079s] Invoking command in '/home/lucas/dev_ws/build/ros2_control_hand': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lucas/dev_ws/build/ros2_control_hand -- -j8 -l8
+[0.121s] [35m[1mConsolidate compiler generated dependencies of target ros2_control_hand[0m
+[0.141s] [ 50%] [32mBuilding CXX object CMakeFiles/ros2_control_hand.dir/hardware/rrbot.cpp.o[0m
+[2.646s] [01m[K/home/lucas/dev_ws/src/ros2_control_hand/hardware/rrbot.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::CallbackReturn ros2_control_hand::CustomHardware::on_configure(const rclcpp_lifecycle::State&)[m[K’:
+[2.646s] [01m[K/home/lucas/dev_ws/src/ros2_control_hand/hardware/rrbot.cpp:93:24:[m[K [01;31m[Kerror: [m[K‘[01m[Khw_states_[m[K’ was not declared in this scope
+[2.646s]    93 |   for (uint i = 0; i < [01;31m[Khw_states_[m[K.size(); i++)
+[2.646s]       |                        [01;31m[K^~~~~~~~~~[m[K
+[3.196s] gmake[2]: *** [CMakeFiles/ros2_control_hand.dir/build.make:76 : CMakeFiles/ros2_control_hand.dir/hardware/rrbot.cpp.o] Erreur 1
+[3.196s] gmake[1]: *** [CMakeFiles/Makefile2:137 : CMakeFiles/ros2_control_hand.dir/all] Erreur 2
+[3.197s] gmake: *** [Makefile:146 : all] Erreur 2
+[3.199s] Invoked command in '/home/lucas/dev_ws/build/ros2_control_hand' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lucas/dev_ws/build/ros2_control_hand -- -j8 -l8
