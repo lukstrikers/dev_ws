@@ -251,19 +251,7 @@ int CustomHardware::ReadSerial(unsigned char* buf, int nBytes)
 hardware_interface::return_type CustomHardware::read(
   const rclcpp::Time & /*time*/, const rclcpp::Duration &)
 {
-  // BEGIN: This part here is for exemplary purposes - Please do not copy to your production code
   RCLCPP_INFO(rclcpp::get_logger("CustomHardware"), "Reading...");
-
-  // for (uint i = 0; i < hw_states_.size(); i++)
-  // {
-  //   // Simulate RRBot's movement
-  //   //hw_states_[i] = hw_states_[i] + (hw_commands_[i] - hw_states_[i]);
-  //   RCLCPP_INFO(
-  //     rclcpp::get_logger("CustomHardware"), "Got state %.5f for joint %d!",
-  //     hw_states_[i], i);
-  // }
-  // RCLCPP_INFO(rclcpp::get_logger("CustomHardware"), "Joints successfully read!");
-  // // END: This part here is for exemplary purposes - Please do not copy to your production code
 
   unsigned char r[1] = {'r'};
   WriteToSerial(r, 1);
@@ -272,26 +260,19 @@ hardware_interface::return_type CustomHardware::read(
   ReadSerial(v, sizeof(ret));
   RCLCPP_INFO(rclcpp::get_logger("HardwareInterface"), "Received : %f, %f, %f, %f, %f, %f, %f, %f", 
     ret[0], ret[1], ret[2], ret[3], ret[4], ret[5], ret[6], ret[7]);
-
+  for (uint i = 0; i < hw_states_position.size(); i++)
+  {
+    // Simulate RRBot's movement
+    hw_states_position[i] = ret[i];
+    RCLCPP_INFO(
+      rclcpp::get_logger("CustomHardware"), "Got state %.5f for joint %d!",
+      hw_states_position[i], i);
+  }
   return hardware_interface::return_type::OK;
 }
 
 hardware_interface::return_type CustomHardware::write(const rclcpp::Time &, const rclcpp::Duration &)
 {
-  // BEGIN: This part here is for exemplary purposes - Please do not copy to your production code
-  // RCLCPP_INFO(rclcpp::get_logger("CustomHardware"), "Writing...");
-
-  // for (uint i = 0; i < hw_commands_.size(); i++)
-  // {
-  //   // Simulate sending commands to the hardware
-  //   RCLCPP_INFO(
-  //     rclcpp::get_logger("CustomHardware"), "Got command %.5f for joint %d!",
-  //     hw_commands_[i], i);
-  // }
-  // RCLCPP_INFO(
-  //   rclcpp::get_logger("CustomHardware"), "Joints successfully written!");
-  // // END: This part here is for exemplary purposes - Please do not copy to your production code
-
   return hardware_interface::return_type::OK;
 }
 

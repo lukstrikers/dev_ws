@@ -1,0 +1,23 @@
+[0.058s] Invoking command in '/home/lucas/dev_ws/build/ros2_control_hand': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lucas/dev_ws/build/ros2_control_hand -- -j8 -l8
+[0.096s] [35m[1mConsolidate compiler generated dependencies of target ros2_control_hand[0m
+[0.110s] [ 50%] [32mBuilding CXX object CMakeFiles/ros2_control_hand.dir/hardware/rrbot.cpp.o[0m
+[1.753s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[1.753s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[1.753s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[1.753s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[1.753s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[1.753s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[1.754s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[1.754s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[1.754s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.754s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.754s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.754s]                  from [01m[K/home/lucas/dev_ws/src/ros2_control_hand/hardware/rrbot.cpp:27[m[K:
+[1.754s] [01m[K/home/lucas/dev_ws/src/ros2_control_hand/hardware/rrbot.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type ros2_control_hand::CustomHardware::read(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[1.754s] [01m[K/home/lucas/dev_ws/src/ros2_control_hand/hardware/rrbot.cpp:281:7:[m[K [01;31m[Kerror: [m[K‘[01m[Khw_states_[m[K’ was not declared in this scope
+[1.754s]   281 |       [01;31m[Khw_states_[m[K[i], i);
+[1.754s]       |       [01;31m[K^~~~~~~~~~[m[K
+[2.202s] gmake[2]: *** [CMakeFiles/ros2_control_hand.dir/build.make:76 : CMakeFiles/ros2_control_hand.dir/hardware/rrbot.cpp.o] Erreur 1
+[2.202s] gmake[1]: *** [CMakeFiles/Makefile2:137 : CMakeFiles/ros2_control_hand.dir/all] Erreur 2
+[2.202s] gmake: *** [Makefile:146 : all] Erreur 2
+[2.204s] Invoked command in '/home/lucas/dev_ws/build/ros2_control_hand' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lucas/dev_ws/build/ros2_control_hand -- -j8 -l8
