@@ -1,0 +1,1 @@
+[0.105s] Invoking command in '/home/lucas/dev_ws/build/ros2_control_demo_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lucas/dev_ws/build/ros2_control_demo_description -- -j8 -l8

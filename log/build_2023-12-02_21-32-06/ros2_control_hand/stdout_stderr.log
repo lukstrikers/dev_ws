@@ -1,0 +1,14 @@
+[35m[1mConsolidate compiler generated dependencies of target ros2_control_hand[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/ros2_control_hand.dir/hardware/rrbot.cpp.o[0m
+[01m[K/home/lucas/dev_ws/src/ros2_control_hand/hardware/rrbot.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type ros2_control_hand::CustomHardware::read(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[01m[K/home/lucas/dev_ws/src/ros2_control_hand/hardware/rrbot.cpp:266:38:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kros2_control_hand::CustomHardware::mapDouble(double&)[m[K’
+  266 |     hw_states_position[i] = [01;31m[KmapDouble(ret[i])[m[K;
+      |                             [01;31m[K~~~~~~~~~^~~~~~~~[m[K
+In file included from [01m[K/home/lucas/dev_ws/src/ros2_control_hand/hardware/rrbot.cpp:15[m[K:
+[01m[K/home/lucas/dev_ws/src/ros2_control_hand/hardware/include/ros2_control_hand/rrbot.hpp:69:10:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kdouble ros2_control_hand::CustomHardware::mapDouble(double, double, double, double, double)[m[K’
+   69 |   double [01;36m[KmapDouble[m[K(double x, double in_min, double in_max, double out_min, double out_max);
+      |          [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/lucas/dev_ws/src/ros2_control_hand/hardware/include/ros2_control_hand/rrbot.hpp:69:10:[m[K [01;36m[Knote: [m[K  candidate expects 5 arguments, 1 provided
+gmake[2]: *** [CMakeFiles/ros2_control_hand.dir/build.make:76 : CMakeFiles/ros2_control_hand.dir/hardware/rrbot.cpp.o] Erreur 1
+gmake[1]: *** [CMakeFiles/Makefile2:137 : CMakeFiles/ros2_control_hand.dir/all] Erreur 2
+gmake: *** [Makefile:146 : all] Erreur 2

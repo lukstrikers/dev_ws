@@ -104,7 +104,6 @@ hardware_interface::CallbackReturn CustomHardware::on_configure(
 
 hardware_interface::CallbackReturn CustomHardware::on_activate(const rclcpp_lifecycle::State &)
 {
-  // BEGIN: This part here is for exemplary purposes - Please do not copy to your production code
   RCLCPP_INFO(
     rclcpp::get_logger("HardwareInterface"), "Activating ...please wait...");
 
@@ -255,11 +254,11 @@ hardware_interface::return_type CustomHardware::read(
 
   unsigned char r[1] = {'r'};
   WriteToSerial(r, 1);
-  float ret[] = {0,0,0,0,0,0,0,0};
+  float ret[] = {0.0, 0.0, 0.0, 0.0};
   uint8_t* v = (uint8_t*)ret;
   ReadSerial(v, sizeof(ret));
-  RCLCPP_INFO(rclcpp::get_logger("HardwareInterface"), "Received : %f, %f, %f, %f, %f, %f, %f, %f", 
-    ret[0], ret[1], ret[2], ret[3], ret[4], ret[5], ret[6], ret[7]);
+  RCLCPP_INFO(rclcpp::get_logger("HardwareInterface"), "Received : %f, %f, %f, %f", 
+    ret[0], ret[1], ret[2], ret[3]);
   for (uint i = 0; i < hw_states_position.size(); i++)
   {
     // Simulate RRBot's movement

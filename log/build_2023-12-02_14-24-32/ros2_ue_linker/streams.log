@@ -1,0 +1,8 @@
+[0.055s] Invoking command in '/home/lucas/dev_ws/build/ros2_ue_linker': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/lucas/dev_ws/src/ros2_ue_linker -DCMAKE_INSTALL_PREFIX=/home/lucas/dev_ws/install/ros2_ue_linker
+[0.062s] [31mCMake Error at CMakeLists.txt:11:
+[0.062s]   Parse error.  Expected a command name, got unquoted argument with text
+[0.062s]   "//find_package".
+[0.062s] 
+[0.062s] [0m
+[0.062s] -- Configuring incomplete, errors occurred!
+[0.063s] Invoked command in '/home/lucas/dev_ws/build/ros2_ue_linker' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/lucas/dev_ws/src/ros2_ue_linker -DCMAKE_INSTALL_PREFIX=/home/lucas/dev_ws/install/ros2_ue_linker

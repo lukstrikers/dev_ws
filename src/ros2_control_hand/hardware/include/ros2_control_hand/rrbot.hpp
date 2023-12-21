@@ -65,6 +65,7 @@ public:
   ROS2_CONTROL_DEMO_EXAMPLE_1_PUBLIC
   hardware_interface::return_type write(
     const rclcpp::Time & time, const rclcpp::Duration & period) override;
+    
 
 private:
   // Store the command for the simulated robot
