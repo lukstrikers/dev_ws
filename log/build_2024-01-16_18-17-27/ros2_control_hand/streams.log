@@ -1,0 +1,46 @@
+[0.127s] Invoking command in '/home/lucas/dev_ws/build/ros2_control_hand': AMENT_PREFIX_PATH=/home/lucas/dev_ws/install/ros2_control_demo_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lucas/dev_ws/install/ros2_control_demo_description:/home/lucas/ros2_ws/install/udp_driver:/home/lucas/ros2_ws/install/serial_driver:/home/lucas/ros2_ws/install/ros2_ue_connector_node:/home/lucas/ros2_ws/install/io_context:/home/lucas/ros2_ws/install/custom_hardware:/home/lucas/ros2_ws/install/asio_cmake_module:/opt/ros/humble /usr/bin/cmake --build /home/lucas/dev_ws/build/ros2_control_hand -- -j8 -l8
+[0.165s] [35m[1mConsolidate compiler generated dependencies of target ros2_control_hand[0m
+[0.184s] [ 50%] [32mBuilding CXX object CMakeFiles/ros2_control_hand.dir/hardware/rrbot.cpp.o[0m
+[2.927s] [100%] [32m[1mLinking CXX shared library libros2_control_hand.so[0m
+[3.049s] [100%] Built target ros2_control_hand
+[3.058s] Invoked command in '/home/lucas/dev_ws/build/ros2_control_hand' returned '0': AMENT_PREFIX_PATH=/home/lucas/dev_ws/install/ros2_control_demo_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lucas/dev_ws/install/ros2_control_demo_description:/home/lucas/ros2_ws/install/udp_driver:/home/lucas/ros2_ws/install/serial_driver:/home/lucas/ros2_ws/install/ros2_ue_connector_node:/home/lucas/ros2_ws/install/io_context:/home/lucas/ros2_ws/install/custom_hardware:/home/lucas/ros2_ws/install/asio_cmake_module:/opt/ros/humble /usr/bin/cmake --build /home/lucas/dev_ws/build/ros2_control_hand -- -j8 -l8
+[3.077s] Invoking command in '/home/lucas/dev_ws/build/ros2_control_hand': AMENT_PREFIX_PATH=/home/lucas/dev_ws/install/ros2_control_demo_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lucas/dev_ws/install/ros2_control_demo_description:/home/lucas/ros2_ws/install/udp_driver:/home/lucas/ros2_ws/install/serial_driver:/home/lucas/ros2_ws/install/ros2_ue_connector_node:/home/lucas/ros2_ws/install/io_context:/home/lucas/ros2_ws/install/custom_hardware:/home/lucas/ros2_ws/install/asio_cmake_module:/opt/ros/humble /usr/bin/cmake --install /home/lucas/dev_ws/build/ros2_control_hand
+[3.083s] -- Install configuration: ""
+[3.083s] -- Execute custom install script
+[3.084s] -- Up-to-date symlink: /home/lucas/dev_ws/install/ros2_control_hand/share/ros2_control_hand//ros2_control_hand.xml
+[3.084s] -- Up-to-date symlink: /home/lucas/dev_ws/install/ros2_control_hand/include/ros2_control_hand/ros2_control_hand/rrbot.hpp
+[3.084s] -- Up-to-date symlink: /home/lucas/dev_ws/install/ros2_control_hand/include/ros2_control_hand/ros2_control_hand/visibility_control.h
+[3.084s] -- Up-to-date symlink: /home/lucas/dev_ws/install/ros2_control_hand/share/ros2_control_hand/launch/view_robot.launch.py
+[3.084s] -- Up-to-date symlink: /home/lucas/dev_ws/install/ros2_control_hand/share/ros2_control_hand/ros2_control/rrbot.ros2_control.xacro
+[3.084s] -- Up-to-date symlink: /home/lucas/dev_ws/install/ros2_control_hand/share/ros2_control_hand/urdf/rrbot.urdf.xacro
+[3.085s] -- Up-to-date symlink: /home/lucas/dev_ws/install/ros2_control_hand/share/ros2_control_hand/launch/rrbot.launch.py
+[3.085s] -- Up-to-date symlink: /home/lucas/dev_ws/install/ros2_control_hand/share/ros2_control_hand/launch/test_forward_position_controller.launch.py
+[3.085s] -- Up-to-date symlink: /home/lucas/dev_ws/install/ros2_control_hand/share/ros2_control_hand/launch/test_joint_trajectory_controller.launch.py
+[3.085s] -- Up-to-date symlink: /home/lucas/dev_ws/install/ros2_control_hand/share/ros2_control_hand/config/rrbot_controllers.yaml
+[3.085s] -- Up-to-date symlink: /home/lucas/dev_ws/install/ros2_control_hand/share/ros2_control_hand/config/rrbot_forward_position_publisher.yaml
+[3.085s] -- Up-to-date symlink: /home/lucas/dev_ws/install/ros2_control_hand/share/ros2_control_hand/config/rrbot_joint_trajectory_publisher.yaml
+[3.085s] -- Up-to-date symlink: /home/lucas/dev_ws/install/ros2_control_hand/share/ros2_control_hand/environment/library_path.sh
+[3.086s] -- Up-to-date symlink: /home/lucas/dev_ws/install/ros2_control_hand/share/ros2_control_hand/environment/library_path.dsv
+[3.086s] -- Up-to-date symlink: /home/lucas/dev_ws/install/ros2_control_hand/share/ament_index/resource_index/package_run_dependencies/ros2_control_hand
+[3.086s] -- Up-to-date symlink: /home/lucas/dev_ws/install/ros2_control_hand/share/ament_index/resource_index/parent_prefix_path/ros2_control_hand
+[3.086s] -- Up-to-date symlink: /home/lucas/dev_ws/install/ros2_control_hand/share/ros2_control_hand/environment/ament_prefix_path.sh
+[3.086s] -- Up-to-date symlink: /home/lucas/dev_ws/install/ros2_control_hand/share/ros2_control_hand/environment/ament_prefix_path.dsv
+[3.086s] -- Up-to-date symlink: /home/lucas/dev_ws/install/ros2_control_hand/share/ros2_control_hand/environment/path.sh
+[3.086s] -- Up-to-date symlink: /home/lucas/dev_ws/install/ros2_control_hand/share/ros2_control_hand/environment/path.dsv
+[3.086s] -- Up-to-date symlink: /home/lucas/dev_ws/install/ros2_control_hand/share/ros2_control_hand/local_setup.bash
+[3.086s] -- Up-to-date symlink: /home/lucas/dev_ws/install/ros2_control_hand/share/ros2_control_hand/local_setup.sh
+[3.086s] -- Up-to-date symlink: /home/lucas/dev_ws/install/ros2_control_hand/share/ros2_control_hand/local_setup.zsh
+[3.087s] -- Up-to-date symlink: /home/lucas/dev_ws/install/ros2_control_hand/share/ros2_control_hand/local_setup.dsv
+[3.087s] -- Symlinking: /home/lucas/dev_ws/install/ros2_control_hand/share/ros2_control_hand/package.dsv
+[3.094s] -- Up-to-date symlink: /home/lucas/dev_ws/install/ros2_control_hand/share/ament_index/resource_index/packages/ros2_control_hand
+[3.094s] -- Up-to-date symlink: /home/lucas/dev_ws/install/ros2_control_hand/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/ros2_control_hand
+[3.095s] -- Up-to-date symlink: /home/lucas/dev_ws/install/ros2_control_hand/share/ros2_control_hand/cmake/ament_cmake_export_targets-extras.cmake
+[3.095s] -- Up-to-date symlink: /home/lucas/dev_ws/install/ros2_control_hand/share/ros2_control_hand/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.095s] -- Up-to-date symlink: /home/lucas/dev_ws/install/ros2_control_hand/share/ros2_control_hand/cmake/ros2_control_handConfig.cmake
+[3.095s] -- Up-to-date symlink: /home/lucas/dev_ws/install/ros2_control_hand/share/ros2_control_hand/cmake/ros2_control_handConfig-version.cmake
+[3.095s] -- Up-to-date symlink: /home/lucas/dev_ws/install/ros2_control_hand/share/ros2_control_hand/package.xml
+[3.095s] -- Installing: /home/lucas/dev_ws/install/ros2_control_hand/lib/libros2_control_hand.so
+[3.097s] -- Set runtime path of "/home/lucas/dev_ws/install/ros2_control_hand/lib/libros2_control_hand.so" to ""
+[3.097s] -- Up-to-date: /home/lucas/dev_ws/install/ros2_control_hand/share/ros2_control_hand/cmake/export_ros2_control_handExport.cmake
+[3.097s] -- Up-to-date: /home/lucas/dev_ws/install/ros2_control_hand/share/ros2_control_hand/cmake/export_ros2_control_handExport-noconfig.cmake
+[3.099s] Invoked command in '/home/lucas/dev_ws/build/ros2_control_hand' returned '0': AMENT_PREFIX_PATH=/home/lucas/dev_ws/install/ros2_control_demo_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lucas/dev_ws/install/ros2_control_demo_description:/home/lucas/ros2_ws/install/udp_driver:/home/lucas/ros2_ws/install/serial_driver:/home/lucas/ros2_ws/install/ros2_ue_connector_node:/home/lucas/ros2_ws/install/io_context:/home/lucas/ros2_ws/install/custom_hardware:/home/lucas/ros2_ws/install/asio_cmake_module:/opt/ros/humble /usr/bin/cmake --install /home/lucas/dev_ws/build/ros2_control_hand

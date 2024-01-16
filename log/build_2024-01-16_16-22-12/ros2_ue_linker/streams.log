@@ -1,0 +1,48 @@
+[0.045s] Invoking command in '/home/lucas/dev_ws/build/ros2_ue_linker': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lucas/dev_ws/build/ros2_ue_linker -- -j8 -l8
+[0.096s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.246s] -- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)
+[0.286s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.289s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.297s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.312s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.332s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.400s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.403s] -- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.531s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.668s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.755s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.811s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.811s] -- Configured cppcheck include dirs: 
+[0.811s] -- Configured cppcheck exclude dirs and/or files: 
+[0.811s] -- Added test 'lint_cmake' to check CMake code style
+[0.812s] -- Added test 'uncrustify' to check C / C++ code style
+[0.813s] -- Configured uncrustify additional arguments: 
+[0.813s] -- Added test 'xmllint' to check XML markup files
+[0.815s] -- Configuring done
+[0.829s] -- Generating done
+[0.830s] -- Build files have been written to: /home/lucas/dev_ws/build/ros2_ue_linker
+[0.853s] [35m[1mConsolidate compiler generated dependencies of target ue_connector[0m
+[0.872s] [ 50%] [32mBuilding CXX object CMakeFiles/ue_connector.dir/src/ue_connector.cpp.o[0m
+[7.407s] [100%] [32m[1mLinking CXX executable ue_connector[0m
+[7.730s] [100%] Built target ue_connector
+[7.738s] Invoked command in '/home/lucas/dev_ws/build/ros2_ue_linker' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lucas/dev_ws/build/ros2_ue_linker -- -j8 -l8
+[7.757s] Invoking command in '/home/lucas/dev_ws/build/ros2_ue_linker': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lucas/dev_ws/build/ros2_ue_linker
+[7.763s] -- Install configuration: ""
+[7.763s] -- Installing: /home/lucas/dev_ws/install/ros2_ue_linker/lib/ros2_ue_linker/ue_connector
+[7.767s] -- Set runtime path of "/home/lucas/dev_ws/install/ros2_ue_linker/lib/ros2_ue_linker/ue_connector" to ""
+[7.768s] -- Up-to-date: /home/lucas/dev_ws/install/ros2_ue_linker/share/ament_index/resource_index/package_run_dependencies/ros2_ue_linker
+[7.768s] -- Installing: /home/lucas/dev_ws/install/ros2_ue_linker/share/ament_index/resource_index/parent_prefix_path/ros2_ue_linker
+[7.768s] -- Up-to-date: /home/lucas/dev_ws/install/ros2_ue_linker/share/ros2_ue_linker/environment/ament_prefix_path.sh
+[7.768s] -- Installing: /home/lucas/dev_ws/install/ros2_ue_linker/share/ros2_ue_linker/environment/ament_prefix_path.dsv
+[7.768s] -- Up-to-date: /home/lucas/dev_ws/install/ros2_ue_linker/share/ros2_ue_linker/environment/path.sh
+[7.768s] -- Installing: /home/lucas/dev_ws/install/ros2_ue_linker/share/ros2_ue_linker/environment/path.dsv
+[7.768s] -- Up-to-date: /home/lucas/dev_ws/install/ros2_ue_linker/share/ros2_ue_linker/local_setup.bash
+[7.769s] -- Up-to-date: /home/lucas/dev_ws/install/ros2_ue_linker/share/ros2_ue_linker/local_setup.sh
+[7.769s] -- Up-to-date: /home/lucas/dev_ws/install/ros2_ue_linker/share/ros2_ue_linker/local_setup.zsh
+[7.769s] -- Installing: /home/lucas/dev_ws/install/ros2_ue_linker/share/ros2_ue_linker/local_setup.dsv
+[7.769s] -- Installing: /home/lucas/dev_ws/install/ros2_ue_linker/share/ros2_ue_linker/package.dsv
+[7.769s] -- Up-to-date: /home/lucas/dev_ws/install/ros2_ue_linker/share/ament_index/resource_index/packages/ros2_ue_linker
+[7.769s] -- Up-to-date: /home/lucas/dev_ws/install/ros2_ue_linker/share/ros2_ue_linker/cmake/ros2_ue_linkerConfig.cmake
+[7.769s] -- Up-to-date: /home/lucas/dev_ws/install/ros2_ue_linker/share/ros2_ue_linker/cmake/ros2_ue_linkerConfig-version.cmake
+[7.769s] -- Up-to-date: /home/lucas/dev_ws/install/ros2_ue_linker/share/ros2_ue_linker/package.xml
+[7.771s] Invoked command in '/home/lucas/dev_ws/build/ros2_ue_linker' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/lucas/dev_ws/build/ros2_ue_linker

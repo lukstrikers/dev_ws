@@ -1,6 +1,5 @@
 publisher_joint_trajectory_controller:
   ros__parameters:
-
     controller_name: "joint_trajectory_position_controller"
     wait_sec_between_publish: 6
 
@@ -11,14 +10,18 @@ publisher_joint_trajectory_controller:
     pos4: [0, 0]
 
     joints:
-      - joint1
-      - joint2
-      - joint3
-      - joint4
+      - joint_finger1
+      - joint_finger1_middle
+      - joint_finger2
+      - joint_finger2_middle
+      - joint_finger3
+      - joint_finger3_middle
 
     check_starting_point: false
     starting_point_limits:
-      joint1: [-0.1,0.1]
-      joint2: [-0.1,0.1]
-      joint3: [-0.1,0.1]
-      joint4: [-0.1,0.1]
+      joint_finger1: [-0.1, 0.1]
+      joint_finger1_middle: [-0.1, 0.1]
+      joint_finger2: [-0.1, 0.1]
+      joint_finger2_middle: [-0.1, 0.1]
+      joint_finger3: [-0.1, 0.1]
+      joint_finger3_middle: [-0.1, 0.1]

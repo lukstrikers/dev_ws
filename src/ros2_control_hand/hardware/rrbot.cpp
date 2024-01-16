@@ -254,18 +254,22 @@ hardware_interface::return_type CustomHardware::read(
 
   unsigned char r[1] = {'r'};
   WriteToSerial(r, 1);
-  float ret[] = {0.0, 0.0, 0.0, 0.0};
+  float ret[] = {0.0, 0.0, 0.0, 0.0, 0.0, 0.0};
   uint8_t* v = (uint8_t*)ret;
   ReadSerial(v, sizeof(ret));
-  RCLCPP_INFO(rclcpp::get_logger("HardwareInterface"), "Received : %f, %f, %f, %f", 
-    ret[0], ret[1], ret[2], ret[3]);
+  RCLCPP_INFO(rclcpp::get_logger("HardwareInterface"), "Received : %f, %f, %f, %f, %f, %f", 
+    ret[0], ret[1], ret[2], ret[3], ret[4], ret[5]);
   for (uint i = 0; i < hw_states_position.size(); i++)
   {
     // Simulate RRBot's movement
     hw_states_position[i] = ret[i];
+    //print joint name
+
+    // Print joint name
+    const std::string& joint_name = info_.joints[i].name;
     RCLCPP_INFO(
-      rclcpp::get_logger("CustomHardware"), "Got state %.5f for joint %d!",
-      hw_states_position[i], i);
+        rclcpp::get_logger("CustomHardware"), "Got state %.5f for joint %s!",
+        hw_states_position[i], joint_name.c_str());
   }
   return hardware_interface::return_type::OK;
 }

@@ -3,7 +3,7 @@
 #include "sys/ipc.h"
 #include "sys/shm.h"
 
-const int NUM_JOINTS = 4;
+const int NUM_JOINTS = 6;
 
 struct shm_msg
 {

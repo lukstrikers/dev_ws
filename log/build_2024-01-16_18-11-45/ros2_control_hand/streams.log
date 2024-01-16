@@ -1,0 +1,22 @@
+[0.125s] Invoking command in '/home/lucas/dev_ws/build/ros2_control_hand': AMENT_PREFIX_PATH=/home/lucas/dev_ws/install/ros2_control_demo_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lucas/dev_ws/install/ros2_control_demo_description:/home/lucas/ros2_ws/install/udp_driver:/home/lucas/ros2_ws/install/serial_driver:/home/lucas/ros2_ws/install/ros2_ue_connector_node:/home/lucas/ros2_ws/install/io_context:/home/lucas/ros2_ws/install/custom_hardware:/home/lucas/ros2_ws/install/asio_cmake_module:/opt/ros/humble /usr/bin/cmake --build /home/lucas/dev_ws/build/ros2_control_hand -- -j8 -l8
+[0.218s] [ 50%] [32mBuilding CXX object CMakeFiles/ros2_control_hand.dir/hardware/rrbot.cpp.o[0m
+[1.977s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[1.977s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[1.977s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[1.977s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[1.977s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[1.977s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[1.977s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[1.977s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[1.977s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[1.977s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[1.977s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[1.977s]                  from [01m[K/home/lucas/dev_ws/src/ros2_control_hand/hardware/rrbot.cpp:27[m[K:
+[1.977s] [01m[K/home/lucas/dev_ws/src/ros2_control_hand/hardware/rrbot.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type ros2_control_hand::CustomHardware::read(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[1.978s] [01m[K/home/lucas/dev_ws/src/ros2_control_hand/hardware/rrbot.cpp:268:52:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kname[m[K’ in ‘[01m[K((ros2_control_hand::CustomHardware*)this)->ros2_control_hand::CustomHardware::hw_states_position.std::vector<double>::operator[](((std::vector<double>::size_type)i))[m[K’, which is of non-class type ‘[01m[K__gnu_cxx::__alloc_traits<std::allocator<double>, double>::value_type[m[K’ {aka ‘[01m[Kdouble[m[K’}
+[1.978s]   268 |       hw_states_position[i], hw_states_position[i].[01;31m[Kname[m[K);
+[1.978s]       |                                                    [01;31m[K^~~~[m[K
+[2.415s] gmake[2]: *** [CMakeFiles/ros2_control_hand.dir/build.make:76 : CMakeFiles/ros2_control_hand.dir/hardware/rrbot.cpp.o] Erreur 1
+[2.415s] gmake[1]: *** [CMakeFiles/Makefile2:137 : CMakeFiles/ros2_control_hand.dir/all] Erreur 2
+[2.415s] gmake: *** [Makefile:146 : all] Erreur 2
+[2.417s] Invoked command in '/home/lucas/dev_ws/build/ros2_control_hand' returned '2': AMENT_PREFIX_PATH=/home/lucas/dev_ws/install/ros2_control_demo_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lucas/dev_ws/install/ros2_control_demo_description:/home/lucas/ros2_ws/install/udp_driver:/home/lucas/ros2_ws/install/serial_driver:/home/lucas/ros2_ws/install/ros2_ue_connector_node:/home/lucas/ros2_ws/install/io_context:/home/lucas/ros2_ws/install/custom_hardware:/home/lucas/ros2_ws/install/asio_cmake_module:/opt/ros/humble /usr/bin/cmake --build /home/lucas/dev_ws/build/ros2_control_hand -- -j8 -l8
