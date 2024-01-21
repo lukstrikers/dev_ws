@@ -1,0 +1,4 @@
+Invoking command in '/home/lucas/dev_ws/build/hand_urdf': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/lucas/dev_ws/build/hand_urdf -- -j8 -l8
+Invoked command in '/home/lucas/dev_ws/build/hand_urdf' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/lucas/dev_ws/build/hand_urdf -- -j8 -l8
+Invoking command in '/home/lucas/dev_ws/build/hand_urdf': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/lucas/dev_ws/build/hand_urdf
+Invoked command in '/home/lucas/dev_ws/build/hand_urdf' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/lucas/dev_ws/build/hand_urdf

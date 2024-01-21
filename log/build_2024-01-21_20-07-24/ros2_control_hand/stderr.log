@@ -1,0 +1,12 @@
+In file included from [01m[K/home/lucas/dev_ws/src/ros2_control_hand/hardware/rrbot.cpp:15[m[K:
+[01m[K/home/lucas/dev_ws/src/ros2_control_hand/hardware/include/ros2_control_hand/rrbot.hpp:75:9:[m[K [01;31m[Kerror: [m[Kflexible array member ‘[01m[Kros2_control_hand::CustomHardware::ret[m[K’ not at end of ‘[01m[Kclass ros2_control_hand::CustomHardware[m[K’
+   75 |   float [01;31m[Kret[m[K[] = {
+      |         [01;31m[K^~~[m[K
+[01m[K/home/lucas/dev_ws/src/ros2_control_hand/hardware/include/ros2_control_hand/rrbot.hpp:75:9:[m[K [01;31m[Kerror: [m[Kinitializer for flexible array member ‘[01m[Kfloat ros2_control_hand::CustomHardware::ret [][m[K’
+[01m[K/home/lucas/dev_ws/src/ros2_control_hand/hardware/rrbot.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type ros2_control_hand::CustomHardware::read(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[01m[K/home/lucas/dev_ws/src/ros2_control_hand/hardware/rrbot.cpp:259:17:[m[K [01;31m[Kerror: [m[Kinvalid application of ‘[01m[Ksizeof[m[K’ to incomplete type ‘[01m[Kfloat [][m[K’
+  259 |   ReadSerial(v, [01;31m[Ksizeof(ret)[m[K);
+      |                 [01;31m[K^~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/ros2_control_hand.dir/build.make:76 : CMakeFiles/ros2_control_hand.dir/hardware/rrbot.cpp.o] Erreur 1
+gmake[1]: *** [CMakeFiles/Makefile2:137 : CMakeFiles/ros2_control_hand.dir/all] Erreur 2
+gmake: *** [Makefile:146 : all] Erreur 2

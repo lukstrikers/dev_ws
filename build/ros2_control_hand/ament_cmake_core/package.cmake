@@ -5,7 +5,7 @@ set(ros2_control_hand_BUILD_DEPENDS "hardware_interface" "pluginlib" "rclcpp" "r
 set(ros2_control_hand_BUILDTOOL_DEPENDS "ament_cmake")
 set(ros2_control_hand_BUILD_EXPORT_DEPENDS "hardware_interface" "pluginlib" "rclcpp" "rclcpp_lifecycle")
 set(ros2_control_hand_BUILDTOOL_EXPORT_DEPENDS )
-set(ros2_control_hand_EXEC_DEPENDS "controller_manager" "forward_command_controller" "joint_state_broadcaster" "joint_state_publisher_gui" "joint_trajectory_controller" "robot_state_publisher" "ros2_control_demo_description" "ros2_controllers_test_nodes" "ros2controlcli" "ros2launch" "rviz2" "xacro" "hardware_interface" "pluginlib" "rclcpp" "rclcpp_lifecycle")
+set(ros2_control_hand_EXEC_DEPENDS "controller_manager" "forward_command_controller" "joint_state_broadcaster" "joint_state_publisher_gui" "joint_trajectory_controller" "robot_state_publisher" "ros2_control_demo_description" "hand_urdf" "ros2_controllers_test_nodes" "ros2controlcli" "ros2launch" "rviz2" "xacro" "hardware_interface" "pluginlib" "rclcpp" "rclcpp_lifecycle")
 set(ros2_control_hand_TEST_DEPENDS "ament_cmake_gtest")
 set(ros2_control_hand_GROUP_DEPENDS )
 set(ros2_control_hand_MEMBER_OF_GROUPS )

@@ -15,24 +15,32 @@ controller_manager:
 forward_position_controller:
   ros__parameters:
     joints:
-      - joint_finger1
-      - joint_finger1_middle
-      - joint_finger2
-      - joint_finger2_middle
-      - joint_finger3
-      - joint_finger3_middle
+      - joint_finger_1_base
+      - joint_finger_1_top
+      - joint_finger_2_base
+      - joint_finger_2_top
+      - joint_finger_3_base
+      - joint_finger_3_top
+      - joint_finger_4_base
+      - joint_finger_4_top
+      - joint_thumb_base
+      - joint_thumb_top
     interface_name: position
 
 
 joint_trajectory_position_controller:
   ros__parameters:
     joints:
-      - joint_finger1
-      - joint_finger1_middle
-      - joint_finger2
-      - joint_finger2_middle
-      - joint_finger3
-      - joint_finger3_middle
+      - joint_finger_1_base
+      - joint_finger_1_top
+      - joint_finger_2_base
+      - joint_finger_2_top
+      - joint_finger_3_base
+      - joint_finger_3_top
+      - joint_finger_4_base
+      - joint_finger_4_top
+      - joint_thumb_base
+      - joint_thumb_top
       
 
     command_interfaces:

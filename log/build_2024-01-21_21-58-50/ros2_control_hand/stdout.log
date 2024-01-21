@@ -1,0 +1,43 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/ros2_control_hand.dir/hardware/rrbot.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library libros2_control_hand.so[0m
+[100%] Built target ros2_control_hand
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/lucas/dev_ws/install/ros2_control_hand/share/ros2_control_hand//ros2_control_hand.xml
+-- Up-to-date symlink: /home/lucas/dev_ws/install/ros2_control_hand/include/ros2_control_hand/ros2_control_hand/rrbot.hpp
+-- Up-to-date symlink: /home/lucas/dev_ws/install/ros2_control_hand/include/ros2_control_hand/ros2_control_hand/visibility_control.h
+-- Up-to-date symlink: /home/lucas/dev_ws/install/ros2_control_hand/share/ros2_control_hand/launch/view_robot.launch.py
+-- Up-to-date symlink: /home/lucas/dev_ws/install/ros2_control_hand/share/ros2_control_hand/ros2_control/rrbot.ros2_control.xacro
+-- Up-to-date symlink: /home/lucas/dev_ws/install/ros2_control_hand/share/ros2_control_hand/urdf/rrbot.urdf.xacro
+-- Up-to-date symlink: /home/lucas/dev_ws/install/ros2_control_hand/share/ros2_control_hand/launch/hand.launch.py
+-- Up-to-date symlink: /home/lucas/dev_ws/install/ros2_control_hand/share/ros2_control_hand/launch/rrbot.launch.py
+-- Up-to-date symlink: /home/lucas/dev_ws/install/ros2_control_hand/share/ros2_control_hand/launch/test_forward_position_controller.launch.py
+-- Up-to-date symlink: /home/lucas/dev_ws/install/ros2_control_hand/share/ros2_control_hand/launch/test_joint_trajectory_controller.launch.py
+-- Up-to-date symlink: /home/lucas/dev_ws/install/ros2_control_hand/share/ros2_control_hand/config/hand_controllers.yaml
+-- Up-to-date symlink: /home/lucas/dev_ws/install/ros2_control_hand/share/ros2_control_hand/config/rrbot_controllers.yaml
+-- Up-to-date symlink: /home/lucas/dev_ws/install/ros2_control_hand/share/ros2_control_hand/config/rrbot_forward_position_publisher.yaml
+-- Up-to-date symlink: /home/lucas/dev_ws/install/ros2_control_hand/share/ros2_control_hand/config/rrbot_joint_trajectory_publisher.yaml
+-- Up-to-date symlink: /home/lucas/dev_ws/install/ros2_control_hand/share/ros2_control_hand/environment/library_path.sh
+-- Up-to-date symlink: /home/lucas/dev_ws/install/ros2_control_hand/share/ros2_control_hand/environment/library_path.dsv
+-- Up-to-date symlink: /home/lucas/dev_ws/install/ros2_control_hand/share/ament_index/resource_index/package_run_dependencies/ros2_control_hand
+-- Up-to-date symlink: /home/lucas/dev_ws/install/ros2_control_hand/share/ament_index/resource_index/parent_prefix_path/ros2_control_hand
+-- Up-to-date symlink: /home/lucas/dev_ws/install/ros2_control_hand/share/ros2_control_hand/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/lucas/dev_ws/install/ros2_control_hand/share/ros2_control_hand/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/lucas/dev_ws/install/ros2_control_hand/share/ros2_control_hand/environment/path.sh
+-- Up-to-date symlink: /home/lucas/dev_ws/install/ros2_control_hand/share/ros2_control_hand/environment/path.dsv
+-- Up-to-date symlink: /home/lucas/dev_ws/install/ros2_control_hand/share/ros2_control_hand/local_setup.bash
+-- Up-to-date symlink: /home/lucas/dev_ws/install/ros2_control_hand/share/ros2_control_hand/local_setup.sh
+-- Up-to-date symlink: /home/lucas/dev_ws/install/ros2_control_hand/share/ros2_control_hand/local_setup.zsh
+-- Up-to-date symlink: /home/lucas/dev_ws/install/ros2_control_hand/share/ros2_control_hand/local_setup.dsv
+-- Symlinking: /home/lucas/dev_ws/install/ros2_control_hand/share/ros2_control_hand/package.dsv
+-- Up-to-date symlink: /home/lucas/dev_ws/install/ros2_control_hand/share/ament_index/resource_index/packages/ros2_control_hand
+-- Up-to-date symlink: /home/lucas/dev_ws/install/ros2_control_hand/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/ros2_control_hand
+-- Up-to-date symlink: /home/lucas/dev_ws/install/ros2_control_hand/share/ros2_control_hand/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date symlink: /home/lucas/dev_ws/install/ros2_control_hand/share/ros2_control_hand/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date symlink: /home/lucas/dev_ws/install/ros2_control_hand/share/ros2_control_hand/cmake/ros2_control_handConfig.cmake
+-- Up-to-date symlink: /home/lucas/dev_ws/install/ros2_control_hand/share/ros2_control_hand/cmake/ros2_control_handConfig-version.cmake
+-- Up-to-date symlink: /home/lucas/dev_ws/install/ros2_control_hand/share/ros2_control_hand/package.xml
+-- Installing: /home/lucas/dev_ws/install/ros2_control_hand/lib/libros2_control_hand.so
+-- Set runtime path of "/home/lucas/dev_ws/install/ros2_control_hand/lib/libros2_control_hand.so" to ""
+-- Up-to-date: /home/lucas/dev_ws/install/ros2_control_hand/share/ros2_control_hand/cmake/export_ros2_control_handExport.cmake
+-- Up-to-date: /home/lucas/dev_ws/install/ros2_control_hand/share/ros2_control_hand/cmake/export_ros2_control_handExport-noconfig.cmake

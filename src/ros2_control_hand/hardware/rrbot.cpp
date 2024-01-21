@@ -254,11 +254,14 @@ hardware_interface::return_type CustomHardware::read(
 
   unsigned char r[1] = {'r'};
   WriteToSerial(r, 1);
-  float ret[] = {0.0, 0.0, 0.0, 0.0, 0.0, 0.0};
+  
   uint8_t* v = (uint8_t*)ret;
   ReadSerial(v, sizeof(ret));
-  RCLCPP_INFO(rclcpp::get_logger("HardwareInterface"), "Received : %f, %f, %f, %f, %f, %f", 
-    ret[0], ret[1], ret[2], ret[3], ret[4], ret[5]);
+  RCLCPP_INFO(rclcpp::get_logger("HardwareInterface"), "Received : %f, %f, %f, %f, %f, %f, %f, %f,%f, %f, %f, %f, %f, %f, %f, %f, %f, %f,%f, %f, %f, %f, %f, %f", 
+        ret[0], ret[1], ret[2], ret[3], ret[4], ret[5], ret[6], ret[7], ret[8], ret[9],
+        ret[10], ret[11], ret[12], ret[13], ret[14], ret[15], ret[16], ret[17], ret[18], ret[19],
+        ret[20], ret[21], ret[22], ret[23]
+    );
   for (uint i = 0; i < hw_states_position.size(); i++)
   {
     // Simulate RRBot's movement

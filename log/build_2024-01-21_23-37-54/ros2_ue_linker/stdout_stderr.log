@@ -1,0 +1,9 @@
+[35m[1mConsolidate compiler generated dependencies of target ue_connector[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/ue_connector.dir/src/ue_connector.cpp.o[0m
+[01m[K/home/lucas/dev_ws/src/ros2_ue_linker/src/ue_connector.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Ktrajectory_msgs/msg/joint_trajectory.hpp: Aucun fichier ou dossier de ce type
+    2 | #include [01;31m[K"trajectory_msgs/msg/joint_trajectory.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/ue_connector.dir/build.make:76 : CMakeFiles/ue_connector.dir/src/ue_connector.cpp.o] Erreur 1
+gmake[1]: *** [CMakeFiles/Makefile2:137 : CMakeFiles/ue_connector.dir/all] Erreur 2
+gmake: *** [Makefile:146 : all] Erreur 2

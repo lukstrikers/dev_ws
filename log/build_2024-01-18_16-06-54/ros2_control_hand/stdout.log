@@ -1,0 +1,4 @@
+[35m[1mConsolidate compiler generated dependencies of target ros2_control_hand[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/ros2_control_hand.dir/hardware/rrbot.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library libros2_control_hand.so[0m
+[100%] Built target ros2_control_hand

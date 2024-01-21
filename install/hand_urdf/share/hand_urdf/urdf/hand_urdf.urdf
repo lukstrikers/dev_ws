@@ -1,0 +1,691 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by Stephen Brawner (brawner@gmail.com) 
+     Commit Version: 1.6.0-4-g7f85cfe  Build Version: 1.6.7995.38578
+     For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+  <xacro:macro name="rrbot" params="parent prefix *origin">
+
+  <link name="${prefix}world"></link>
+  <joint nmae="${prefix}base_joint" type="fixed">
+    <parent link="${prefix}world"/>
+    <child link="${prefix}base_link"/>
+    <origin rpy="0 0 0" xyz="0.0 0.0 0.17"/>
+  </joint>
+
+  <link
+    name="${prefix}base_link">
+    <inertial>
+      <origin
+        xyz="0.15436 0.020781 0.18178"
+        rpy="0 0 0" />
+      <mass
+        value="0.53315" />
+      <inertia
+        ixx="0.00040989"
+        ixy="-0.000233"
+        ixz="-0.00013525"
+        iyy="0.0017816"
+        iyz="-3.0218E-05"
+        izz="0.001561" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://hand_urdf/meshes/base_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://hand_urdf/meshes/base_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <link
+    name="${prefix}link_poignet">
+    <inertial>
+      <origin
+        xyz="0.01289 0.017037 -0.003879"
+        rpy="0 0 0" />
+      <mass
+        value="0.20763" />
+      <inertia
+        ixx="0.00012629"
+        ixy="-1.8512E-05"
+        ixz="1.3913E-07"
+        iyy="0.00041247"
+        iyz="3.1702E-06"
+        izz="0.0003153" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://hand_urdf/meshes/link_poignet.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://hand_urdf/meshes/link_poignet.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="${prefix}joint_poignet"
+    type="fixed">
+    <origin
+      xyz="-0.035278 -0.1682 -0.011255"
+      rpy="1.5708 0 0" />
+    <parent
+      link="${prefix}base_link" />
+    <child
+      link="${prefix}link_poignet" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="${prefix}link_finger_1_base">
+    <inertial>
+      <origin
+        xyz="-0.015076 0.0019775 -0.0091107"
+        rpy="0 0 0" />
+      <mass
+        value="0.014513" />
+      <inertia
+        ixx="1.253E-06"
+        ixy="2.4957E-07"
+        ixz="5.96E-09"
+        iyy="2.9535E-06"
+        iyz="-1.0525E-09"
+        izz="3.5894E-06" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://hand_urdf/meshes/link_finger_1_base.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://hand_urdf/meshes/link_finger_1_base.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="${prefix}joint_finger_1_base"
+    type="revolute">
+    <origin
+      xyz="-0.04632 0.01368 0.020618"
+      rpy="3.1416 0 0" />
+    <parent
+      link="${prefix}link_poignet" />
+    <child
+      link="${prefix}link_finger_1_base" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="0"
+      upper="1.55"
+      effort="100"
+      velocity="1" />
+  </joint>
+  <link
+    name="${prefix}link_finger_1_top">
+    <inertial>
+      <origin
+        xyz="-0.028104 -0.00029845 -0.0079944"
+        rpy="0 0 0" />
+      <mass
+        value="0.015714" />
+      <inertia
+        ixx="8.7844E-07"
+        ixy="-6.5935E-07"
+        ixz="-2.4141E-09"
+        iyy="5.4687E-06"
+        iyz="-2.2072E-10"
+        izz="5.7598E-06" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://hand_urdf/meshes/link_finger_1_top.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://hand_urdf/meshes/link_finger_1_top.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="${prefix}joint_finger_1_top"
+    type="revolute">
+    <origin
+      xyz="-0.035 0.003 -0.00093224"
+      rpy="0 0 0" />
+    <parent
+      link="${prefix}link_finger_1_base" />
+    <child
+      link="${prefix}link_finger_1_top" />
+    <axis
+      xyz="0 0 -1" />
+    <limit
+      lower="0"
+      upper="1.6"
+      effort="100"
+      velocity="1" />
+  </joint>
+  <link
+    name="${prefix}link_finger_2_base">
+    <inertial>
+      <origin
+        xyz="-0.015076 0.0019775 -0.0091107"
+        rpy="0 0 0" />
+      <mass
+        value="0.014513" />
+      <inertia
+        ixx="1.253E-06"
+        ixy="2.4957E-07"
+        ixz="5.96E-09"
+        iyy="2.9535E-06"
+        iyz="-1.0525E-09"
+        izz="3.5894E-06" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://hand_urdf/meshes/link_finger_2_base.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://hand_urdf/meshes/link_finger_2_base.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="${prefix}joint_finger_2_base"
+    type="revolute">
+    <origin
+      xyz="-0.04632 0.01368 0.0011178"
+      rpy="3.1416 0 0" />
+    <parent
+      link="${prefix}link_poignet" />
+    <child
+      link="${prefix}link_finger_2_base" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="0"
+      upper="1.55"
+      effort="100"
+      velocity="1" />
+  </joint>
+  <link
+    name="${prefix}link_finger_2_top">
+    <inertial>
+      <origin
+        xyz="-0.028104 -0.00029845 -0.0079944"
+        rpy="0 0 0" />
+      <mass
+        value="0.015714" />
+      <inertia
+        ixx="8.7844E-07"
+        ixy="-6.5935E-07"
+        ixz="-2.4141E-09"
+        iyy="5.4687E-06"
+        iyz="-2.2072E-10"
+        izz="5.7598E-06" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://hand_urdf/meshes/link_finger_2_top.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://hand_urdf/meshes/link_finger_2_top.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="${prefix}joint_finger_2_top"
+    type="revolute">
+    <origin
+      xyz="-0.035 0.003 -0.00093224"
+      rpy="0 0 0" />
+    <parent
+      link="${prefix}link_finger_2_base" />
+    <child
+      link="${prefix}link_finger_2_top" />
+    <axis
+      xyz="0 0 -1" />
+    <limit
+      lower="0"
+      upper="1.6"
+      effort="100"
+      velocity="1" />
+  </joint>
+  <link
+    name="${prefix}link_finger_3_base">
+    <inertial>
+      <origin
+        xyz="-0.015076 0.0019775 0.0091537"
+        rpy="0 0 0" />
+      <mass
+        value="0.014513" />
+      <inertia
+        ixx="1.253E-06"
+        ixy="2.4957E-07"
+        ixz="5.96E-09"
+        iyy="2.9535E-06"
+        iyz="-1.0525E-09"
+        izz="3.5894E-06" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://hand_urdf/meshes/link_finger_3_base.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://hand_urdf/meshes/link_finger_3_base.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="${prefix}joint_finger_3_base"
+    type="revolute">
+    <origin
+      xyz="-0.04632 0.01368 -0.0011178"
+      rpy="3.1416 0 0" />
+    <parent
+      link="${prefix}link_poignet" />
+    <child
+      link="${prefix}link_finger_3_base" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="0"
+      upper="1.55"
+      effort="100"
+      velocity="1" />
+  </joint>
+  <link
+    name="${prefix}link_finger_3_top">
+    <inertial>
+      <origin
+        xyz="-0.028104 -0.00029845 0.0080056"
+        rpy="0 0 0" />
+      <mass
+        value="0.015714" />
+      <inertia
+        ixx="8.7844E-07"
+        ixy="-6.5935E-07"
+        ixz="-2.4141E-09"
+        iyy="5.4687E-06"
+        iyz="-2.2072E-10"
+        izz="5.7598E-06" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://hand_urdf/meshes/link_finger_3_top.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://hand_urdf/meshes/link_finger_3_top.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="${prefix}joint_finger_3_top"
+    type="revolute">
+    <origin
+      xyz="-0.035 0.003 0.0013322"
+      rpy="0 0 0" />
+    <parent
+      link="${prefix}link_finger_3_base" />
+    <child
+      link="${prefix}link_finger_3_top" />
+    <axis
+      xyz="0 0 -1" />
+    <limit
+      lower="0"
+      upper="1.6"
+      effort="100"
+      velocity="1" />
+  </joint>
+  <link
+    name="${prefix}link_finger_4_base">
+    <inertial>
+      <origin
+        xyz="-0.015076 0.0019775 0.0091537"
+        rpy="0 0 0" />
+      <mass
+        value="0.014513" />
+      <inertia
+        ixx="1.253E-06"
+        ixy="2.4957E-07"
+        ixz="5.96E-09"
+        iyy="2.9535E-06"
+        iyz="-1.0525E-09"
+        izz="3.5894E-06" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://hand_urdf/meshes/link_finger_4_base.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://hand_urdf/meshes/link_finger_4_base.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="${prefix}joint_finger_4_base"
+    type="revolute">
+    <origin
+      xyz="-0.04632 0.01368 -0.020618"
+      rpy="3.1416 0 0" />
+    <parent
+      link="${prefix}link_poignet" />
+    <child
+      link="${prefix}link_finger_4_base" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="0"
+      upper="1.55"
+      effort="100"
+      velocity="1" />
+  </joint>
+  <link
+    name="${prefix}link_finger_4_top">
+    <inertial>
+      <origin
+        xyz="-0.023215 0.00079444 0.0081192"
+        rpy="0 0 0" />
+      <mass
+        value="0.013367" />
+      <inertia
+        ixx="7.0085E-07"
+        ixy="-1.782E-07"
+        ixz="-1.9311E-09"
+        iyy="3.2398E-06"
+        iyz="-1.1437E-10"
+        izz="3.4464E-06" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://hand_urdf/meshes/link_finger_4_top.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://hand_urdf/meshes/link_finger_4_top.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="${prefix}joint_finger_4_top"
+    type="revolute">
+    <origin
+      xyz="-0.035 0.003 0.00071961"
+      rpy="0 0 0" />
+    <parent
+      link="${prefix}link_finger_4_base" />
+    <child
+      link="${prefix}link_finger_4_top" />
+    <axis
+      xyz="0 0 -1" />
+    <limit
+      lower="0"
+      upper="1.6"
+      effort="100"
+      velocity="1" />
+  </joint>
+  <link
+    name="${prefix}link_thumb_base">
+    <inertial>
+      <origin
+        xyz="-0.015102 -0.0021837 -0.014772"
+        rpy="0 0 0" />
+      <mass
+        value="0.014221" />
+      <inertia
+        ixx="1.2083E-06"
+        ixy="-2.469E-07"
+        ixz="-5.9564E-09"
+        iyy="2.9392E-06"
+        iyz="-9.9651E-10"
+        izz="3.5588E-06" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://hand_urdf/meshes/link_thumb_base.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://hand_urdf/meshes/link_thumb_base.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="${prefix}joint_thumb_base"
+    type="revolute">
+    <origin
+      xyz="-0.0058554 0.010142 -0.0515"
+      rpy="2.618 -1.5708 0" />
+    <parent
+      link="${prefix}link_poignet" />
+    <child
+      link="${prefix}link_thumb_base" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="0"
+      upper="1.55"
+      effort="100"
+      velocity="1" />
+  </joint>
+  <link
+    name="${prefix}link_thumb_top">
+    <inertial>
+      <origin
+        xyz="-0.02512 -0.000562 -0.014956"
+        rpy="0 0 0" />
+      <mass
+        value="0.013984" />
+      <inertia
+        ixx="7.3514E-07"
+        ixy="3.1407E-07"
+        ixz="2.0194E-09"
+        iyy="4.0637E-06"
+        iyz="-1.7408E-10"
+        izz="4.2838E-06" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://hand_urdf/meshes/link_thumb_top.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://hand_urdf/meshes/link_thumb_top.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="${prefix}joint_thumb_top"
+    type="revolute">
+    <origin
+      xyz="-0.035 -0.003 0"
+      rpy="0 0 0" />
+    <parent
+      link="${prefix}link_thumb_base" />
+    <child
+      link="${prefix}link_thumb_top" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="0"
+      upper="1.6"
+      effort="100"
+      velocity="1" />
+  </joint>
+
+  </xacro:macro>
+</robot>

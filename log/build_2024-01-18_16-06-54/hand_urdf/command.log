@@ -1,0 +1,2 @@
+Invoking command in '/home/lucas/dev_ws/build/hand_urdf': /usr/bin/cmake /home/lucas/dev_ws/src/hand_urdf -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/lucas/dev_ws/install/hand_urdf
+Invoked command in '/home/lucas/dev_ws/build/hand_urdf' returned '1': /usr/bin/cmake /home/lucas/dev_ws/src/hand_urdf -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/lucas/dev_ws/install/hand_urdf

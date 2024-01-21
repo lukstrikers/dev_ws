@@ -1,0 +1,2 @@
+[0.059s] Invoking command in '/home/lucas/dev_ws/build/ros2_ue_linker': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/lucas/dev_ws/build/ros2_ue_linker -- -j8 -l8
+[0.102s] [100%] Built target ue_connector

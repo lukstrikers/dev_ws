@@ -4,9 +4,11 @@
 /home/lucas/dev_ws/install/ros2_control_hand/share/ros2_control_hand/launch/view_robot.launch.py
 /home/lucas/dev_ws/install/ros2_control_hand/share/ros2_control_hand/ros2_control/rrbot.ros2_control.xacro
 /home/lucas/dev_ws/install/ros2_control_hand/share/ros2_control_hand/urdf/rrbot.urdf.xacro
+/home/lucas/dev_ws/install/ros2_control_hand/share/ros2_control_hand/launch/hand.launch.py
 /home/lucas/dev_ws/install/ros2_control_hand/share/ros2_control_hand/launch/rrbot.launch.py
 /home/lucas/dev_ws/install/ros2_control_hand/share/ros2_control_hand/launch/test_forward_position_controller.launch.py
 /home/lucas/dev_ws/install/ros2_control_hand/share/ros2_control_hand/launch/test_joint_trajectory_controller.launch.py
+/home/lucas/dev_ws/install/ros2_control_hand/share/ros2_control_hand/config/hand_controllers.yaml
 /home/lucas/dev_ws/install/ros2_control_hand/share/ros2_control_hand/config/rrbot_controllers.yaml
 /home/lucas/dev_ws/install/ros2_control_hand/share/ros2_control_hand/config/rrbot_forward_position_publisher.yaml
 /home/lucas/dev_ws/install/ros2_control_hand/share/ros2_control_hand/config/rrbot_joint_trajectory_publisher.yaml

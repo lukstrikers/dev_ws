@@ -1,0 +1,74 @@
+running egg_info
+creating ../../build/dexhand_description/dexhand_description.egg-info
+writing ../../build/dexhand_description/dexhand_description.egg-info/PKG-INFO
+writing dependency_links to ../../build/dexhand_description/dexhand_description.egg-info/dependency_links.txt
+writing entry points to ../../build/dexhand_description/dexhand_description.egg-info/entry_points.txt
+writing requirements to ../../build/dexhand_description/dexhand_description.egg-info/requires.txt
+writing top-level names to ../../build/dexhand_description/dexhand_description.egg-info/top_level.txt
+writing manifest file '../../build/dexhand_description/dexhand_description.egg-info/SOURCES.txt'
+reading manifest file '../../build/dexhand_description/dexhand_description.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/dexhand_description/dexhand_description.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/lucas/dev_ws/build/dexhand_description/build
+creating /home/lucas/dev_ws/build/dexhand_description/build/lib
+creating /home/lucas/dev_ws/build/dexhand_description/build/lib/dexhand_description
+copying dexhand_description/__init__.py -> /home/lucas/dev_ws/build/dexhand_description/build/lib/dexhand_description
+running install
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running install_lib
+creating /home/lucas/dev_ws/install/dexhand_description/lib/python3.10/site-packages/dexhand_description
+copying /home/lucas/dev_ws/build/dexhand_description/build/lib/dexhand_description/__init__.py -> /home/lucas/dev_ws/install/dexhand_description/lib/python3.10/site-packages/dexhand_description
+byte-compiling /home/lucas/dev_ws/install/dexhand_description/lib/python3.10/site-packages/dexhand_description/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/lucas/dev_ws/install/dexhand_description/share/ament_index
+creating /home/lucas/dev_ws/install/dexhand_description/share/ament_index/resource_index
+creating /home/lucas/dev_ws/install/dexhand_description/share/ament_index/resource_index/packages
+copying resource/dexhand_description -> /home/lucas/dev_ws/install/dexhand_description/share/ament_index/resource_index/packages
+copying package.xml -> /home/lucas/dev_ws/install/dexhand_description/share/dexhand_description
+creating /home/lucas/dev_ws/install/dexhand_description/share/dexhand_description/launch
+copying launch/display.launch.py -> /home/lucas/dev_ws/install/dexhand_description/share/dexhand_description/launch
+creating /home/lucas/dev_ws/install/dexhand_description/share/dexhand_description/urdf
+copying urdf/materials.xacro -> /home/lucas/dev_ws/install/dexhand_description/share/dexhand_description/urdf
+copying urdf/dexhand.gazebo -> /home/lucas/dev_ws/install/dexhand_description/share/dexhand_description/urdf
+copying urdf/dexhand.xacro -> /home/lucas/dev_ws/install/dexhand_description/share/dexhand_description/urdf
+copying urdf/dexhand.trans -> /home/lucas/dev_ws/install/dexhand_description/share/dexhand_description/urdf
+copying urdf/dexhand.urdf -> /home/lucas/dev_ws/install/dexhand_description/share/dexhand_description/urdf
+creating /home/lucas/dev_ws/install/dexhand_description/share/dexhand_description/rviz
+copying rviz/urdf.rviz -> /home/lucas/dev_ws/install/dexhand_description/share/dexhand_description/rviz
+creating /home/lucas/dev_ws/install/dexhand_description/share/dexhand_description/meshes
+copying meshes/ring_knuckle_1.stl -> /home/lucas/dev_ws/install/dexhand_description/share/dexhand_description/meshes
+copying meshes/forearm_1.stl -> /home/lucas/dev_ws/install/dexhand_description/share/dexhand_description/meshes
+copying meshes/middle_tip_1.stl -> /home/lucas/dev_ws/install/dexhand_description/share/dexhand_description/meshes
+copying meshes/thumb_mlp_1.stl -> /home/lucas/dev_ws/install/dexhand_description/share/dexhand_description/meshes
+copying meshes/index_knuckle_1.stl -> /home/lucas/dev_ws/install/dexhand_description/share/dexhand_description/meshes
+copying meshes/pinky_plp_1.stl -> /home/lucas/dev_ws/install/dexhand_description/share/dexhand_description/meshes
+copying meshes/ring_plp_1.stl -> /home/lucas/dev_ws/install/dexhand_description/share/dexhand_description/meshes
+copying meshes/index_mlp_1.stl -> /home/lucas/dev_ws/install/dexhand_description/share/dexhand_description/meshes
+copying meshes/thumb_tip_1.stl -> /home/lucas/dev_ws/install/dexhand_description/share/dexhand_description/meshes
+copying meshes/thumb_cmc_b_1.stl -> /home/lucas/dev_ws/install/dexhand_description/share/dexhand_description/meshes
+copying meshes/index_bulk_1.stl -> /home/lucas/dev_ws/install/dexhand_description/share/dexhand_description/meshes
+copying meshes/middle_knuckle_1.stl -> /home/lucas/dev_ws/install/dexhand_description/share/dexhand_description/meshes
+copying meshes/pinky_bulk_1.stl -> /home/lucas/dev_ws/install/dexhand_description/share/dexhand_description/meshes
+copying meshes/middle_plp_1.stl -> /home/lucas/dev_ws/install/dexhand_description/share/dexhand_description/meshes
+copying meshes/middle_bulk_1.stl -> /home/lucas/dev_ws/install/dexhand_description/share/dexhand_description/meshes
+copying meshes/pinky_knuckle_1.stl -> /home/lucas/dev_ws/install/dexhand_description/share/dexhand_description/meshes
+copying meshes/index_tip_1.stl -> /home/lucas/dev_ws/install/dexhand_description/share/dexhand_description/meshes
+copying meshes/ring_mlp_1.stl -> /home/lucas/dev_ws/install/dexhand_description/share/dexhand_description/meshes
+copying meshes/wrist_lower_1.stl -> /home/lucas/dev_ws/install/dexhand_description/share/dexhand_description/meshes
+copying meshes/pinky_mlp_1.stl -> /home/lucas/dev_ws/install/dexhand_description/share/dexhand_description/meshes
+copying meshes/thumb_plp_1.stl -> /home/lucas/dev_ws/install/dexhand_description/share/dexhand_description/meshes
+copying meshes/base_link.stl -> /home/lucas/dev_ws/install/dexhand_description/share/dexhand_description/meshes
+copying meshes/middle_mlp_1.stl -> /home/lucas/dev_ws/install/dexhand_description/share/dexhand_description/meshes
+copying meshes/ring_tip_1.stl -> /home/lucas/dev_ws/install/dexhand_description/share/dexhand_description/meshes
+copying meshes/pinky_tip_1.stl -> /home/lucas/dev_ws/install/dexhand_description/share/dexhand_description/meshes
+copying meshes/thumb_cmc_a_1.stl -> /home/lucas/dev_ws/install/dexhand_description/share/dexhand_description/meshes
+copying meshes/index_plp_1.stl -> /home/lucas/dev_ws/install/dexhand_description/share/dexhand_description/meshes
+copying meshes/wrist_upper_1.stl -> /home/lucas/dev_ws/install/dexhand_description/share/dexhand_description/meshes
+copying meshes/ring_bulk_1.stl -> /home/lucas/dev_ws/install/dexhand_description/share/dexhand_description/meshes
+running install_egg_info
+Copying ../../build/dexhand_description/dexhand_description.egg-info to /home/lucas/dev_ws/install/dexhand_description/lib/python3.10/site-packages/dexhand_description-0.0.1-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/lucas/dev_ws/build/dexhand_description/install.log'

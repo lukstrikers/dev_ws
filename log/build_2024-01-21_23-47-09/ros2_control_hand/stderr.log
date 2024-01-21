@@ -1,0 +1,6 @@
+[01m[K/home/lucas/dev_ws/src/ros2_control_hand/hardware/rrbot.cpp:250:1:[m[K [01;31m[Kerror: [m[Ktwo or more data types in declaration of ‘[01m[Kread[m[K’
+  250 | [01;31m[Khardware_interface[m[K::return_type void CustomHardware::read(const rclcpp::Time & /*time*/, const rclcpp::Duration &)
+      | [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/ros2_control_hand.dir/build.make:76 : CMakeFiles/ros2_control_hand.dir/hardware/rrbot.cpp.o] Erreur 1
+gmake[1]: *** [CMakeFiles/Makefile2:137 : CMakeFiles/ros2_control_hand.dir/all] Erreur 2
+gmake: *** [Makefile:146 : all] Erreur 2

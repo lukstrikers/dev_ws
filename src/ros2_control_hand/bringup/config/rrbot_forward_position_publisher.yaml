@@ -4,15 +4,19 @@ publisher_forward_position_controller:
     publish_topic: "/forward_position_controller/commands"
 
     goal_names: ["pos1", "pos2", "pos3", "pos4"]
-    pos1: [0.785, 0.785, 0, 0, 0, 0]
-    pos2: [0, 0, 0, 0, 0, 0]
-    pos3: [-0.785, -0.785, 0, 0, 0, 0]
-    pos4: [0, 0, 0, 0, 0, 0]
+    pos1: [0.785, 0.785, 0, 0, 0, 0, 0, 0, 0, 0]
+    pos2: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+    pos3: [-0.785, -0.785, 0, 0, 0, 0, 0, 0, 0, 0]
+    pos4: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 
     joints:
-      - finger1_joint
-      - finger1_middle_joint
-      - finger2_joint
-      - finger2_middle_joint
-      - finger3_joint
-      - finger3_middle_joint
+      - joint_finger_1_base
+      - joint_finger_1_top
+      - joint_finger_2_base
+      - joint_finger_2_top
+      - joint_finger_3_base
+      - joint_finger_3_top
+      - joint_finger_4_base
+      - joint_finger_4_top
+      - joint_thumb_base
+      - joint_thumb_top

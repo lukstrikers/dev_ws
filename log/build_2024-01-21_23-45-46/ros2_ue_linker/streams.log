@@ -1,0 +1,10 @@
+[0.357s] Invoking command in '/home/lucas/dev_ws/build/ros2_ue_linker': CMAKE_PREFIX_PATH=/home/lucas/dev_ws/install/ros2_ue_linker:/home/lucas/dev_ws/install/ros2_control_hand:/home/lucas/dev_ws/install/ros2_control_demo_description:/home/lucas/dev_ws/install/dexhand_description:/opt/ros/humble:/home/lucas/dev_ws/install/hand_urdf:/home/lucas/ros2_ws/install/udp_driver:/home/lucas/ros2_ws/install/serial_driver:/home/lucas/ros2_ws/install/ros2_ue_connector_node:/home/lucas/ros2_ws/install/io_context:/home/lucas/ros2_ws/install/custom_hardware:/home/lucas/ros2_ws/install/asio_cmake_module /usr/bin/cmake --build /home/lucas/dev_ws/build/ros2_ue_linker -- -j8 -l8
+[0.422s] [ 50%] [32mBuilding CXX object CMakeFiles/ue_connector.dir/src/ue_connector.cpp.o[0m
+[0.609s] [01m[K/home/lucas/dev_ws/src/ros2_ue_linker/src/ue_connector.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Ktrajectory_msgs/msg/joint_trajectory.hpp: Aucun fichier ou dossier de ce type
+[0.609s]     2 | #include [01;31m[K"trajectory_msgs/msg/joint_trajectory.hpp"[m[K
+[0.610s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.610s] compilation terminated.
+[0.612s] gmake[2]: *** [CMakeFiles/ue_connector.dir/build.make:76 : CMakeFiles/ue_connector.dir/src/ue_connector.cpp.o] Erreur 1
+[0.613s] gmake[1]: *** [CMakeFiles/Makefile2:137 : CMakeFiles/ue_connector.dir/all] Erreur 2
+[0.613s] gmake: *** [Makefile:146 : all] Erreur 2
+[0.720s] Invoked command in '/home/lucas/dev_ws/build/ros2_ue_linker' returned '2': CMAKE_PREFIX_PATH=/home/lucas/dev_ws/install/ros2_ue_linker:/home/lucas/dev_ws/install/ros2_control_hand:/home/lucas/dev_ws/install/ros2_control_demo_description:/home/lucas/dev_ws/install/dexhand_description:/opt/ros/humble:/home/lucas/dev_ws/install/hand_urdf:/home/lucas/ros2_ws/install/udp_driver:/home/lucas/ros2_ws/install/serial_driver:/home/lucas/ros2_ws/install/ros2_ue_connector_node:/home/lucas/ros2_ws/install/io_context:/home/lucas/ros2_ws/install/custom_hardware:/home/lucas/ros2_ws/install/asio_cmake_module /usr/bin/cmake --build /home/lucas/dev_ws/build/ros2_ue_linker -- -j8 -l8

@@ -8,42 +8,69 @@
         <plugin>ros2_control_hand/CustomHardware</plugin>
       </hardware>
 
-      <joint name="${prefix}finger1_joint">
+      <joint name="{$prefix}joint_finger_1_base">
         <command_interface name="position">
           <param name="min">-1</param>
           <param name="max">1</param>
         </command_interface>
         <state_interface name="position"/>
       </joint>
-      <joint name="${prefix}finger1_middle_joint">
+      <joint name="{$prefix}joint_finger_1_top">
+        <command_interface name="position">
+          <param name="min">-1</param>
+          <param name="max">1</param>
+        </command_interface>
+        <state_interface name="position"/>
+      </joint><joint name="{$prefix}link_finger_2_base">
         <command_interface name="position">
           <param name="min">-1</param>
           <param name="max">1</param>
         </command_interface>
         <state_interface name="position"/>
       </joint>
-      <joint name="${prefix}finger2_joint">
+      <joint name="{$prefix}joint_finger_2_top">
         <command_interface name="position">
           <param name="min">-1</param>
           <param name="max">1</param>
         </command_interface>
         <state_interface name="position"/>
       </joint>
-      <joint name="${prefix}finger2_middle_joint">
+      <joint name="{$prefix}joint_finger_3_base">
         <command_interface name="position">
           <param name="min">-1</param>
           <param name="max">1</param>
         </command_interface>
         <state_interface name="position"/>
       </joint>
-      <joint name="${prefix}finger3_joint">
+      <joint name="{$prefix}joint_finger_3_top">
         <command_interface name="position">
           <param name="min">-1</param>
           <param name="max">1</param>
         </command_interface>
         <state_interface name="position"/>
       </joint>
-      <joint name="${prefix}finger3_middle_joint">
+      <joint name="{$prefix}joint_finger_4_base">
+        <command_interface name="position">
+          <param name="min">-1</param>
+          <param name="max">1</param>
+        </command_interface>
+        <state_interface name="position"/>
+      </joint>
+      <joint name="{$prefix}joint_finger_4_top">
+        <command_interface name="position">
+          <param name="min">-1</param>
+          <param name="max">1</param>
+        </command_interface>
+        <state_interface name="position"/>
+      </joint>
+      <joint name="{$prefix}joint_thumb_base">
+        <command_interface name="position">
+          <param name="min">-1</param>
+          <param name="max">1</param>
+        </command_interface>
+        <state_interface name="position"/>
+      </joint>
+      <joint name="{$prefix}joint_thumb_top">
         <command_interface name="position">
           <param name="min">-1</param>
           <param name="max">1</param>

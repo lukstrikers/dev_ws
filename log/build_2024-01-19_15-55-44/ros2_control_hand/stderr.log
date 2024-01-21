@@ -1,0 +1,100 @@
+[01m[K/home/lucas/dev_ws/src/ros2_control_hand/hardware/rrbot.cpp:264:56:[m[K [01;35m[Kwarning: [m[Kmissing terminating " character
+  264 |   RCLCPP_INFO(rclcpp::get_logger("HardwareInterface"), [01;35m[K"[m[KReceived :
+      |                                                        [01;35m[K^[m[K
+[01m[K/home/lucas/dev_ws/src/ros2_control_hand/hardware/rrbot.cpp:268:9:[m[K [01;35m[Kwarning: [m[Kmissing terminating " character
+  268 |         [01;35m[K"[m[K,
+      |         [01;35m[K^[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/lucas/dev_ws/src/ros2_control_hand/hardware/rrbot.cpp:27[m[K:
+[01m[K/home/lucas/dev_ws/src/ros2_control_hand/hardware/rrbot.cpp:264:56:[m[K [01;31m[Kerror: [m[Kmissing terminating " character
+  264 |   RCLCPP_INFO(rclcpp::get_logger("HardwareInterface"), [01;31m[K"Received :[m[K
+      |                                                        [01;31m[K^~~~~~~~~~~[m[K 
+[01m[K/home/lucas/dev_ws/src/ros2_control_hand/hardware/rrbot.cpp:268:9:[m[K [01;31m[Kerror: [m[Kmissing terminating " character
+  268 |         [01;31m[K",[m[K
+      |         [01;31m[K^~[m[K 
+[01m[K/home/lucas/dev_ws/src/ros2_control_hand/hardware/rrbot.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type ros2_control_hand::CustomHardware::read(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[01m[K/home/lucas/dev_ws/src/ros2_control_hand/hardware/rrbot.cpp:265:9:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K%[m[K’ token
+  265 |         [01;31m[K%[m[Kf, %f, %f, %f, %f, %f, %f, %f,%f, %f,
+      |         [01;31m[K^[m[K
+[01m[K/home/lucas/dev_ws/src/ros2_control_hand/hardware/rrbot.cpp:265:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kf[m[K’ was not declared in this scope
+  265 |         %[01;31m[Kf[m[K, %f, %f, %f, %f, %f, %f, %f,%f, %f,
+      |          [01;31m[K^[m[K
+[01m[K/home/lucas/dev_ws/src/ros2_control_hand/hardware/rrbot.cpp:265:13:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K%[m[K’ token
+  265 |         %f, [01;31m[K%[m[Kf, %f, %f, %f, %f, %f, %f,%f, %f,
+      |             [01;31m[K^[m[K
+[01m[K/home/lucas/dev_ws/src/ros2_control_hand/hardware/rrbot.cpp:265:17:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K%[m[K’ token
+  265 |         %f, %f, [01;31m[K%[m[Kf, %f, %f, %f, %f, %f,%f, %f,
+      |                 [01;31m[K^[m[K
+[01m[K/home/lucas/dev_ws/src/ros2_control_hand/hardware/rrbot.cpp:265:21:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K%[m[K’ token
+  265 |         %f, %f, %f, [01;31m[K%[m[Kf, %f, %f, %f, %f,%f, %f,
+      |                     [01;31m[K^[m[K
+[01m[K/home/lucas/dev_ws/src/ros2_control_hand/hardware/rrbot.cpp:265:25:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K%[m[K’ token
+  265 |         %f, %f, %f, %f, [01;31m[K%[m[Kf, %f, %f, %f,%f, %f,
+      |                         [01;31m[K^[m[K
+[01m[K/home/lucas/dev_ws/src/ros2_control_hand/hardware/rrbot.cpp:265:29:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K%[m[K’ token
+  265 |         %f, %f, %f, %f, %f, [01;31m[K%[m[Kf, %f, %f,%f, %f,
+      |                             [01;31m[K^[m[K
+[01m[K/home/lucas/dev_ws/src/ros2_control_hand/hardware/rrbot.cpp:265:33:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K%[m[K’ token
+  265 |         %f, %f, %f, %f, %f, %f, [01;31m[K%[m[Kf, %f,%f, %f,
+      |                                 [01;31m[K^[m[K
+[01m[K/home/lucas/dev_ws/src/ros2_control_hand/hardware/rrbot.cpp:265:37:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K%[m[K’ token
+  265 |         %f, %f, %f, %f, %f, %f, %f, [01;31m[K%[m[Kf,%f, %f,
+      |                                     [01;31m[K^[m[K
+[01m[K/home/lucas/dev_ws/src/ros2_control_hand/hardware/rrbot.cpp:265:40:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K%[m[K’ token
+  265 |         %f, %f, %f, %f, %f, %f, %f, %f,[01;31m[K%[m[Kf, %f,
+      |                                        [01;31m[K^[m[K
+[01m[K/home/lucas/dev_ws/src/ros2_control_hand/hardware/rrbot.cpp:265:44:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K%[m[K’ token
+  265 |         %f, %f, %f, %f, %f, %f, %f, %f,%f, [01;31m[K%[m[Kf,
+      |                                            [01;31m[K^[m[K
+[01m[K/home/lucas/dev_ws/src/ros2_control_hand/hardware/rrbot.cpp:266:9:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K%[m[K’ token
+  266 |         [01;31m[K%[m[Kf, %f, %f, %f, %f, %f, %f, %f,%f, %f,
+      |         [01;31m[K^[m[K
+[01m[K/home/lucas/dev_ws/src/ros2_control_hand/hardware/rrbot.cpp:266:13:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K%[m[K’ token
+  266 |         %f, [01;31m[K%[m[Kf, %f, %f, %f, %f, %f, %f,%f, %f,
+      |             [01;31m[K^[m[K
+[01m[K/home/lucas/dev_ws/src/ros2_control_hand/hardware/rrbot.cpp:266:17:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K%[m[K’ token
+  266 |         %f, %f, [01;31m[K%[m[Kf, %f, %f, %f, %f, %f,%f, %f,
+      |                 [01;31m[K^[m[K
+[01m[K/home/lucas/dev_ws/src/ros2_control_hand/hardware/rrbot.cpp:266:21:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K%[m[K’ token
+  266 |         %f, %f, %f, [01;31m[K%[m[Kf, %f, %f, %f, %f,%f, %f,
+      |                     [01;31m[K^[m[K
+[01m[K/home/lucas/dev_ws/src/ros2_control_hand/hardware/rrbot.cpp:266:25:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K%[m[K’ token
+  266 |         %f, %f, %f, %f, [01;31m[K%[m[Kf, %f, %f, %f,%f, %f,
+      |                         [01;31m[K^[m[K
+[01m[K/home/lucas/dev_ws/src/ros2_control_hand/hardware/rrbot.cpp:266:29:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K%[m[K’ token
+  266 |         %f, %f, %f, %f, %f, [01;31m[K%[m[Kf, %f, %f,%f, %f,
+      |                             [01;31m[K^[m[K
+[01m[K/home/lucas/dev_ws/src/ros2_control_hand/hardware/rrbot.cpp:266:33:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K%[m[K’ token
+  266 |         %f, %f, %f, %f, %f, %f, [01;31m[K%[m[Kf, %f,%f, %f,
+      |                                 [01;31m[K^[m[K
+[01m[K/home/lucas/dev_ws/src/ros2_control_hand/hardware/rrbot.cpp:266:37:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K%[m[K’ token
+  266 |         %f, %f, %f, %f, %f, %f, %f, [01;31m[K%[m[Kf,%f, %f,
+      |                                     [01;31m[K^[m[K
+[01m[K/home/lucas/dev_ws/src/ros2_control_hand/hardware/rrbot.cpp:266:40:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K%[m[K’ token
+  266 |         %f, %f, %f, %f, %f, %f, %f, %f,[01;31m[K%[m[Kf, %f,
+      |                                        [01;31m[K^[m[K
+[01m[K/home/lucas/dev_ws/src/ros2_control_hand/hardware/rrbot.cpp:266:44:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K%[m[K’ token
+  266 |         %f, %f, %f, %f, %f, %f, %f, %f,%f, [01;31m[K%[m[Kf,
+      |                                            [01;31m[K^[m[K
+[01m[K/home/lucas/dev_ws/src/ros2_control_hand/hardware/rrbot.cpp:267:9:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K%[m[K’ token
+  267 |         [01;31m[K%[m[Kf, %f, %f
+      |         [01;31m[K^[m[K
+[01m[K/home/lucas/dev_ws/src/ros2_control_hand/hardware/rrbot.cpp:267:13:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K%[m[K’ token
+  267 |         %f, [01;31m[K%[m[Kf, %f
+      |             [01;31m[K^[m[K
+[01m[K/home/lucas/dev_ws/src/ros2_control_hand/hardware/rrbot.cpp:267:17:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K%[m[K’ token
+  267 |         %f, %f, [01;31m[K%[m[Kf
+      |                 [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/ros2_control_hand.dir/build.make:76 : CMakeFiles/ros2_control_hand.dir/hardware/rrbot.cpp.o] Erreur 1
+gmake[1]: *** [CMakeFiles/Makefile2:137 : CMakeFiles/ros2_control_hand.dir/all] Erreur 2
+gmake: *** [Makefile:146 : all] Erreur 2

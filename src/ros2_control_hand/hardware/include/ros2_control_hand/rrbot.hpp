@@ -72,6 +72,12 @@ private:
   std::vector<double> hw_commands_;
   std::vector<double> hw_states_position;
   std::vector<double> hw_states_velocity;
+  std::vector<std::pair<uint8_t, uint8_t>> joint_mapping_table;
+  float ret[24] = {
+                  0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+                  0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+                  0.0, 0.0, 0.0, 0.0
+                };
 
   int SerialPort = -1;
   struct termios tty;

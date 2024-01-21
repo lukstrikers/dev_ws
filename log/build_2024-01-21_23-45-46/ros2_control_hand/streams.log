@@ -1,0 +1,17 @@
+[0.083s] Invoking command in '/home/lucas/dev_ws/build/ros2_control_hand': CMAKE_PREFIX_PATH=/home/lucas/dev_ws/install/ros2_control_demo_description:/home/lucas/dev_ws/install/dexhand_description:/opt/ros/humble:/home/lucas/dev_ws/install/hand_urdf:/home/lucas/dev_ws/install/ros2_ue_linker:/home/lucas/dev_ws/install/ros2_control_hand:/home/lucas/ros2_ws/install/udp_driver:/home/lucas/ros2_ws/install/serial_driver:/home/lucas/ros2_ws/install/ros2_ue_connector_node:/home/lucas/ros2_ws/install/io_context:/home/lucas/ros2_ws/install/custom_hardware:/home/lucas/ros2_ws/install/asio_cmake_module /usr/bin/cmake --build /home/lucas/dev_ws/build/ros2_control_hand -- -j8 -l8
+[0.148s] [ 50%] [32mBuilding CXX object CMakeFiles/ros2_control_hand.dir/hardware/rrbot.cpp.o[0m
+[2.000s] [01m[K/home/lucas/dev_ws/src/ros2_control_hand/hardware/rrbot.cpp:250:1:[m[K [01;31m[Kerror: [m[Ktwo or more data types in declaration of ‘[01m[Kread[m[K’
+[2.000s]   250 | [01;31m[Khardware_interface[m[K::return_type void CustomHardware::read(const rclcpp::Time & /*time*/, const rclcpp::Duration &)
+[2.000s]       | [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[2.000s] [01m[K/home/lucas/dev_ws/src/ros2_control_hand/hardware/rrbot.cpp:287:3:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kreturn[m[K’
+[2.000s]   287 |   [01;31m[Kreturn[m[K hardware_interface::return_type::OK;
+[2.000s]       |   [01;31m[K^~~~~~[m[K
+[2.001s] [01m[K/home/lucas/dev_ws/src/ros2_control_hand/hardware/rrbot.cpp:290:33:[m[K [01;31m[Kerror: [m[K‘[01m[KCustomHardware[m[K’ has not been declared
+[2.001s]   290 | hardware_interface::return_type [01;31m[KCustomHardware[m[K::write(const rclcpp::Time &, const rclcpp::Duration &)
+[2.001s]       |                                 [01;31m[K^~~~~~~~~~~~~~[m[K
+[2.001s] [01m[K/home/lucas/dev_ws/src/ros2_control_hand/hardware/rrbot.cpp:295:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+[2.001s]   295 | [01;31m[K}[m[K  // namespace ros2_control_hand
+[2.001s]       | [01;31m[K^[m[K
+[2.484s] gmake[2]: *** [CMakeFiles/ros2_control_hand.dir/build.make:76 : CMakeFiles/ros2_control_hand.dir/hardware/rrbot.cpp.o] Erreur 1
+[2.484s] gmake[1]: *** [CMakeFiles/Makefile2:137 : CMakeFiles/ros2_control_hand.dir/all] Erreur 2
+[2.484s] gmake: *** [Makefile:146 : all] Erreur 2

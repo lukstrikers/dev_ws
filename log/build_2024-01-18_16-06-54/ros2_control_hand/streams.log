@@ -1,0 +1,5 @@
+[0.042s] Invoking command in '/home/lucas/dev_ws/build/ros2_control_hand': AMENT_PREFIX_PATH=/home/lucas/dev_ws/install/ros2_control_demo_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/lucas/dev_ws/install/ros2_control_demo_description:/home/lucas/ros2_ws/install/udp_driver:/home/lucas/ros2_ws/install/serial_driver:/home/lucas/ros2_ws/install/ros2_ue_connector_node:/home/lucas/ros2_ws/install/io_context:/home/lucas/ros2_ws/install/custom_hardware:/home/lucas/ros2_ws/install/asio_cmake_module:/opt/ros/humble /usr/bin/cmake --build /home/lucas/dev_ws/build/ros2_control_hand -- -j8 -l8
+[0.086s] [35m[1mConsolidate compiler generated dependencies of target ros2_control_hand[0m
+[0.105s] [ 50%] [32mBuilding CXX object CMakeFiles/ros2_control_hand.dir/hardware/rrbot.cpp.o[0m
+[2.614s] [100%] [32m[1mLinking CXX shared library libros2_control_hand.so[0m
+[2.812s] [100%] Built target ros2_control_hand

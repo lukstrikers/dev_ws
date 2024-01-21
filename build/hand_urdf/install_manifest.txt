@@ -1,0 +1,17 @@
+/home/lucas/dev_ws/install/hand_urdf/share/hand_urdf//urdf/hand_urdf.csv
+/home/lucas/dev_ws/install/hand_urdf/share/hand_urdf//urdf/hand_urdf.urdf.xacro
+/home/lucas/dev_ws/install/hand_urdf/share/ament_index/resource_index/package_run_dependencies/hand_urdf
+/home/lucas/dev_ws/install/hand_urdf/share/ament_index/resource_index/parent_prefix_path/hand_urdf
+/home/lucas/dev_ws/install/hand_urdf/share/hand_urdf/environment/ament_prefix_path.sh
+/home/lucas/dev_ws/install/hand_urdf/share/hand_urdf/environment/ament_prefix_path.dsv
+/home/lucas/dev_ws/install/hand_urdf/share/hand_urdf/environment/path.sh
+/home/lucas/dev_ws/install/hand_urdf/share/hand_urdf/environment/path.dsv
+/home/lucas/dev_ws/install/hand_urdf/share/hand_urdf/local_setup.bash
+/home/lucas/dev_ws/install/hand_urdf/share/hand_urdf/local_setup.sh
+/home/lucas/dev_ws/install/hand_urdf/share/hand_urdf/local_setup.zsh
+/home/lucas/dev_ws/install/hand_urdf/share/hand_urdf/local_setup.dsv
+/home/lucas/dev_ws/install/hand_urdf/share/hand_urdf/package.dsv
+/home/lucas/dev_ws/install/hand_urdf/share/ament_index/resource_index/packages/hand_urdf
+/home/lucas/dev_ws/install/hand_urdf/share/hand_urdf/cmake/hand_urdfConfig.cmake
+/home/lucas/dev_ws/install/hand_urdf/share/hand_urdf/cmake/hand_urdfConfig-version.cmake
+/home/lucas/dev_ws/install/hand_urdf/share/hand_urdf/package.xml

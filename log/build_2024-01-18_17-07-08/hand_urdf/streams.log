@@ -1,0 +1,20 @@
+[0.178s] Invoking command in '/home/lucas/dev_ws/build/hand_urdf': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/lucas/dev_ws/build/hand_urdf -- -j8 -l8
+[0.211s] Invoked command in '/home/lucas/dev_ws/build/hand_urdf' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/lucas/dev_ws/build/hand_urdf -- -j8 -l8
+[0.239s] Invoking command in '/home/lucas/dev_ws/build/hand_urdf': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/lucas/dev_ws/build/hand_urdf
+[0.247s] -- Install configuration: ""
+[0.247s] -- Up-to-date: /home/lucas/dev_ws/install/hand_urdf/share/ament_index/resource_index/package_run_dependencies/hand_urdf
+[0.247s] -- Up-to-date: /home/lucas/dev_ws/install/hand_urdf/share/ament_index/resource_index/parent_prefix_path/hand_urdf
+[0.247s] -- Up-to-date: /home/lucas/dev_ws/install/hand_urdf/share/hand_urdf/environment/ament_prefix_path.sh
+[0.248s] -- Up-to-date: /home/lucas/dev_ws/install/hand_urdf/share/hand_urdf/environment/ament_prefix_path.dsv
+[0.248s] -- Up-to-date: /home/lucas/dev_ws/install/hand_urdf/share/hand_urdf/environment/path.sh
+[0.248s] -- Up-to-date: /home/lucas/dev_ws/install/hand_urdf/share/hand_urdf/environment/path.dsv
+[0.248s] -- Up-to-date: /home/lucas/dev_ws/install/hand_urdf/share/hand_urdf/local_setup.bash
+[0.248s] -- Up-to-date: /home/lucas/dev_ws/install/hand_urdf/share/hand_urdf/local_setup.sh
+[0.249s] -- Up-to-date: /home/lucas/dev_ws/install/hand_urdf/share/hand_urdf/local_setup.zsh
+[0.249s] -- Up-to-date: /home/lucas/dev_ws/install/hand_urdf/share/hand_urdf/local_setup.dsv
+[0.249s] -- Up-to-date: /home/lucas/dev_ws/install/hand_urdf/share/hand_urdf/package.dsv
+[0.249s] -- Up-to-date: /home/lucas/dev_ws/install/hand_urdf/share/ament_index/resource_index/packages/hand_urdf
+[0.249s] -- Up-to-date: /home/lucas/dev_ws/install/hand_urdf/share/hand_urdf/cmake/hand_urdfConfig.cmake
+[0.250s] -- Up-to-date: /home/lucas/dev_ws/install/hand_urdf/share/hand_urdf/cmake/hand_urdfConfig-version.cmake
+[0.250s] -- Up-to-date: /home/lucas/dev_ws/install/hand_urdf/share/hand_urdf/package.xml
+[0.318s] Invoked command in '/home/lucas/dev_ws/build/hand_urdf' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/lucas/dev_ws/build/hand_urdf

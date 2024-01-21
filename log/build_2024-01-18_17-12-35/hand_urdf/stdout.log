@@ -1,0 +1,23 @@
+-- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/lucas/dev_ws/build/hand_urdf
+-- Install configuration: ""
+-- Installing: /home/lucas/dev_ws/install/hand_urdf/share/hand_urdf//urdf
+-- Installing: /home/lucas/dev_ws/install/hand_urdf/share/hand_urdf//urdf/hand_urdf.csv
+-- Installing: /home/lucas/dev_ws/install/hand_urdf/share/hand_urdf//urdf/hand_urdf.urdf
+-- Up-to-date: /home/lucas/dev_ws/install/hand_urdf/share/ament_index/resource_index/package_run_dependencies/hand_urdf
+-- Installing: /home/lucas/dev_ws/install/hand_urdf/share/ament_index/resource_index/parent_prefix_path/hand_urdf
+-- Up-to-date: /home/lucas/dev_ws/install/hand_urdf/share/hand_urdf/environment/ament_prefix_path.sh
+-- Installing: /home/lucas/dev_ws/install/hand_urdf/share/hand_urdf/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/lucas/dev_ws/install/hand_urdf/share/hand_urdf/environment/path.sh
+-- Installing: /home/lucas/dev_ws/install/hand_urdf/share/hand_urdf/environment/path.dsv
+-- Up-to-date: /home/lucas/dev_ws/install/hand_urdf/share/hand_urdf/local_setup.bash
+-- Up-to-date: /home/lucas/dev_ws/install/hand_urdf/share/hand_urdf/local_setup.sh
+-- Up-to-date: /home/lucas/dev_ws/install/hand_urdf/share/hand_urdf/local_setup.zsh
+-- Installing: /home/lucas/dev_ws/install/hand_urdf/share/hand_urdf/local_setup.dsv
+-- Installing: /home/lucas/dev_ws/install/hand_urdf/share/hand_urdf/package.dsv
+-- Up-to-date: /home/lucas/dev_ws/install/hand_urdf/share/ament_index/resource_index/packages/hand_urdf
+-- Up-to-date: /home/lucas/dev_ws/install/hand_urdf/share/hand_urdf/cmake/hand_urdfConfig.cmake
+-- Up-to-date: /home/lucas/dev_ws/install/hand_urdf/share/hand_urdf/cmake/hand_urdfConfig-version.cmake
+-- Up-to-date: /home/lucas/dev_ws/install/hand_urdf/share/hand_urdf/package.xml

@@ -1,0 +1,3 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/ue_connector.dir/src/ue_connector.cpp.o[0m
+[100%] [32m[1mLinking CXX executable ue_connector[0m
+[100%] Built target ue_connector
