@@ -1,0 +1,6 @@
+[01m[K/home/lucas/dev_ws/src/ros2_ue_linker/src/ue_connector.cpp:80:5:[m[K [01;31m[Kerror: [m[Knon-static data member declared with placeholder ‘[01m[Kauto[m[K’
+   80 |     [01;31m[Kauto[m[K shared_data;
+      |     [01;31m[K^~~~[m[K
+gmake[2]: *** [CMakeFiles/ue_connector.dir/build.make:76 : CMakeFiles/ue_connector.dir/src/ue_connector.cpp.o] Erreur 1
+gmake[1]: *** [CMakeFiles/Makefile2:137 : CMakeFiles/ue_connector.dir/all] Erreur 2
+gmake: *** [Makefile:146 : all] Erreur 2

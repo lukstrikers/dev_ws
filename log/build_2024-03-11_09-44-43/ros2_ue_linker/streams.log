@@ -1,0 +1,25 @@
+[0.324s] Invoking command in '/home/lucas/dev_ws/build/ros2_ue_linker': CMAKE_PREFIX_PATH=/home/lucas/dev_ws/install/ros2_ue_linker:/home/lucas/dev_ws/install/ros2_control_hand:/home/lucas/dev_ws/install/ros2_control_demo_description:/home/lucas/dev_ws/install/dexhand_description:/opt/ros/humble:/home/lucas/dev_ws/install/hand_urdf:/home/lucas/ros2_ws/install/udp_driver:/home/lucas/ros2_ws/install/serial_driver:/home/lucas/ros2_ws/install/ros2_ue_connector_node:/home/lucas/ros2_ws/install/io_context:/home/lucas/ros2_ws/install/custom_hardware:/home/lucas/ros2_ws/install/asio_cmake_module /usr/bin/cmake --build /home/lucas/dev_ws/build/ros2_ue_linker -- -j8 -l8
+[0.473s] [ 50%] [32mBuilding CXX object CMakeFiles/ue_connector.dir/src/ue_connector.cpp.o[0m
+[2.803s] [01m[K/home/lucas/dev_ws/src/ros2_ue_linker/src/ue_connector.cpp:[m[K In member function ‘[01m[Kvoid TFSubscriber::topic_callback(sensor_msgs::msg::JointState_<std::allocator<void> >::SharedPtr) const[m[K’:
+[2.803s] [01m[K/home/lucas/dev_ws/src/ros2_ue_linker/src/ue_connector.cpp:53:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kshared_data[m[K’ was not declared in this scope; did you mean ‘[01m[Kshm_data[m[K’?
+[2.803s]    53 |             shm_msg* [01;31m[Kshared_data[m[K = reinterpret_cast<shm_msg*>(shm_data); // Assuming shm_data points to your shared memory
+[2.803s]       |                      [01;31m[K^~~~~~~~~~~[m[K
+[2.803s]       |                      [32m[Kshm_data[m[K
+[2.804s] [01m[K/home/lucas/dev_ws/src/ros2_ue_linker/src/ue_connector.cpp:53:53:[m[K [01;31m[Kerror: [m[K‘[01m[Kshm_msg[m[K’ does not name a type
+[2.805s]    53 |             shm_msg* shared_data = reinterpret_cast<[01;31m[Kshm_msg[m[K*>(shm_data); // Assuming shm_data points to your shared memory
+[2.805s]       |                                                     [01;31m[K^~~~~~~[m[K
+[2.805s] [01m[K/home/lucas/dev_ws/src/ros2_ue_linker/src/ue_connector.cpp:53:60:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K>[m[K’ before ‘[01m[K*[m[K’ token
+[2.805s]    53 |             shm_msg* shared_data = reinterpret_cast<shm_msg[01;31m[K*[m[K>(shm_data); // Assuming shm_data points to your shared memory
+[2.805s]       |                                                            [01;31m[K^[m[K
+[2.805s] [01m[K/home/lucas/dev_ws/src/ros2_ue_linker/src/ue_connector.cpp:53:60:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K([m[K’ before ‘[01m[K*[m[K’ token
+[2.805s] [01m[K/home/lucas/dev_ws/src/ros2_ue_linker/src/ue_connector.cpp:53:61:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[2.805s]    53 |             shm_msg* shared_data = reinterpret_cast<shm_msg*[01;31m[K>[m[K(shm_data); // Assuming shm_data points to your shared memory
+[2.805s]       |                                                             [01;31m[K^[m[K
+[2.805s] [01m[K/home/lucas/dev_ws/src/ros2_ue_linker/src/ue_connector.cpp:53:72:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K;[m[K’ token
+[2.805s]    53 |   shm_msg* shared_data = reinterpret_cast<shm_msg*>(shm_data)[01;31m[K;[m[K // Assuming shm_data points to your shared memory
+[2.805s]       |                                                              [01;31m[K^[m[K
+[2.805s] 
+[4.752s] gmake[2]: *** [CMakeFiles/ue_connector.dir/build.make:76 : CMakeFiles/ue_connector.dir/src/ue_connector.cpp.o] Erreur 1
+[4.752s] gmake[1]: *** [CMakeFiles/Makefile2:137 : CMakeFiles/ue_connector.dir/all] Erreur 2
+[4.753s] gmake: *** [Makefile:146 : all] Erreur 2
+[4.755s] Invoked command in '/home/lucas/dev_ws/build/ros2_ue_linker' returned '2': CMAKE_PREFIX_PATH=/home/lucas/dev_ws/install/ros2_ue_linker:/home/lucas/dev_ws/install/ros2_control_hand:/home/lucas/dev_ws/install/ros2_control_demo_description:/home/lucas/dev_ws/install/dexhand_description:/opt/ros/humble:/home/lucas/dev_ws/install/hand_urdf:/home/lucas/ros2_ws/install/udp_driver:/home/lucas/ros2_ws/install/serial_driver:/home/lucas/ros2_ws/install/ros2_ue_connector_node:/home/lucas/ros2_ws/install/io_context:/home/lucas/ros2_ws/install/custom_hardware:/home/lucas/ros2_ws/install/asio_cmake_module /usr/bin/cmake --build /home/lucas/dev_ws/build/ros2_ue_linker -- -j8 -l8

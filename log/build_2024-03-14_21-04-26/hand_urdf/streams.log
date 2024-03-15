@@ -1,0 +1,23 @@
+[0.230s] Invoking command in '/home/lucas/dev_ws/build/hand_urdf': CMAKE_PREFIX_PATH=/home/lucas/dev_ws/install/ros2_ue_linker:/home/lucas/dev_ws/install/ros2_control_hand:/home/lucas/dev_ws/install/ros2_control_demo_description:/home/lucas/dev_ws/install/dexhand_description:/opt/ros/humble:/home/lucas/dev_ws/install/hand_urdf:/home/lucas/ros2_ws/install/udp_driver:/home/lucas/ros2_ws/install/serial_driver:/home/lucas/ros2_ws/install/ros2_ue_connector_node:/home/lucas/ros2_ws/install/io_context:/home/lucas/ros2_ws/install/custom_hardware:/home/lucas/ros2_ws/install/asio_cmake_module /usr/bin/cmake --build /home/lucas/dev_ws/build/hand_urdf -- -j8 -l8
+[0.467s] Invoked command in '/home/lucas/dev_ws/build/hand_urdf' returned '0': CMAKE_PREFIX_PATH=/home/lucas/dev_ws/install/ros2_ue_linker:/home/lucas/dev_ws/install/ros2_control_hand:/home/lucas/dev_ws/install/ros2_control_demo_description:/home/lucas/dev_ws/install/dexhand_description:/opt/ros/humble:/home/lucas/dev_ws/install/hand_urdf:/home/lucas/ros2_ws/install/udp_driver:/home/lucas/ros2_ws/install/serial_driver:/home/lucas/ros2_ws/install/ros2_ue_connector_node:/home/lucas/ros2_ws/install/io_context:/home/lucas/ros2_ws/install/custom_hardware:/home/lucas/ros2_ws/install/asio_cmake_module /usr/bin/cmake --build /home/lucas/dev_ws/build/hand_urdf -- -j8 -l8
+[0.489s] Invoking command in '/home/lucas/dev_ws/build/hand_urdf': CMAKE_PREFIX_PATH=/home/lucas/dev_ws/install/ros2_ue_linker:/home/lucas/dev_ws/install/ros2_control_hand:/home/lucas/dev_ws/install/ros2_control_demo_description:/home/lucas/dev_ws/install/dexhand_description:/opt/ros/humble:/home/lucas/dev_ws/install/hand_urdf:/home/lucas/ros2_ws/install/udp_driver:/home/lucas/ros2_ws/install/serial_driver:/home/lucas/ros2_ws/install/ros2_ue_connector_node:/home/lucas/ros2_ws/install/io_context:/home/lucas/ros2_ws/install/custom_hardware:/home/lucas/ros2_ws/install/asio_cmake_module /usr/bin/cmake --install /home/lucas/dev_ws/build/hand_urdf
+[0.494s] -- Install configuration: ""
+[0.494s] -- Up-to-date: /home/lucas/dev_ws/install/hand_urdf/share/hand_urdf//urdf
+[0.497s] -- Up-to-date: /home/lucas/dev_ws/install/hand_urdf/share/hand_urdf//urdf/hand_urdf.csv
+[0.497s] -- Up-to-date: /home/lucas/dev_ws/install/hand_urdf/share/hand_urdf//urdf/hand_urdf.urdf.xacro
+[0.497s] -- Up-to-date: /home/lucas/dev_ws/install/hand_urdf/share/ament_index/resource_index/package_run_dependencies/hand_urdf
+[0.497s] -- Up-to-date: /home/lucas/dev_ws/install/hand_urdf/share/ament_index/resource_index/parent_prefix_path/hand_urdf
+[0.497s] -- Up-to-date: /home/lucas/dev_ws/install/hand_urdf/share/hand_urdf/environment/ament_prefix_path.sh
+[0.497s] -- Up-to-date: /home/lucas/dev_ws/install/hand_urdf/share/hand_urdf/environment/ament_prefix_path.dsv
+[0.498s] -- Up-to-date: /home/lucas/dev_ws/install/hand_urdf/share/hand_urdf/environment/path.sh
+[0.498s] -- Up-to-date: /home/lucas/dev_ws/install/hand_urdf/share/hand_urdf/environment/path.dsv
+[0.498s] -- Up-to-date: /home/lucas/dev_ws/install/hand_urdf/share/hand_urdf/local_setup.bash
+[0.498s] -- Up-to-date: /home/lucas/dev_ws/install/hand_urdf/share/hand_urdf/local_setup.sh
+[0.498s] -- Up-to-date: /home/lucas/dev_ws/install/hand_urdf/share/hand_urdf/local_setup.zsh
+[0.498s] -- Up-to-date: /home/lucas/dev_ws/install/hand_urdf/share/hand_urdf/local_setup.dsv
+[0.498s] -- Installing: /home/lucas/dev_ws/install/hand_urdf/share/hand_urdf/package.dsv
+[0.500s] -- Up-to-date: /home/lucas/dev_ws/install/hand_urdf/share/ament_index/resource_index/packages/hand_urdf
+[0.500s] -- Up-to-date: /home/lucas/dev_ws/install/hand_urdf/share/hand_urdf/cmake/hand_urdfConfig.cmake
+[0.500s] -- Up-to-date: /home/lucas/dev_ws/install/hand_urdf/share/hand_urdf/cmake/hand_urdfConfig-version.cmake
+[0.500s] -- Up-to-date: /home/lucas/dev_ws/install/hand_urdf/share/hand_urdf/package.xml
+[0.552s] Invoked command in '/home/lucas/dev_ws/build/hand_urdf' returned '0': CMAKE_PREFIX_PATH=/home/lucas/dev_ws/install/ros2_ue_linker:/home/lucas/dev_ws/install/ros2_control_hand:/home/lucas/dev_ws/install/ros2_control_demo_description:/home/lucas/dev_ws/install/dexhand_description:/opt/ros/humble:/home/lucas/dev_ws/install/hand_urdf:/home/lucas/ros2_ws/install/udp_driver:/home/lucas/ros2_ws/install/serial_driver:/home/lucas/ros2_ws/install/ros2_ue_connector_node:/home/lucas/ros2_ws/install/io_context:/home/lucas/ros2_ws/install/custom_hardware:/home/lucas/ros2_ws/install/asio_cmake_module /usr/bin/cmake --install /home/lucas/dev_ws/build/hand_urdf

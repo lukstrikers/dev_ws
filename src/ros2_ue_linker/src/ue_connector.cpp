@@ -9,7 +9,6 @@ struct shm_msg
 {
     unsigned long msg_id;
     double position[NUM_JOINTS];
-    // double velocity[NUM_JOINTS];
 } shm_msg;
 
 class TFSubscriber : public rclcpp::Node
@@ -45,25 +44,30 @@ public:
     }
 
 private:
-    void topic_callback(const sensor_msgs::msg::JointState::SharedPtr msg) const
+    void topic_callback(const sensor_msgs::msg::JointState::SharedPtr msg)
     {
         static unsigned long msg_id = 0;
         double *position = msg->position.data();
         msg_id++;
-
+        shm_msg.msg_id = msg_id;
+        RCLCPP_INFO(this->get_logger(), "START");
         // Assuming NUM_JOINTS is the size of the joint_positions array
         if (msg->position.size() == NUM_JOINTS)
         {
             for (size_t i = 0; i < NUM_JOINTS; ++i)
             {
-                // Access the joint position and print it
-                RCLCPP_INFO(this->get_logger(), "Joint %zu: %f", i, position[i]);
+                // Access the joint position and update shm_msg
+                shm_msg.position[i] = position[i];
             }
+
+            memcpy(shm_data, &shm_msg, sizeof(shm_msg));
+            RCLCPP_INFO(this->get_logger(), "Wrote data to shared memory");
         }
         else
         {
             RCLCPP_ERROR(this->get_logger(), "Received joint positions with unexpected size");
         }
+        RCLCPP_INFO(this->get_logger(), "STOP");
     }
 
     rclcpp::Subscription<sensor_msgs::msg::JointState>::SharedPtr subscription_;

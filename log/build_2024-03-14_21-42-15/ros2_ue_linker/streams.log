@@ -1,0 +1,28 @@
+[0.294s] Invoking command in '/home/lucas/dev_ws/build/ros2_ue_linker': CMAKE_PREFIX_PATH=/home/lucas/dev_ws/install/ros2_ue_linker:/home/lucas/dev_ws/install/ros2_control_hand:/home/lucas/dev_ws/install/ros2_control_demo_description:/home/lucas/dev_ws/install/dexhand_description:/opt/ros/humble:/home/lucas/dev_ws/install/hand_urdf:/home/lucas/ros2_ws/install/udp_driver:/home/lucas/ros2_ws/install/serial_driver:/home/lucas/ros2_ws/install/ros2_ue_connector_node:/home/lucas/ros2_ws/install/io_context:/home/lucas/ros2_ws/install/custom_hardware:/home/lucas/ros2_ws/install/asio_cmake_module /usr/bin/cmake --build /home/lucas/dev_ws/build/ros2_ue_linker -- -j8 -l8
+[0.329s] [35m[1mConsolidate compiler generated dependencies of target ue_connector[0m
+[0.341s] [ 50%] [32mBuilding CXX object CMakeFiles/ue_connector.dir/src/ue_connector.cpp.o[0m
+[2.031s] [01m[K/home/lucas/dev_ws/src/ros2_ue_linker/src/ue_connector.cpp:67:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kshm_msg[m[K’ does not name a type
+[2.031s]    67 |     [01;31m[Kshm_msg[m[K *shm_data;
+[2.031s]       |     [01;31m[K^~~~~~~[m[K
+[2.042s] [01m[K/home/lucas/dev_ws/src/ros2_ue_linker/src/ue_connector.cpp:[m[K In constructor ‘[01m[KTFSubscriber::TFSubscriber()[m[K’:
+[2.042s] [01m[K/home/lucas/dev_ws/src/ros2_ue_linker/src/ue_connector.cpp:35:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kshm_data[m[K’ was not declared in this scope; did you mean ‘[01m[Kshmdt[m[K’?
+[2.042s]    35 |             [01;31m[Kshm_data[m[K = (shm_msg *)shmat(shmid, NULL, 0);
+[2.042s]       |             [01;31m[K^~~~~~~~[m[K
+[2.042s]       |             [32m[Kshmdt[m[K
+[2.042s] [01m[K/home/lucas/dev_ws/src/ros2_ue_linker/src/ue_connector.cpp:35:34:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+[2.042s]    35 |             shm_data = (shm_msg *[01;31m[K)[m[Kshmat(shmid, NULL, 0);
+[2.042s]       |                                  [01;31m[K^[m[K
+[2.047s] [01m[K/home/lucas/dev_ws/src/ros2_ue_linker/src/ue_connector.cpp:[m[K In member function ‘[01m[Kvoid TFSubscriber::detach_shm()[m[K’:
+[2.047s] [01m[K/home/lucas/dev_ws/src/ros2_ue_linker/src/ue_connector.cpp:45:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kshm_data[m[K’ was not declared in this scope; did you mean ‘[01m[Kshmdt[m[K’?
+[2.047s]    45 |         shmdt([01;31m[Kshm_data[m[K);
+[2.047s]       |               [01;31m[K^~~~~~~~[m[K
+[2.047s]       |               [32m[Kshmdt[m[K
+[2.053s] [01m[K/home/lucas/dev_ws/src/ros2_ue_linker/src/ue_connector.cpp:[m[K In member function ‘[01m[Kvoid TFSubscriber::topic_callback(sensor_msgs::msg::JointState_<std::allocator<void> >::SharedPtr) const[m[K’:
+[2.054s] [01m[K/home/lucas/dev_ws/src/ros2_ue_linker/src/ue_connector.cpp:57:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kshm_data[m[K’ was not declared in this scope; did you mean ‘[01m[Kshmdt[m[K’?
+[2.054s]    57 |         [01;31m[Kshm_data[m[K->msg_id = msg_id;
+[2.054s]       |         [01;31m[K^~~~~~~~[m[K
+[2.054s]       |         [32m[Kshmdt[m[K
+[3.811s] gmake[2]: *** [CMakeFiles/ue_connector.dir/build.make:76 : CMakeFiles/ue_connector.dir/src/ue_connector.cpp.o] Erreur 1
+[3.811s] gmake[1]: *** [CMakeFiles/Makefile2:137 : CMakeFiles/ue_connector.dir/all] Erreur 2
+[3.811s] gmake: *** [Makefile:146 : all] Erreur 2
+[3.813s] Invoked command in '/home/lucas/dev_ws/build/ros2_ue_linker' returned '2': CMAKE_PREFIX_PATH=/home/lucas/dev_ws/install/ros2_ue_linker:/home/lucas/dev_ws/install/ros2_control_hand:/home/lucas/dev_ws/install/ros2_control_demo_description:/home/lucas/dev_ws/install/dexhand_description:/opt/ros/humble:/home/lucas/dev_ws/install/hand_urdf:/home/lucas/ros2_ws/install/udp_driver:/home/lucas/ros2_ws/install/serial_driver:/home/lucas/ros2_ws/install/ros2_ue_connector_node:/home/lucas/ros2_ws/install/io_context:/home/lucas/ros2_ws/install/custom_hardware:/home/lucas/ros2_ws/install/asio_cmake_module /usr/bin/cmake --build /home/lucas/dev_ws/build/ros2_ue_linker -- -j8 -l8

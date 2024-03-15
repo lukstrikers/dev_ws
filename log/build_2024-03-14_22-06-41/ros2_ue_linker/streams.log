@@ -1,0 +1,26 @@
+[0.293s] Invoking command in '/home/lucas/dev_ws/build/ros2_ue_linker': CMAKE_PREFIX_PATH=/home/lucas/dev_ws/install/ros2_ue_linker:/home/lucas/dev_ws/install/ros2_control_hand:/home/lucas/dev_ws/install/ros2_control_demo_description:/home/lucas/dev_ws/install/dexhand_description:/opt/ros/humble:/home/lucas/dev_ws/install/hand_urdf:/home/lucas/ros2_ws/install/udp_driver:/home/lucas/ros2_ws/install/serial_driver:/home/lucas/ros2_ws/install/ros2_ue_connector_node:/home/lucas/ros2_ws/install/io_context:/home/lucas/ros2_ws/install/custom_hardware:/home/lucas/ros2_ws/install/asio_cmake_module /usr/bin/cmake --build /home/lucas/dev_ws/build/ros2_ue_linker -- -j8 -l8
+[0.331s] [35m[1mConsolidate compiler generated dependencies of target ue_connector[0m
+[0.343s] [ 50%] [32mBuilding CXX object CMakeFiles/ue_connector.dir/src/ue_connector.cpp.o[0m
+[6.130s] [100%] [32m[1mLinking CXX executable ue_connector[0m
+[6.415s] [100%] Built target ue_connector
+[6.425s] Invoked command in '/home/lucas/dev_ws/build/ros2_ue_linker' returned '0': CMAKE_PREFIX_PATH=/home/lucas/dev_ws/install/ros2_ue_linker:/home/lucas/dev_ws/install/ros2_control_hand:/home/lucas/dev_ws/install/ros2_control_demo_description:/home/lucas/dev_ws/install/dexhand_description:/opt/ros/humble:/home/lucas/dev_ws/install/hand_urdf:/home/lucas/ros2_ws/install/udp_driver:/home/lucas/ros2_ws/install/serial_driver:/home/lucas/ros2_ws/install/ros2_ue_connector_node:/home/lucas/ros2_ws/install/io_context:/home/lucas/ros2_ws/install/custom_hardware:/home/lucas/ros2_ws/install/asio_cmake_module /usr/bin/cmake --build /home/lucas/dev_ws/build/ros2_ue_linker -- -j8 -l8
+[6.444s] Invoking command in '/home/lucas/dev_ws/build/ros2_ue_linker': CMAKE_PREFIX_PATH=/home/lucas/dev_ws/install/ros2_ue_linker:/home/lucas/dev_ws/install/ros2_control_hand:/home/lucas/dev_ws/install/ros2_control_demo_description:/home/lucas/dev_ws/install/dexhand_description:/opt/ros/humble:/home/lucas/dev_ws/install/hand_urdf:/home/lucas/ros2_ws/install/udp_driver:/home/lucas/ros2_ws/install/serial_driver:/home/lucas/ros2_ws/install/ros2_ue_connector_node:/home/lucas/ros2_ws/install/io_context:/home/lucas/ros2_ws/install/custom_hardware:/home/lucas/ros2_ws/install/asio_cmake_module /usr/bin/cmake --install /home/lucas/dev_ws/build/ros2_ue_linker
+[6.449s] -- Install configuration: ""
+[6.450s] -- Installing: /home/lucas/dev_ws/install/ros2_ue_linker/lib/ros2_ue_linker/ue_connector
+[6.453s] -- Set runtime path of "/home/lucas/dev_ws/install/ros2_ue_linker/lib/ros2_ue_linker/ue_connector" to ""
+[6.453s] -- Up-to-date: /home/lucas/dev_ws/install/ros2_ue_linker/share/ament_index/resource_index/package_run_dependencies/ros2_ue_linker
+[6.453s] -- Up-to-date: /home/lucas/dev_ws/install/ros2_ue_linker/share/ament_index/resource_index/parent_prefix_path/ros2_ue_linker
+[6.453s] -- Up-to-date: /home/lucas/dev_ws/install/ros2_ue_linker/share/ros2_ue_linker/environment/ament_prefix_path.sh
+[6.453s] -- Up-to-date: /home/lucas/dev_ws/install/ros2_ue_linker/share/ros2_ue_linker/environment/ament_prefix_path.dsv
+[6.453s] -- Up-to-date: /home/lucas/dev_ws/install/ros2_ue_linker/share/ros2_ue_linker/environment/path.sh
+[6.453s] -- Up-to-date: /home/lucas/dev_ws/install/ros2_ue_linker/share/ros2_ue_linker/environment/path.dsv
+[6.453s] -- Up-to-date: /home/lucas/dev_ws/install/ros2_ue_linker/share/ros2_ue_linker/local_setup.bash
+[6.453s] -- Up-to-date: /home/lucas/dev_ws/install/ros2_ue_linker/share/ros2_ue_linker/local_setup.sh
+[6.453s] -- Up-to-date: /home/lucas/dev_ws/install/ros2_ue_linker/share/ros2_ue_linker/local_setup.zsh
+[6.453s] -- Up-to-date: /home/lucas/dev_ws/install/ros2_ue_linker/share/ros2_ue_linker/local_setup.dsv
+[6.453s] -- Installing: /home/lucas/dev_ws/install/ros2_ue_linker/share/ros2_ue_linker/package.dsv
+[6.453s] -- Up-to-date: /home/lucas/dev_ws/install/ros2_ue_linker/share/ament_index/resource_index/packages/ros2_ue_linker
+[6.454s] -- Up-to-date: /home/lucas/dev_ws/install/ros2_ue_linker/share/ros2_ue_linker/cmake/ros2_ue_linkerConfig.cmake
+[6.454s] -- Up-to-date: /home/lucas/dev_ws/install/ros2_ue_linker/share/ros2_ue_linker/cmake/ros2_ue_linkerConfig-version.cmake
+[6.454s] -- Up-to-date: /home/lucas/dev_ws/install/ros2_ue_linker/share/ros2_ue_linker/package.xml
+[6.455s] Invoked command in '/home/lucas/dev_ws/build/ros2_ue_linker' returned '0': CMAKE_PREFIX_PATH=/home/lucas/dev_ws/install/ros2_ue_linker:/home/lucas/dev_ws/install/ros2_control_hand:/home/lucas/dev_ws/install/ros2_control_demo_description:/home/lucas/dev_ws/install/dexhand_description:/opt/ros/humble:/home/lucas/dev_ws/install/hand_urdf:/home/lucas/ros2_ws/install/udp_driver:/home/lucas/ros2_ws/install/serial_driver:/home/lucas/ros2_ws/install/ros2_ue_connector_node:/home/lucas/ros2_ws/install/io_context:/home/lucas/ros2_ws/install/custom_hardware:/home/lucas/ros2_ws/install/asio_cmake_module /usr/bin/cmake --install /home/lucas/dev_ws/build/ros2_ue_linker
