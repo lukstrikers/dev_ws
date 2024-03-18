@@ -1,0 +1,15 @@
+[35m[1mConsolidate compiler generated dependencies of target ue_connector[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/ue_connector.dir/src/ue_connector.cpp.o[0m
+[01m[K/home/lucas/dev_ws/src/ros2_ue_linker/src/ue_connector.cpp:[m[K In member function ‘[01m[Kvoid TFSubscriber::topic_callback(sensor_msgs::msg::JointState_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/lucas/dev_ws/src/ros2_ue_linker/src/ue_connector.cpp:52:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kserialize[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_serialize[m[K’?
+   52 |         [01;31m[Kserialize[m[K(position, msg_id);
+      |         [01;31m[K^~~~~~~~~[m[K
+      |         [32m[Krmw_serialize[m[K
+[01m[K/home/lucas/dev_ws/src/ros2_ue_linker/src/ue_connector.cpp:[m[K In function ‘[01m[Kvoid serialize(double*, int)[m[K’:
+[01m[K/home/lucas/dev_ws/src/ros2_ue_linker/src/ue_connector.cpp:64:40:[m[K [01;31m[Kerror: [m[K‘[01m[Kshm_data[m[K’ was not declared in this scope; did you mean ‘[01m[Kshmdt[m[K’?
+   64 |     unsigned long *q = (unsigned long*)[01;31m[Kshm_data[m[K;
+      |                                        [01;31m[K^~~~~~~~[m[K
+      |                                        [32m[Kshmdt[m[K
+gmake[2]: *** [CMakeFiles/ue_connector.dir/build.make:76 : CMakeFiles/ue_connector.dir/src/ue_connector.cpp.o] Erreur 1
+gmake[1]: *** [CMakeFiles/Makefile2:137 : CMakeFiles/ue_connector.dir/all] Erreur 2
+gmake: *** [Makefile:146 : all] Erreur 2

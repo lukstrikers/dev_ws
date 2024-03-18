@@ -3,8 +3,178 @@
 
     <ros2_control name="dexhand" type="system">
         <hardware>
-        <plugin>ros2_control_hand/CustomHardware</plugin>
+            <plugin>ros2_control_hand/CustomHardware</plugin>
         </hardware>
+
+        <joint name="index_knuckle">
+            <command_interface name="position">
+                <param name="min">-1</param>
+                <param name="max">1</param>
+            </command_interface>
+            <state_interface name="position"/>
+        </joint>
+
+        <joint name="index_pitch">
+            <command_interface name="position">
+                <param name="min">-1</param>
+                <param name="max">1</param>
+            </command_interface>
+            <state_interface name="position"/>
+        </joint>
+
+        <joint name="index_tip">
+            <command_interface name="position">
+                <param name="min">-1</param>
+                <param name="max">1</param>
+            </command_interface>
+            <state_interface name="position"/>
+        </joint>
+
+        <joint name="index_yaw">
+            <command_interface name="position">
+                <param name="min">-1</param>
+                <param name="max">1</param>
+            </command_interface>
+            <state_interface name="position"/>
+        </joint>
+
+        <joint name="middle_knuckle">
+            <command_interface name="position">
+                <param name="min">-1</param>
+                <param name="max">1</param>
+            </command_interface>
+            <state_interface name="position"/>
+        </joint>
+
+        <joint name="middle_pitch">
+            <command_interface name="position">
+                <param name="min">-1</param>
+                <param name="max">1</param>
+            </command_interface>
+            <state_interface name="position"/>
+        </joint>
+
+        <joint name="middle_tip">
+            <command_interface name="position">
+                <param name="min">-1</param>
+                <param name="max">1</param>
+            </command_interface>
+            <state_interface name="position"/>
+        </joint>
+
+        <joint name="middle_yaw">
+            <command_interface name="position">
+                <param name="min">-1</param>
+                <param name="max">1</param>
+            </command_interface>
+            <state_interface name="position"/>
+        </joint>
+
+        <!-- Continuez ici en ajoutant les autres joints triés par ordre alphabétique -->
+
+        <joint name="pinky_knuckle">
+            <command_interface name="position">
+                <param name="min">-1</param>
+                <param name="max">1</param>
+            </command_interface>
+            <state_interface name="position"/>
+        </joint>
+
+        <joint name="pinky_pitch">
+            <command_interface name="position">
+                <param name="min">-1</param>
+                <param name="max">1</param>
+            </command_interface>
+            <state_interface name="position"/>
+        </joint>
+
+        <joint name="pinky_tip">
+            <command_interface name="position">
+                <param name="min">-1</param>
+                <param name="max">1</param>
+            </command_interface>
+            <state_interface name="position"/>
+        </joint>
+        
+        <joint name="pinky_yaw">
+            <command_interface name="position">
+                <param name="min">-1</param>
+                <param name="max">1</param>
+            </command_interface>
+            <state_interface name="position"/>
+        </joint>
+        
+        <joint name="ring_knuckle">
+            <command_interface name="position">
+                <param name="min">-1</param>
+                <param name="max">1</param>
+            </command_interface>
+            <state_interface name="position"/>
+        </joint>
+        
+        <joint name="ring_pitch">
+            <command_interface name="position">
+                <param name="min">-1</param>
+                <param name="max">1</param>
+            </command_interface>
+            <state_interface name="position"/>
+        </joint>
+        
+        <joint name="ring_tip">
+            <command_interface name="position">
+                <param name="min">-1</param>
+                <param name="max">1</param>
+            </command_interface>
+            <state_interface name="position"/>
+        </joint>
+        
+        <joint name="ring_yaw">
+            <command_interface name="position">
+                <param name="min">-1</param>
+                <param name="max">1</param>
+            </command_interface>
+            <state_interface name="position"/>
+        </joint>
+        
+        <joint name="thumb_knuckle">
+            <command_interface name="position">
+                <param name="min">-1</param>
+                <param name="max">1</param>
+            </command_interface>
+            <state_interface name="position"/>
+        </joint>
+        
+        <joint name="thumb_pitch">
+            <command_interface name="position">
+                <param name="min">-1</param>
+                <param name="max">1</param>
+            </command_interface>
+            <state_interface name="position"/>
+        </joint>
+        
+        <joint name="thumb_roll">
+            <command_interface name="position">
+                <param name="min">-1</param>
+                <param name="max">1</param>
+            </command_interface>
+            <state_interface name="position"/>
+        </joint>
+        
+        <joint name="thumb_tip">
+            <command_interface name="position">
+                <param name="min">-1</param>
+                <param name="max">1</param>
+            </command_interface>
+            <state_interface name="position"/>
+        </joint>
+        
+        <joint name="thumb_yaw">
+            <command_interface name="position">
+                <param name="min">-1</param>
+                <param name="max">1</param>
+            </command_interface>
+            <state_interface name="position"/>
+        </joint>
 
         <joint name="wrist_pitch_lower">
             <command_interface name="position">
@@ -13,13 +183,7 @@
             </command_interface>
             <state_interface name="position"/>
         </joint>
-        <joint name="wrist_yaw">
-            <command_interface name="position">
-                <param name="min">-1</param>
-                <param name="max">1</param>
-            </command_interface>
-            <state_interface name="position"/>
-        </joint>
+
         <joint name="wrist_pitch_upper">
             <command_interface name="position">
                 <param name="min">-1</param>
@@ -27,147 +191,8 @@
             </command_interface>
             <state_interface name="position"/>
         </joint>
-        <joint name="index_yaw">
-            <command_interface name="position">
-                <param name="min">-1</param>
-                <param name="max">1</param>
-            </command_interface>
-            <state_interface name="position"/>
-        </joint>
-        <joint name="middle_yaw">
-            <command_interface name="position">
-                <param name="min">-1</param>
-                <param name="max">1</param>
-            </command_interface>
-            <state_interface name="position"/>
-        </joint>
-        <joint name="ring_yaw">
-            <command_interface name="position">
-                <param name="min">-1</param>
-                <param name="max">1</param>
-            </command_interface>
-            <state_interface name="position"/>
-        </joint>
-        <joint name="pinky_yaw">
-            <command_interface name="position">
-                <param name="min">-1</param>
-                <param name="max">1</param>
-            </command_interface>
-            <state_interface name="position"/>
-        </joint>
-        <joint name="index_pitch">
-            <command_interface name="position">
-                <param name="min">-1</param>
-                <param name="max">1</param>
-            </command_interface>
-            <state_interface name="position"/>
-        </joint>
-        <joint name="index_knuckle">
-            <command_interface name="position">
-                <param name="min">-1</param>
-                <param name="max">1</param>
-            </command_interface>
-            <state_interface name="position"/>
-        </joint>
-        <joint name="index_tip">
-            <command_interface name="position">
-                <param name="min">-1</param>
-                <param name="max">1</param>
-            </command_interface>
-            <state_interface name="position"/>
-        </joint>
-        <joint name="middle_pitch">
-            <command_interface name="position">
-                <param name="min">-1</param>
-                <param name="max">1</param>
-            </command_interface>
-            <state_interface name="position"/>
-        </joint>
-        <joint name="middle_knuckle">
-            <command_interface name="position">
-                <param name="min">-1</param>
-                <param name="max">1</param>
-            </command_interface>
-            <state_interface name="position"/>
-        </joint>
-        <joint name="middle_tip">
-            <command_interface name="position">
-                <param name="min">-1</param>
-                <param name="max">1</param>
-            </command_interface>
-            <state_interface name="position"/>
-        </joint>
-        <joint name="ring_pitch">
-            <command_interface name="position">
-                <param name="min">-1</param>
-                <param name="max">1</param>
-            </command_interface>
-            <state_interface name="position"/>
-        </joint>
-        <joint name="ring_knuckle">
-            <command_interface name="position">
-                <param name="min">-1</param>
-                <param name="max">1</param>
-            </command_interface>
-            <state_interface name="position"/>
-        </joint>
-        <joint name="ring_tip">
-            <command_interface name="position">
-                <param name="min">-1</param>
-                <param name="max">1</param>
-            </command_interface>
-            <state_interface name="position"/>
-        </joint>
-        <joint name="pinky_pitch">
-            <command_interface name="position">
-                <param name="min">-1</param>
-                <param name="max">1</param>
-            </command_interface>
-            <state_interface name="position"/>
-        </joint>
-        <joint name="pinky_knuckle">
-            <command_interface name="position">
-                <param name="min">-1</param>
-                <param name="max">1</param>
-            </command_interface>
-            <state_interface name="position"/>
-        </joint>
-        <joint name="pinky_tip">
-            <command_interface name="position">
-                <param name="min">-1</param>
-                <param name="max">1</param>
-            </command_interface>
-            <state_interface name="position"/>
-        </joint>
-        <joint name="thumb_yaw">
-            <command_interface name="position">
-                <param name="min">-1</param>
-                <param name="max">1</param>
-            </command_interface>
-            <state_interface name="position"/>
-        </joint>
-        <joint name="thumb_roll">
-            <command_interface name="position">
-                <param name="min">-1</param>
-                <param name="max">1</param>
-            </command_interface>
-            <state_interface name="position"/>
-        </joint>
-        <joint name="thumb_pitch">
-            <command_interface name="position">
-                <param name="min">-1</param>
-                <param name="max">1</param>
-            </command_interface>
-            <state_interface name="position"/>
-        </joint>
-        <joint name="thumb_knuckle">
-            <command_interface name="position">
-                <param name="min">-1</param>
-                <param name="max">1</param>
-            </command_interface>
-            <state_interface name="position"/>
-        </joint>
-        <joint name="thumb_tip">
+
+        <joint name="wrist_yaw">
             <command_interface name="position">
                 <param name="min">-1</param>
                 <param name="max">1</param>
@@ -176,6 +201,5 @@
         </joint>
 
     </ros2_control>
-
 
 </robot>

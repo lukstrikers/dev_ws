@@ -22,7 +22,7 @@ public:
 
         RCLCPP_INFO(this->get_logger(), "TF Subscriber is subscribed to /joint_states topic");
 
-        key = ftok("/home/lucas/Documents/Unreal Projects/ROS2_Simulation_ABMI/Source/ROS2_Simulation_ABMI/data.conf", 1);
+        key = ftok("/home/lucas/Documents/Unreal Projects/ROS2_Simulation_ABMI/Source/ROS2_Simulation_ABMI/data.conf", 2);
         shmid = shmget(key, sizeof(shm_msg), 0666 | IPC_CREAT);
         if (shmid == -1)
         {
@@ -40,41 +40,41 @@ public:
     void detach_shm()
     {
         shmdt(shm_data);
-        shmctl(shmid, IPC_RMID, NULL);
+        //shmctl(shmid, IPC_RMID, NULL);
     }
 
 private:
     void topic_callback(const sensor_msgs::msg::JointState::SharedPtr msg)
     {
         static unsigned long msg_id = 0;
-        double *position = msg->position.data();
+        double *position = &(msg->position)[0];
         msg_id++;
-        shm_msg.msg_id = msg_id;
-        RCLCPP_INFO(this->get_logger(), "START");
-        // Assuming NUM_JOINTS is the size of the joint_positions array
-        if (msg->position.size() == NUM_JOINTS)
-        {
-            for (size_t i = 0; i < NUM_JOINTS; ++i)
-            {
-                // Access the joint position and update shm_msg
-                shm_msg.position[i] = position[i];
-            }
-
-            memcpy(shm_data, &shm_msg, sizeof(shm_msg));
-            RCLCPP_INFO(this->get_logger(), "Wrote data to shared memory");
-        }
-        else
-        {
-            RCLCPP_ERROR(this->get_logger(), "Received joint positions with unexpected size");
-        }
-        RCLCPP_INFO(this->get_logger(), "STOP");
+        serialize(position, msg_id);
+        
     }
 
     rclcpp::Subscription<sensor_msgs::msg::JointState>::SharedPtr subscription_;
     key_t key;
     int shmid;
     uint8_t *shm_data;
+
+    void serialize(double* position, int msg_id)
+    {
+        unsigned long *q = (unsigned long*)shm_data;
+        *q = msg_id;
+        q++;
+        double* t = (double*)q;
+        int i = 0;
+        while(i < NUM_JOINTS)
+        {
+            *t = position[i];
+            t++;
+            i++;
+        }
+    }
 };
+
+
 
 int main(int argc, char *argv[])
 {
