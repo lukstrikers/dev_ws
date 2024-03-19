@@ -142,7 +142,7 @@ hardware_interface::CallbackReturn CustomHardware::on_activate(const rclcpp_life
   tty.c_cc[VTIME] = 1;
   tty.c_cc[VMIN] = 0;
 
-  speed_t speed = B115200;
+  speed_t speed = B500000;
   cfsetispeed(&tty, speed);
   cfsetospeed(&tty, speed);
 

@@ -1,0 +1,28 @@
+[35m[1mConsolidate compiler generated dependencies of target ue_connector[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/ue_connector.dir/src/ue_connector.cpp.o[0m
+[01m[K/home/lucas/dev_ws/src/ros2_ue_linker/src/ue_connector.cpp:[m[K In member function ‘[01m[Kvoid TFSubscriber::topic_callback(sensor_msgs::msg::JointState_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/lucas/dev_ws/src/ros2_ue_linker/src/ue_connector.cpp:53:14:[m[K [01;31m[Kerror: [m[Kexpected identifier before numeric constant
+   53 |         char[[01;31m[K24[m[K][17] *joint_names = msg->name; // Extract joint names from message
+      |              [01;31m[K^~[m[K
+[01m[K/home/lucas/dev_ws/src/ros2_ue_linker/src/ue_connector.cpp:53:14:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K][m[K’ before numeric constant
+[01m[K/home/lucas/dev_ws/src/ros2_ue_linker/src/ue_connector.cpp:53:13:[m[K [01;31m[Kerror: [m[Kstructured binding declaration cannot have type ‘[01m[Kchar[m[K’
+   53 |         char[01;31m[K[[m[K24][17] *joint_names = msg->name; // Extract joint names from message
+      |             [01;31m[K^[m[K
+[01m[K/home/lucas/dev_ws/src/ros2_ue_linker/src/ue_connector.cpp:53:13:[m[K [01;36m[Knote: [m[Ktype must be cv-qualified ‘[01m[Kauto[m[K’ or reference to cv-qualified ‘[01m[Kauto[m[K’
+[01m[K/home/lucas/dev_ws/src/ros2_ue_linker/src/ue_connector.cpp:53:13:[m[K [01;31m[Kerror: [m[Kempty structured binding declaration
+[01m[K/home/lucas/dev_ws/src/ros2_ue_linker/src/ue_connector.cpp:53:17:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[K[[m[K’ token
+   53 |         char[24][01;31m[K[[m[K17] *joint_names = msg->name; // Extract joint names from message
+      |                 [01;31m[K^[m[K
+[01m[K/home/lucas/dev_ws/src/ros2_ue_linker/src/ue_connector.cpp:56:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kjoint_names[m[K’ was not declared in this scope
+   56 |         serialize([01;31m[Kjoint_names[m[K, position, msg_id);
+      |                   [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/lucas/dev_ws/src/ros2_ue_linker/src/ue_connector.cpp:53:13:[m[K [01;35m[Kwarning: [m[Kunused structured binding declaration [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   53 |         char[01;35m[K[[m[K24][17] *joint_names = msg->name; // Extract joint names from message
+      |             [01;35m[K^[m[K
+[01m[K/home/lucas/dev_ws/src/ros2_ue_linker/src/ue_connector.cpp:[m[K In member function ‘[01m[Kvoid TFSubscriber::serialize(const std::vector<std::__cxx11::basic_string<char> >&, double*, int)[m[K’:
+[01m[K/home/lucas/dev_ws/src/ros2_ue_linker/src/ue_connector.cpp:74:18:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+   74 |         while ([01;35m[Ki < joint_names.size()[m[K)
+      |                [01;35m[K~~^~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/ue_connector.dir/build.make:76 : CMakeFiles/ue_connector.dir/src/ue_connector.cpp.o] Erreur 1
+gmake[1]: *** [CMakeFiles/Makefile2:137 : CMakeFiles/ue_connector.dir/all] Erreur 2
+gmake: *** [Makefile:146 : all] Erreur 2

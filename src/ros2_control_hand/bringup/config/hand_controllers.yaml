@@ -15,60 +15,61 @@ controller_manager:
 forward_position_controller:
   ros__parameters:
     joints:
-      - index_knuckle
-      - index_pitch
-      - index_tip
-      - index_yaw
-      - middle_knuckle
-      - middle_pitch
-      - middle_tip
-      - middle_yaw
-      - pinky_knuckle
-      - pinky_pitch
-      - pinky_tip
-      - pinky_yaw
-      - ring_knuckle
-      - ring_pitch
-      - ring_tip
-      - ring_yaw
-      - thumb_knuckle
-      - thumb_pitch
-      - thumb_roll
-      - thumb_tip
-      - thumb_yaw
-      - wrist_pitch_lower
-      - wrist_pitch_upper
-      - wrist_yaw
+    - index_yaw________
+    - middle_knuckle___
+    - index_tip________
+    - middle_yaw_______
+    - pinky_knuckle____
+    - pinky_pitch______
+    - index_pitch______
+    - wrist_yaw________
+    - middle_tip_______
+    - wrist_pitch_upper
+    - wrist_pitch_lower
+    - pinky_tip________
+    - thumb_knuckle____
+    - middle_pitch_____
+    - ring_pitch_______
+    - ring_knuckle_____
+    - thumb_tip________
+    - thumb_yaw________
+    - thumb_roll_______
+    - thumb_pitch______
+    - ring_yaw_________
+    - ring_tip_________
+    - index_knuckle____
+    - pinky_yaw________
+
     interface_name: position
 
 
 joint_trajectory_position_controller:
   ros__parameters:
     joints:
-      - index_knuckle
-      - index_pitch
-      - index_tip
-      - index_yaw
-      - middle_knuckle
-      - middle_pitch
-      - middle_tip
-      - middle_yaw
-      - pinky_knuckle
-      - pinky_pitch
-      - pinky_tip
-      - pinky_yaw
-      - ring_knuckle
-      - ring_pitch
-      - ring_tip
-      - ring_yaw
-      - thumb_knuckle
-      - thumb_pitch
-      - thumb_roll
-      - thumb_tip
-      - thumb_yaw
-      - wrist_pitch_lower
+      - index_yaw________
+      - middle_knuckle___
+      - index_tip________
+      - middle_yaw_______
+      - pinky_knuckle____
+      - pinky_pitch______
+      - index_pitch______
+      - wrist_yaw________
+      - middle_tip_______
       - wrist_pitch_upper
-      - wrist_yaw
+      - wrist_pitch_lower
+      - pinky_tip________
+      - thumb_knuckle____
+      - middle_pitch_____
+      - ring_pitch_______
+      - ring_knuckle_____
+      - thumb_tip________
+      - thumb_yaw________
+      - thumb_roll_______
+      - thumb_pitch______
+      - ring_yaw_________
+      - ring_tip_________
+      - index_knuckle____
+      - pinky_yaw________
       
 
     command_interfaces:

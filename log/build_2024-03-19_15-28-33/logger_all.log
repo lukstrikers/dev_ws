@@ -1,0 +1,411 @@
+[0.551s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.551s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x757bac69faf0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x757bac69eb00>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x757bac69eb00>>)
+[0.579s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.579s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.579s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.579s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.579s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.579s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.579s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/lucas/dev_ws'
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.579s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.586s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.586s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.586s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.586s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.586s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.586s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.586s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.586s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.586s] Level 1:colcon.colcon_core.package_identification:_identify(custom_hard) by extensions ['ignore', 'ignore_ament_install']
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(custom_hard) by extension 'ignore'
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(custom_hard) by extension 'ignore_ament_install'
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(custom_hard) by extensions ['colcon_pkg']
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(custom_hard) by extension 'colcon_pkg'
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(custom_hard) by extensions ['colcon_meta']
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(custom_hard) by extension 'colcon_meta'
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(custom_hard) by extensions ['ros']
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(custom_hard) by extension 'ros'
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(custom_hard) by extensions ['cmake', 'python']
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(custom_hard) by extension 'cmake'
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(custom_hard) by extension 'python'
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(custom_hard) by extensions ['python_setup_py']
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(custom_hard) by extension 'python_setup_py'
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.587s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.588s] Level 1:colcon.colcon_core.package_identification:_identify(src/dexhand_description) by extensions ['ignore', 'ignore_ament_install']
+[0.588s] Level 1:colcon.colcon_core.package_identification:_identify(src/dexhand_description) by extension 'ignore'
+[0.588s] Level 1:colcon.colcon_core.package_identification:_identify(src/dexhand_description) by extension 'ignore_ament_install'
+[0.588s] Level 1:colcon.colcon_core.package_identification:_identify(src/dexhand_description) by extensions ['colcon_pkg']
+[0.588s] Level 1:colcon.colcon_core.package_identification:_identify(src/dexhand_description) by extension 'colcon_pkg'
+[0.588s] Level 1:colcon.colcon_core.package_identification:_identify(src/dexhand_description) by extensions ['colcon_meta']
+[0.588s] Level 1:colcon.colcon_core.package_identification:_identify(src/dexhand_description) by extension 'colcon_meta'
+[0.588s] Level 1:colcon.colcon_core.package_identification:_identify(src/dexhand_description) by extensions ['ros']
+[0.588s] Level 1:colcon.colcon_core.package_identification:_identify(src/dexhand_description) by extension 'ros'
+[0.589s] DEBUG:colcon.colcon_core.package_identification:Package 'src/dexhand_description' with type 'ros.ament_python' and name 'dexhand_description'
+[0.589s] Level 1:colcon.colcon_core.package_identification:_identify(src/hand_urdf) by extensions ['ignore', 'ignore_ament_install']
+[0.589s] Level 1:colcon.colcon_core.package_identification:_identify(src/hand_urdf) by extension 'ignore'
+[0.589s] Level 1:colcon.colcon_core.package_identification:_identify(src/hand_urdf) by extension 'ignore_ament_install'
+[0.589s] Level 1:colcon.colcon_core.package_identification:_identify(src/hand_urdf) by extensions ['colcon_pkg']
+[0.589s] Level 1:colcon.colcon_core.package_identification:_identify(src/hand_urdf) by extension 'colcon_pkg'
+[0.589s] Level 1:colcon.colcon_core.package_identification:_identify(src/hand_urdf) by extensions ['colcon_meta']
+[0.589s] Level 1:colcon.colcon_core.package_identification:_identify(src/hand_urdf) by extension 'colcon_meta'
+[0.589s] Level 1:colcon.colcon_core.package_identification:_identify(src/hand_urdf) by extensions ['ros']
+[0.589s] Level 1:colcon.colcon_core.package_identification:_identify(src/hand_urdf) by extension 'ros'
+[0.590s] DEBUG:colcon.colcon_core.package_identification:Package 'src/hand_urdf' with type 'ros.ament_cmake' and name 'hand_urdf'
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_demo_description) by extensions ['ignore', 'ignore_ament_install']
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_demo_description) by extension 'ignore'
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_demo_description) by extension 'ignore_ament_install'
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_demo_description) by extensions ['colcon_pkg']
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_demo_description) by extension 'colcon_pkg'
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_demo_description) by extensions ['colcon_meta']
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_demo_description) by extension 'colcon_meta'
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_demo_description) by extensions ['ros']
+[0.590s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_demo_description) by extension 'ros'
+[0.591s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_control_demo_description' with type 'ros.ament_cmake' and name 'ros2_control_demo_description'
+[0.591s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_hand) by extensions ['ignore', 'ignore_ament_install']
+[0.591s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_hand) by extension 'ignore'
+[0.591s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_hand) by extension 'ignore_ament_install'
+[0.591s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_hand) by extensions ['colcon_pkg']
+[0.591s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_hand) by extension 'colcon_pkg'
+[0.591s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_hand) by extensions ['colcon_meta']
+[0.591s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_hand) by extension 'colcon_meta'
+[0.591s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_hand) by extensions ['ros']
+[0.591s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_hand) by extension 'ros'
+[0.591s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_control_hand' with type 'ros.ament_cmake' and name 'ros2_control_hand'
+[0.592s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ue_linker) by extensions ['ignore', 'ignore_ament_install']
+[0.592s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ue_linker) by extension 'ignore'
+[0.592s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ue_linker) by extension 'ignore_ament_install'
+[0.592s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ue_linker) by extensions ['colcon_pkg']
+[0.592s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ue_linker) by extension 'colcon_pkg'
+[0.592s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ue_linker) by extensions ['colcon_meta']
+[0.592s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ue_linker) by extension 'colcon_meta'
+[0.592s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ue_linker) by extensions ['ros']
+[0.592s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_ue_linker) by extension 'ros'
+[0.592s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_ue_linker' with type 'ros.ament_cmake' and name 'ros2_ue_linker'
+[0.592s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.592s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.592s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.592s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.592s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.645s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.645s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.661s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 6 installed packages in /home/lucas/dev_ws/install
+[0.669s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 6 installed packages in /home/lucas/ros2_ws/install
+[0.678s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 326 installed packages in /opt/ros/humble
+[0.678s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.732s] WARNING:colcon.colcon_core.package_selection:Some selected packages are already built in one or more underlay workspaces:
+	'ros2_control_demo_description' is in: /home/lucas/dev_ws/install/ros2_control_demo_description
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding ros2_control_demo_description
+
+This may be promoted to an error in a future release of colcon-override-check.
+[0.741s] Level 5:colcon.colcon_core.verb:set package 'dexhand_description' build argument 'cmake_args' from command line to 'None'
+[0.741s] Level 5:colcon.colcon_core.verb:set package 'dexhand_description' build argument 'cmake_target' from command line to 'None'
+[0.741s] Level 5:colcon.colcon_core.verb:set package 'dexhand_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.741s] Level 5:colcon.colcon_core.verb:set package 'dexhand_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.741s] Level 5:colcon.colcon_core.verb:set package 'dexhand_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.741s] Level 5:colcon.colcon_core.verb:set package 'dexhand_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.741s] Level 5:colcon.colcon_core.verb:set package 'dexhand_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.741s] Level 5:colcon.colcon_core.verb:set package 'dexhand_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.741s] Level 5:colcon.colcon_core.verb:set package 'dexhand_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.741s] DEBUG:colcon.colcon_core.verb:Building package 'dexhand_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lucas/dev_ws/build/dexhand_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lucas/dev_ws/install/dexhand_description', 'merge_install': False, 'path': '/home/lucas/dev_ws/src/dexhand_description', 'symlink_install': False, 'test_result_base': None}
+[0.749s] Level 5:colcon.colcon_core.verb:set package 'hand_urdf' build argument 'cmake_args' from command line to 'None'
+[0.749s] Level 5:colcon.colcon_core.verb:set package 'hand_urdf' build argument 'cmake_target' from command line to 'None'
+[0.749s] Level 5:colcon.colcon_core.verb:set package 'hand_urdf' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.749s] Level 5:colcon.colcon_core.verb:set package 'hand_urdf' build argument 'cmake_clean_cache' from command line to 'False'
+[0.749s] Level 5:colcon.colcon_core.verb:set package 'hand_urdf' build argument 'cmake_clean_first' from command line to 'False'
+[0.749s] Level 5:colcon.colcon_core.verb:set package 'hand_urdf' build argument 'cmake_force_configure' from command line to 'False'
+[0.749s] Level 5:colcon.colcon_core.verb:set package 'hand_urdf' build argument 'ament_cmake_args' from command line to 'None'
+[0.749s] Level 5:colcon.colcon_core.verb:set package 'hand_urdf' build argument 'catkin_cmake_args' from command line to 'None'
+[0.749s] Level 5:colcon.colcon_core.verb:set package 'hand_urdf' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.749s] DEBUG:colcon.colcon_core.verb:Building package 'hand_urdf' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lucas/dev_ws/build/hand_urdf', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lucas/dev_ws/install/hand_urdf', 'merge_install': False, 'path': '/home/lucas/dev_ws/src/hand_urdf', 'symlink_install': False, 'test_result_base': None}
+[0.757s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_description' build argument 'cmake_args' from command line to 'None'
+[0.757s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_description' build argument 'cmake_target' from command line to 'None'
+[0.757s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.757s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.757s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.757s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.757s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.757s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.757s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.757s] DEBUG:colcon.colcon_core.verb:Building package 'ros2_control_demo_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lucas/dev_ws/build/ros2_control_demo_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lucas/dev_ws/install/ros2_control_demo_description', 'merge_install': False, 'path': '/home/lucas/dev_ws/src/ros2_control_demo_description', 'symlink_install': False, 'test_result_base': None}
+[0.766s] Level 5:colcon.colcon_core.verb:set package 'ros2_ue_linker' build argument 'cmake_args' from command line to 'None'
+[0.766s] Level 5:colcon.colcon_core.verb:set package 'ros2_ue_linker' build argument 'cmake_target' from command line to 'None'
+[0.766s] Level 5:colcon.colcon_core.verb:set package 'ros2_ue_linker' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.766s] Level 5:colcon.colcon_core.verb:set package 'ros2_ue_linker' build argument 'cmake_clean_cache' from command line to 'False'
+[0.766s] Level 5:colcon.colcon_core.verb:set package 'ros2_ue_linker' build argument 'cmake_clean_first' from command line to 'False'
+[0.766s] Level 5:colcon.colcon_core.verb:set package 'ros2_ue_linker' build argument 'cmake_force_configure' from command line to 'False'
+[0.766s] Level 5:colcon.colcon_core.verb:set package 'ros2_ue_linker' build argument 'ament_cmake_args' from command line to 'None'
+[0.766s] Level 5:colcon.colcon_core.verb:set package 'ros2_ue_linker' build argument 'catkin_cmake_args' from command line to 'None'
+[0.766s] Level 5:colcon.colcon_core.verb:set package 'ros2_ue_linker' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.766s] DEBUG:colcon.colcon_core.verb:Building package 'ros2_ue_linker' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lucas/dev_ws/build/ros2_ue_linker', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lucas/dev_ws/install/ros2_ue_linker', 'merge_install': False, 'path': '/home/lucas/dev_ws/src/ros2_ue_linker', 'symlink_install': False, 'test_result_base': None}
+[0.774s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_hand' build argument 'cmake_args' from command line to 'None'
+[0.774s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_hand' build argument 'cmake_target' from command line to 'None'
+[0.774s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_hand' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.774s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_hand' build argument 'cmake_clean_cache' from command line to 'False'
+[0.775s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_hand' build argument 'cmake_clean_first' from command line to 'False'
+[0.775s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_hand' build argument 'cmake_force_configure' from command line to 'False'
+[0.775s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_hand' build argument 'ament_cmake_args' from command line to 'None'
+[0.775s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_hand' build argument 'catkin_cmake_args' from command line to 'None'
+[0.775s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_hand' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.775s] DEBUG:colcon.colcon_core.verb:Building package 'ros2_control_hand' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lucas/dev_ws/build/ros2_control_hand', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lucas/dev_ws/install/ros2_control_hand', 'merge_install': False, 'path': '/home/lucas/dev_ws/src/ros2_control_hand', 'symlink_install': False, 'test_result_base': None}
+[0.782s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.791s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.791s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/lucas/dev_ws/src/hand_urdf' with build type 'ament_cmake'
+[0.791s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/lucas/dev_ws/src/hand_urdf'
+[0.800s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.800s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.800s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.835s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/lucas/dev_ws/src/ros2_control_demo_description' with build type 'ament_cmake'
+[0.835s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/lucas/dev_ws/src/ros2_control_demo_description'
+[0.843s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.843s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.878s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/lucas/dev_ws/src/dexhand_description' with build type 'ament_python'
+[0.878s] Level 1:colcon.colcon_core.shell:create_environment_hook('dexhand_description', 'ament_prefix_path')
+[0.888s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lucas/dev_ws/install/dexhand_description/share/dexhand_description/hook/ament_prefix_path.ps1'
+[0.888s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lucas/dev_ws/install/dexhand_description/share/dexhand_description/hook/ament_prefix_path.dsv'
+[0.889s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lucas/dev_ws/install/dexhand_description/share/dexhand_description/hook/ament_prefix_path.sh'
+[0.897s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.897s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.932s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/lucas/dev_ws/src/ros2_ue_linker' with build type 'ament_cmake'
+[0.932s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/lucas/dev_ws/src/ros2_ue_linker'
+[0.941s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.941s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.979s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lucas/dev_ws/build/hand_urdf': CMAKE_PREFIX_PATH=/home/lucas/dev_ws/install/ros2_ue_linker:/home/lucas/dev_ws/install/ros2_control_hand:/home/lucas/dev_ws/install/ros2_control_demo_description:/home/lucas/dev_ws/install/dexhand_description:/opt/ros/humble:/home/lucas/dev_ws/install/hand_urdf:/home/lucas/ros2_ws/install/udp_driver:/home/lucas/ros2_ws/install/serial_driver:/home/lucas/ros2_ws/install/ros2_ue_connector_node:/home/lucas/ros2_ws/install/io_context:/home/lucas/ros2_ws/install/custom_hardware:/home/lucas/ros2_ws/install/asio_cmake_module /usr/bin/cmake --build /home/lucas/dev_ws/build/hand_urdf -- -j8 -l8
+[0.981s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lucas/dev_ws/build/ros2_control_demo_description': CMAKE_PREFIX_PATH=/home/lucas/dev_ws/install/ros2_ue_linker:/home/lucas/dev_ws/install/ros2_control_hand:/home/lucas/dev_ws/install/ros2_control_demo_description:/home/lucas/dev_ws/install/dexhand_description:/opt/ros/humble:/home/lucas/dev_ws/install/hand_urdf:/home/lucas/ros2_ws/install/udp_driver:/home/lucas/ros2_ws/install/serial_driver:/home/lucas/ros2_ws/install/ros2_ue_connector_node:/home/lucas/ros2_ws/install/io_context:/home/lucas/ros2_ws/install/custom_hardware:/home/lucas/ros2_ws/install/asio_cmake_module /usr/bin/cmake --build /home/lucas/dev_ws/build/ros2_control_demo_description -- -j8 -l8
+[1.132s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/lucas/dev_ws/src/dexhand_description'
+[1.141s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.141s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.184s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lucas/dev_ws/build/ros2_ue_linker': CMAKE_PREFIX_PATH=/home/lucas/dev_ws/install/ros2_ue_linker:/home/lucas/dev_ws/install/ros2_control_hand:/home/lucas/dev_ws/install/ros2_control_demo_description:/home/lucas/dev_ws/install/dexhand_description:/opt/ros/humble:/home/lucas/dev_ws/install/hand_urdf:/home/lucas/ros2_ws/install/udp_driver:/home/lucas/ros2_ws/install/serial_driver:/home/lucas/ros2_ws/install/ros2_ue_connector_node:/home/lucas/ros2_ws/install/io_context:/home/lucas/ros2_ws/install/custom_hardware:/home/lucas/ros2_ws/install/asio_cmake_module /usr/bin/cmake --build /home/lucas/dev_ws/build/ros2_ue_linker -- -j8 -l8
+[1.184s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lucas/dev_ws/build/ros2_control_demo_description' returned '0': CMAKE_PREFIX_PATH=/home/lucas/dev_ws/install/ros2_ue_linker:/home/lucas/dev_ws/install/ros2_control_hand:/home/lucas/dev_ws/install/ros2_control_demo_description:/home/lucas/dev_ws/install/dexhand_description:/opt/ros/humble:/home/lucas/dev_ws/install/hand_urdf:/home/lucas/ros2_ws/install/udp_driver:/home/lucas/ros2_ws/install/serial_driver:/home/lucas/ros2_ws/install/ros2_ue_connector_node:/home/lucas/ros2_ws/install/io_context:/home/lucas/ros2_ws/install/custom_hardware:/home/lucas/ros2_ws/install/asio_cmake_module /usr/bin/cmake --build /home/lucas/dev_ws/build/ros2_control_demo_description -- -j8 -l8
+[1.184s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lucas/dev_ws/build/hand_urdf' returned '0': CMAKE_PREFIX_PATH=/home/lucas/dev_ws/install/ros2_ue_linker:/home/lucas/dev_ws/install/ros2_control_hand:/home/lucas/dev_ws/install/ros2_control_demo_description:/home/lucas/dev_ws/install/dexhand_description:/opt/ros/humble:/home/lucas/dev_ws/install/hand_urdf:/home/lucas/ros2_ws/install/udp_driver:/home/lucas/ros2_ws/install/serial_driver:/home/lucas/ros2_ws/install/ros2_ue_connector_node:/home/lucas/ros2_ws/install/io_context:/home/lucas/ros2_ws/install/custom_hardware:/home/lucas/ros2_ws/install/asio_cmake_module /usr/bin/cmake --build /home/lucas/dev_ws/build/hand_urdf -- -j8 -l8
+[1.208s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lucas/dev_ws/build/ros2_control_demo_description': CMAKE_PREFIX_PATH=/home/lucas/dev_ws/install/ros2_ue_linker:/home/lucas/dev_ws/install/ros2_control_hand:/home/lucas/dev_ws/install/ros2_control_demo_description:/home/lucas/dev_ws/install/dexhand_description:/opt/ros/humble:/home/lucas/dev_ws/install/hand_urdf:/home/lucas/ros2_ws/install/udp_driver:/home/lucas/ros2_ws/install/serial_driver:/home/lucas/ros2_ws/install/ros2_ue_connector_node:/home/lucas/ros2_ws/install/io_context:/home/lucas/ros2_ws/install/custom_hardware:/home/lucas/ros2_ws/install/asio_cmake_module /usr/bin/cmake --install /home/lucas/dev_ws/build/ros2_control_demo_description
+[1.209s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lucas/dev_ws/build/hand_urdf': CMAKE_PREFIX_PATH=/home/lucas/dev_ws/install/ros2_ue_linker:/home/lucas/dev_ws/install/ros2_control_hand:/home/lucas/dev_ws/install/ros2_control_demo_description:/home/lucas/dev_ws/install/dexhand_description:/opt/ros/humble:/home/lucas/dev_ws/install/hand_urdf:/home/lucas/ros2_ws/install/udp_driver:/home/lucas/ros2_ws/install/serial_driver:/home/lucas/ros2_ws/install/ros2_ue_connector_node:/home/lucas/ros2_ws/install/io_context:/home/lucas/ros2_ws/install/custom_hardware:/home/lucas/ros2_ws/install/asio_cmake_module /usr/bin/cmake --install /home/lucas/dev_ws/build/hand_urdf
+[1.215s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_control_demo_description)
+[1.217s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lucas/dev_ws/build/ros2_control_demo_description' returned '0': CMAKE_PREFIX_PATH=/home/lucas/dev_ws/install/ros2_ue_linker:/home/lucas/dev_ws/install/ros2_control_hand:/home/lucas/dev_ws/install/ros2_control_demo_description:/home/lucas/dev_ws/install/dexhand_description:/opt/ros/humble:/home/lucas/dev_ws/install/hand_urdf:/home/lucas/ros2_ws/install/udp_driver:/home/lucas/ros2_ws/install/serial_driver:/home/lucas/ros2_ws/install/ros2_ue_connector_node:/home/lucas/ros2_ws/install/io_context:/home/lucas/ros2_ws/install/custom_hardware:/home/lucas/ros2_ws/install/asio_cmake_module /usr/bin/cmake --install /home/lucas/dev_ws/build/ros2_control_demo_description
+[1.236s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/dev_ws/install/ros2_control_demo_description' for CMake module files
+[1.237s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/dev_ws/install/ros2_control_demo_description' for CMake config files
+[1.237s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_control_demo_description', 'cmake_prefix_path')
+[1.255s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lucas/dev_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/hook/cmake_prefix_path.ps1'
+[1.256s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lucas/dev_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/hook/cmake_prefix_path.dsv'
+[1.256s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lucas/dev_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/hook/cmake_prefix_path.sh'
+[1.257s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/dev_ws/install/ros2_control_demo_description/bin'
+[1.257s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/dev_ws/install/ros2_control_demo_description/lib/pkgconfig/ros2_control_demo_description.pc'
+[1.258s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/dev_ws/install/ros2_control_demo_description/lib/python3.10/site-packages'
+[1.258s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/dev_ws/install/ros2_control_demo_description/bin'
+[1.275s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucas/dev_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/package.ps1'
+[1.275s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lucas/dev_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/package.dsv'
+[1.276s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucas/dev_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/package.sh'
+[1.277s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucas/dev_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/package.bash'
+[1.277s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucas/dev_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/package.zsh'
+[1.278s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lucas/dev_ws/install/ros2_control_demo_description/share/colcon-core/packages/ros2_control_demo_description)
+[1.280s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hand_urdf)
+[1.280s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lucas/dev_ws/build/hand_urdf' returned '0': CMAKE_PREFIX_PATH=/home/lucas/dev_ws/install/ros2_ue_linker:/home/lucas/dev_ws/install/ros2_control_hand:/home/lucas/dev_ws/install/ros2_control_demo_description:/home/lucas/dev_ws/install/dexhand_description:/opt/ros/humble:/home/lucas/dev_ws/install/hand_urdf:/home/lucas/ros2_ws/install/udp_driver:/home/lucas/ros2_ws/install/serial_driver:/home/lucas/ros2_ws/install/ros2_ue_connector_node:/home/lucas/ros2_ws/install/io_context:/home/lucas/ros2_ws/install/custom_hardware:/home/lucas/ros2_ws/install/asio_cmake_module /usr/bin/cmake --install /home/lucas/dev_ws/build/hand_urdf
+[1.297s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/dev_ws/install/hand_urdf' for CMake module files
+[1.298s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/dev_ws/install/hand_urdf' for CMake config files
+[1.298s] Level 1:colcon.colcon_core.shell:create_environment_hook('hand_urdf', 'cmake_prefix_path')
+[1.313s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lucas/dev_ws/install/hand_urdf/share/hand_urdf/hook/cmake_prefix_path.ps1'
+[1.314s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lucas/dev_ws/install/hand_urdf/share/hand_urdf/hook/cmake_prefix_path.dsv'
+[1.314s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lucas/dev_ws/install/hand_urdf/share/hand_urdf/hook/cmake_prefix_path.sh'
+[1.314s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/dev_ws/install/hand_urdf/bin'
+[1.315s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/dev_ws/install/hand_urdf/lib/pkgconfig/hand_urdf.pc'
+[1.315s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/dev_ws/install/hand_urdf/lib/python3.10/site-packages'
+[1.315s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/dev_ws/install/hand_urdf/bin'
+[1.324s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucas/dev_ws/install/hand_urdf/share/hand_urdf/package.ps1'
+[1.324s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lucas/dev_ws/install/hand_urdf/share/hand_urdf/package.dsv'
+[1.325s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucas/dev_ws/install/hand_urdf/share/hand_urdf/package.sh'
+[1.325s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucas/dev_ws/install/hand_urdf/share/hand_urdf/package.bash'
+[1.325s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucas/dev_ws/install/hand_urdf/share/hand_urdf/package.zsh'
+[1.325s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lucas/dev_ws/install/hand_urdf/share/colcon-core/packages/hand_urdf)
+[1.335s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_control_demo_description)
+[1.344s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/dev_ws/install/ros2_control_demo_description' for CMake module files
+[1.344s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/dev_ws/install/ros2_control_demo_description' for CMake config files
+[1.345s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_control_demo_description', 'cmake_prefix_path')
+[1.353s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lucas/dev_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/hook/cmake_prefix_path.ps1'
+[1.354s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lucas/dev_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/hook/cmake_prefix_path.dsv'
+[1.354s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lucas/dev_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/hook/cmake_prefix_path.sh'
+[1.354s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/dev_ws/install/ros2_control_demo_description/bin'
+[1.354s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/dev_ws/install/ros2_control_demo_description/lib/pkgconfig/ros2_control_demo_description.pc'
+[1.354s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/dev_ws/install/ros2_control_demo_description/lib/python3.10/site-packages'
+[1.355s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/dev_ws/install/ros2_control_demo_description/bin'
+[1.364s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucas/dev_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/package.ps1'
+[1.364s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lucas/dev_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/package.dsv'
+[1.364s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucas/dev_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/package.sh'
+[1.365s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucas/dev_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/package.bash'
+[1.365s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucas/dev_ws/install/ros2_control_demo_description/share/ros2_control_demo_description/package.zsh'
+[1.365s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lucas/dev_ws/install/ros2_control_demo_description/share/colcon-core/packages/ros2_control_demo_description)
+[1.374s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hand_urdf)
+[1.383s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/dev_ws/install/hand_urdf' for CMake module files
+[1.384s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/dev_ws/install/hand_urdf' for CMake config files
+[1.384s] Level 1:colcon.colcon_core.shell:create_environment_hook('hand_urdf', 'cmake_prefix_path')
+[1.393s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lucas/dev_ws/install/hand_urdf/share/hand_urdf/hook/cmake_prefix_path.ps1'
+[1.393s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lucas/dev_ws/install/hand_urdf/share/hand_urdf/hook/cmake_prefix_path.dsv'
+[1.394s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lucas/dev_ws/install/hand_urdf/share/hand_urdf/hook/cmake_prefix_path.sh'
+[1.394s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/dev_ws/install/hand_urdf/bin'
+[1.394s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/dev_ws/install/hand_urdf/lib/pkgconfig/hand_urdf.pc'
+[1.394s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/dev_ws/install/hand_urdf/lib/python3.10/site-packages'
+[1.394s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/dev_ws/install/hand_urdf/bin'
+[1.404s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucas/dev_ws/install/hand_urdf/share/hand_urdf/package.ps1'
+[1.404s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lucas/dev_ws/install/hand_urdf/share/hand_urdf/package.dsv'
+[1.405s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucas/dev_ws/install/hand_urdf/share/hand_urdf/package.sh'
+[1.405s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucas/dev_ws/install/hand_urdf/share/hand_urdf/package.bash'
+[1.405s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucas/dev_ws/install/hand_urdf/share/hand_urdf/package.zsh'
+[1.405s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lucas/dev_ws/install/hand_urdf/share/colcon-core/packages/hand_urdf)
+[1.406s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/lucas/dev_ws/src/ros2_control_hand' with build type 'ament_cmake'
+[1.406s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/lucas/dev_ws/src/ros2_control_hand'
+[1.415s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.415s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.468s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lucas/dev_ws/src/dexhand_description': PYTHONPATH=/home/lucas/dev_ws/build/dexhand_description/prefix_override:/home/lucas/dev_ws/install/dexhand_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/dexhand_description build --build-base /home/lucas/dev_ws/build/dexhand_description/build install --record /home/lucas/dev_ws/build/dexhand_description/install.log --single-version-externally-managed
+[1.470s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lucas/dev_ws/build/ros2_control_hand': CMAKE_PREFIX_PATH=/home/lucas/dev_ws/install/ros2_control_demo_description:/home/lucas/dev_ws/install/dexhand_description:/opt/ros/humble:/home/lucas/dev_ws/install/hand_urdf:/home/lucas/dev_ws/install/ros2_ue_linker:/home/lucas/dev_ws/install/ros2_control_hand:/home/lucas/ros2_ws/install/udp_driver:/home/lucas/ros2_ws/install/serial_driver:/home/lucas/ros2_ws/install/ros2_ue_connector_node:/home/lucas/ros2_ws/install/io_context:/home/lucas/ros2_ws/install/custom_hardware:/home/lucas/ros2_ws/install/asio_cmake_module /usr/bin/cmake --build /home/lucas/dev_ws/build/ros2_control_hand -- -j8 -l8
+[1.520s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lucas/dev_ws/build/ros2_control_hand' returned '0': CMAKE_PREFIX_PATH=/home/lucas/dev_ws/install/ros2_control_demo_description:/home/lucas/dev_ws/install/dexhand_description:/opt/ros/humble:/home/lucas/dev_ws/install/hand_urdf:/home/lucas/dev_ws/install/ros2_ue_linker:/home/lucas/dev_ws/install/ros2_control_hand:/home/lucas/ros2_ws/install/udp_driver:/home/lucas/ros2_ws/install/serial_driver:/home/lucas/ros2_ws/install/ros2_ue_connector_node:/home/lucas/ros2_ws/install/io_context:/home/lucas/ros2_ws/install/custom_hardware:/home/lucas/ros2_ws/install/asio_cmake_module /usr/bin/cmake --build /home/lucas/dev_ws/build/ros2_control_hand -- -j8 -l8
+[1.540s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lucas/dev_ws/build/ros2_control_hand': CMAKE_PREFIX_PATH=/home/lucas/dev_ws/install/ros2_control_demo_description:/home/lucas/dev_ws/install/dexhand_description:/opt/ros/humble:/home/lucas/dev_ws/install/hand_urdf:/home/lucas/dev_ws/install/ros2_ue_linker:/home/lucas/dev_ws/install/ros2_control_hand:/home/lucas/ros2_ws/install/udp_driver:/home/lucas/ros2_ws/install/serial_driver:/home/lucas/ros2_ws/install/ros2_ue_connector_node:/home/lucas/ros2_ws/install/io_context:/home/lucas/ros2_ws/install/custom_hardware:/home/lucas/ros2_ws/install/asio_cmake_module /usr/bin/cmake --install /home/lucas/dev_ws/build/ros2_control_hand
+[1.556s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_control_hand)
+[1.557s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lucas/dev_ws/build/ros2_control_hand' returned '0': CMAKE_PREFIX_PATH=/home/lucas/dev_ws/install/ros2_control_demo_description:/home/lucas/dev_ws/install/dexhand_description:/opt/ros/humble:/home/lucas/dev_ws/install/hand_urdf:/home/lucas/dev_ws/install/ros2_ue_linker:/home/lucas/dev_ws/install/ros2_control_hand:/home/lucas/ros2_ws/install/udp_driver:/home/lucas/ros2_ws/install/serial_driver:/home/lucas/ros2_ws/install/ros2_ue_connector_node:/home/lucas/ros2_ws/install/io_context:/home/lucas/ros2_ws/install/custom_hardware:/home/lucas/ros2_ws/install/asio_cmake_module /usr/bin/cmake --install /home/lucas/dev_ws/build/ros2_control_hand
+[1.566s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/dev_ws/install/ros2_control_hand' for CMake module files
+[1.567s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/dev_ws/install/ros2_control_hand' for CMake config files
+[1.567s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_control_hand', 'cmake_prefix_path')
+[1.576s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lucas/dev_ws/install/ros2_control_hand/share/ros2_control_hand/hook/cmake_prefix_path.ps1'
+[1.576s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lucas/dev_ws/install/ros2_control_hand/share/ros2_control_hand/hook/cmake_prefix_path.dsv'
+[1.576s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lucas/dev_ws/install/ros2_control_hand/share/ros2_control_hand/hook/cmake_prefix_path.sh'
+[1.577s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/dev_ws/install/ros2_control_hand/lib'
+[1.577s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_control_hand', 'ld_library_path_lib')
+[1.586s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lucas/dev_ws/install/ros2_control_hand/share/ros2_control_hand/hook/ld_library_path_lib.ps1'
+[1.586s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lucas/dev_ws/install/ros2_control_hand/share/ros2_control_hand/hook/ld_library_path_lib.dsv'
+[1.586s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lucas/dev_ws/install/ros2_control_hand/share/ros2_control_hand/hook/ld_library_path_lib.sh'
+[1.587s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/dev_ws/install/ros2_control_hand/bin'
+[1.587s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/dev_ws/install/ros2_control_hand/lib/pkgconfig/ros2_control_hand.pc'
+[1.587s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/dev_ws/install/ros2_control_hand/lib/python3.10/site-packages'
+[1.587s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/dev_ws/install/ros2_control_hand/bin'
+[1.596s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucas/dev_ws/install/ros2_control_hand/share/ros2_control_hand/package.ps1'
+[1.597s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lucas/dev_ws/install/ros2_control_hand/share/ros2_control_hand/package.dsv'
+[1.597s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucas/dev_ws/install/ros2_control_hand/share/ros2_control_hand/package.sh'
+[1.597s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucas/dev_ws/install/ros2_control_hand/share/ros2_control_hand/package.bash'
+[1.597s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucas/dev_ws/install/ros2_control_hand/share/ros2_control_hand/package.zsh'
+[1.598s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lucas/dev_ws/install/ros2_control_hand/share/colcon-core/packages/ros2_control_hand)
+[1.627s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_control_hand)
+[1.637s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/dev_ws/install/ros2_control_hand' for CMake module files
+[1.638s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/dev_ws/install/ros2_control_hand' for CMake config files
+[1.638s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_control_hand', 'cmake_prefix_path')
+[1.648s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lucas/dev_ws/install/ros2_control_hand/share/ros2_control_hand/hook/cmake_prefix_path.ps1'
+[1.648s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lucas/dev_ws/install/ros2_control_hand/share/ros2_control_hand/hook/cmake_prefix_path.dsv'
+[1.649s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lucas/dev_ws/install/ros2_control_hand/share/ros2_control_hand/hook/cmake_prefix_path.sh'
+[1.649s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/dev_ws/install/ros2_control_hand/lib'
+[1.649s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_control_hand', 'ld_library_path_lib')
+[1.659s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lucas/dev_ws/install/ros2_control_hand/share/ros2_control_hand/hook/ld_library_path_lib.ps1'
+[1.659s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lucas/dev_ws/install/ros2_control_hand/share/ros2_control_hand/hook/ld_library_path_lib.dsv'
+[1.659s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lucas/dev_ws/install/ros2_control_hand/share/ros2_control_hand/hook/ld_library_path_lib.sh'
+[1.659s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/dev_ws/install/ros2_control_hand/bin'
+[1.659s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/dev_ws/install/ros2_control_hand/lib/pkgconfig/ros2_control_hand.pc'
+[1.660s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/dev_ws/install/ros2_control_hand/lib/python3.10/site-packages'
+[1.660s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/dev_ws/install/ros2_control_hand/bin'
+[1.668s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucas/dev_ws/install/ros2_control_hand/share/ros2_control_hand/package.ps1'
+[1.669s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lucas/dev_ws/install/ros2_control_hand/share/ros2_control_hand/package.dsv'
+[1.669s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucas/dev_ws/install/ros2_control_hand/share/ros2_control_hand/package.sh'
+[1.669s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucas/dev_ws/install/ros2_control_hand/share/ros2_control_hand/package.bash'
+[1.670s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucas/dev_ws/install/ros2_control_hand/share/ros2_control_hand/package.zsh'
+[1.670s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lucas/dev_ws/install/ros2_control_hand/share/colcon-core/packages/ros2_control_hand)
+[1.671s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lucas/dev_ws/src/dexhand_description' returned '0': PYTHONPATH=/home/lucas/dev_ws/build/dexhand_description/prefix_override:/home/lucas/dev_ws/install/dexhand_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/dexhand_description build --build-base /home/lucas/dev_ws/build/dexhand_description/build install --record /home/lucas/dev_ws/build/dexhand_description/install.log --single-version-externally-managed
+[1.680s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/dev_ws/install/dexhand_description' for CMake module files
+[1.680s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/dev_ws/install/dexhand_description' for CMake config files
+[1.680s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/dev_ws/install/dexhand_description/lib'
+[1.680s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/dev_ws/install/dexhand_description/bin'
+[1.680s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/dev_ws/install/dexhand_description/lib/pkgconfig/dexhand_description.pc'
+[1.681s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/dev_ws/install/dexhand_description/lib/python3.10/site-packages'
+[1.681s] Level 1:colcon.colcon_core.shell:create_environment_hook('dexhand_description', 'pythonpath')
+[1.689s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lucas/dev_ws/install/dexhand_description/share/dexhand_description/hook/pythonpath.ps1'
+[1.689s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lucas/dev_ws/install/dexhand_description/share/dexhand_description/hook/pythonpath.dsv'
+[1.689s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lucas/dev_ws/install/dexhand_description/share/dexhand_description/hook/pythonpath.sh'
+[1.690s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/dev_ws/install/dexhand_description/bin'
+[1.690s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dexhand_description)
+[1.699s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucas/dev_ws/install/dexhand_description/share/dexhand_description/package.ps1'
+[1.700s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lucas/dev_ws/install/dexhand_description/share/dexhand_description/package.dsv'
+[1.700s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucas/dev_ws/install/dexhand_description/share/dexhand_description/package.sh'
+[1.700s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucas/dev_ws/install/dexhand_description/share/dexhand_description/package.bash'
+[1.700s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucas/dev_ws/install/dexhand_description/share/dexhand_description/package.zsh'
+[1.700s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lucas/dev_ws/install/dexhand_description/share/colcon-core/packages/dexhand_description)
+[6.566s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lucas/dev_ws/build/ros2_ue_linker' returned '0': CMAKE_PREFIX_PATH=/home/lucas/dev_ws/install/ros2_ue_linker:/home/lucas/dev_ws/install/ros2_control_hand:/home/lucas/dev_ws/install/ros2_control_demo_description:/home/lucas/dev_ws/install/dexhand_description:/opt/ros/humble:/home/lucas/dev_ws/install/hand_urdf:/home/lucas/ros2_ws/install/udp_driver:/home/lucas/ros2_ws/install/serial_driver:/home/lucas/ros2_ws/install/ros2_ue_connector_node:/home/lucas/ros2_ws/install/io_context:/home/lucas/ros2_ws/install/custom_hardware:/home/lucas/ros2_ws/install/asio_cmake_module /usr/bin/cmake --build /home/lucas/dev_ws/build/ros2_ue_linker -- -j8 -l8
+[6.587s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lucas/dev_ws/build/ros2_ue_linker': CMAKE_PREFIX_PATH=/home/lucas/dev_ws/install/ros2_ue_linker:/home/lucas/dev_ws/install/ros2_control_hand:/home/lucas/dev_ws/install/ros2_control_demo_description:/home/lucas/dev_ws/install/dexhand_description:/opt/ros/humble:/home/lucas/dev_ws/install/hand_urdf:/home/lucas/ros2_ws/install/udp_driver:/home/lucas/ros2_ws/install/serial_driver:/home/lucas/ros2_ws/install/ros2_ue_connector_node:/home/lucas/ros2_ws/install/io_context:/home/lucas/ros2_ws/install/custom_hardware:/home/lucas/ros2_ws/install/asio_cmake_module /usr/bin/cmake --install /home/lucas/dev_ws/build/ros2_ue_linker
+[6.599s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_ue_linker)
+[6.599s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lucas/dev_ws/build/ros2_ue_linker' returned '0': CMAKE_PREFIX_PATH=/home/lucas/dev_ws/install/ros2_ue_linker:/home/lucas/dev_ws/install/ros2_control_hand:/home/lucas/dev_ws/install/ros2_control_demo_description:/home/lucas/dev_ws/install/dexhand_description:/opt/ros/humble:/home/lucas/dev_ws/install/hand_urdf:/home/lucas/ros2_ws/install/udp_driver:/home/lucas/ros2_ws/install/serial_driver:/home/lucas/ros2_ws/install/ros2_ue_connector_node:/home/lucas/ros2_ws/install/io_context:/home/lucas/ros2_ws/install/custom_hardware:/home/lucas/ros2_ws/install/asio_cmake_module /usr/bin/cmake --install /home/lucas/dev_ws/build/ros2_ue_linker
+[6.608s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/dev_ws/install/ros2_ue_linker' for CMake module files
+[6.608s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/dev_ws/install/ros2_ue_linker' for CMake config files
+[6.608s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_ue_linker', 'cmake_prefix_path')
+[6.616s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lucas/dev_ws/install/ros2_ue_linker/share/ros2_ue_linker/hook/cmake_prefix_path.ps1'
+[6.617s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lucas/dev_ws/install/ros2_ue_linker/share/ros2_ue_linker/hook/cmake_prefix_path.dsv'
+[6.617s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lucas/dev_ws/install/ros2_ue_linker/share/ros2_ue_linker/hook/cmake_prefix_path.sh'
+[6.617s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/dev_ws/install/ros2_ue_linker/lib'
+[6.617s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/dev_ws/install/ros2_ue_linker/bin'
+[6.617s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/dev_ws/install/ros2_ue_linker/lib/pkgconfig/ros2_ue_linker.pc'
+[6.617s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/dev_ws/install/ros2_ue_linker/lib/python3.10/site-packages'
+[6.618s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/dev_ws/install/ros2_ue_linker/bin'
+[6.626s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucas/dev_ws/install/ros2_ue_linker/share/ros2_ue_linker/package.ps1'
+[6.626s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lucas/dev_ws/install/ros2_ue_linker/share/ros2_ue_linker/package.dsv'
+[6.626s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucas/dev_ws/install/ros2_ue_linker/share/ros2_ue_linker/package.sh'
+[6.626s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucas/dev_ws/install/ros2_ue_linker/share/ros2_ue_linker/package.bash'
+[6.627s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucas/dev_ws/install/ros2_ue_linker/share/ros2_ue_linker/package.zsh'
+[6.627s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lucas/dev_ws/install/ros2_ue_linker/share/colcon-core/packages/ros2_ue_linker)
+[6.653s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_ue_linker)
+[6.662s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/dev_ws/install/ros2_ue_linker' for CMake module files
+[6.662s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/dev_ws/install/ros2_ue_linker' for CMake config files
+[6.662s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_ue_linker', 'cmake_prefix_path')
+[6.671s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lucas/dev_ws/install/ros2_ue_linker/share/ros2_ue_linker/hook/cmake_prefix_path.ps1'
+[6.671s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lucas/dev_ws/install/ros2_ue_linker/share/ros2_ue_linker/hook/cmake_prefix_path.dsv'
+[6.671s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lucas/dev_ws/install/ros2_ue_linker/share/ros2_ue_linker/hook/cmake_prefix_path.sh'
+[6.671s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/dev_ws/install/ros2_ue_linker/lib'
+[6.671s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/dev_ws/install/ros2_ue_linker/bin'
+[6.671s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/dev_ws/install/ros2_ue_linker/lib/pkgconfig/ros2_ue_linker.pc'
+[6.672s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/dev_ws/install/ros2_ue_linker/lib/python3.10/site-packages'
+[6.672s] Level 1:colcon.colcon_core.environment:checking '/home/lucas/dev_ws/install/ros2_ue_linker/bin'
+[6.681s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucas/dev_ws/install/ros2_ue_linker/share/ros2_ue_linker/package.ps1'
+[6.681s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lucas/dev_ws/install/ros2_ue_linker/share/ros2_ue_linker/package.dsv'
+[6.681s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucas/dev_ws/install/ros2_ue_linker/share/ros2_ue_linker/package.sh'
+[6.682s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucas/dev_ws/install/ros2_ue_linker/share/ros2_ue_linker/package.bash'
+[6.682s] INFO:colcon.colcon_core.shell:Creating package script '/home/lucas/dev_ws/install/ros2_ue_linker/share/ros2_ue_linker/package.zsh'
+[6.682s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lucas/dev_ws/install/ros2_ue_linker/share/colcon-core/packages/ros2_ue_linker)
+[6.682s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[6.682s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[6.682s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[6.682s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[6.694s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[6.694s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[6.695s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[6.702s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[6.712s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lucas/dev_ws/install/local_setup.ps1'
+[6.712s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/lucas/dev_ws/install/_local_setup_util_ps1.py'
+[6.713s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lucas/dev_ws/install/setup.ps1'
+[6.722s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lucas/dev_ws/install/local_setup.sh'
+[6.723s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/lucas/dev_ws/install/_local_setup_util_sh.py'
+[6.723s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lucas/dev_ws/install/setup.sh'
+[6.732s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lucas/dev_ws/install/local_setup.bash'
+[6.733s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lucas/dev_ws/install/setup.bash'
+[6.742s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lucas/dev_ws/install/local_setup.zsh'
+[6.742s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lucas/dev_ws/install/setup.zsh'

@@ -1,0 +1,23 @@
+[1.024s] Invoking command in '/home/lucas/dev_ws/src/dexhand_description': PYTHONPATH=/home/lucas/dev_ws/build/dexhand_description/prefix_override:/home/lucas/dev_ws/install/dexhand_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/dexhand_description build --build-base /home/lucas/dev_ws/build/dexhand_description/build install --record /home/lucas/dev_ws/build/dexhand_description/install.log --single-version-externally-managed
+[1.211s] running egg_info
+[1.211s] writing ../../build/dexhand_description/dexhand_description.egg-info/PKG-INFO
+[1.212s] writing dependency_links to ../../build/dexhand_description/dexhand_description.egg-info/dependency_links.txt
+[1.212s] writing entry points to ../../build/dexhand_description/dexhand_description.egg-info/entry_points.txt
+[1.212s] writing requirements to ../../build/dexhand_description/dexhand_description.egg-info/requires.txt
+[1.212s] writing top-level names to ../../build/dexhand_description/dexhand_description.egg-info/top_level.txt
+[1.214s] reading manifest file '../../build/dexhand_description/dexhand_description.egg-info/SOURCES.txt'
+[1.215s] adding license file 'LICENSE'
+[1.216s] writing manifest file '../../build/dexhand_description/dexhand_description.egg-info/SOURCES.txt'
+[1.216s] running build
+[1.216s] running build_py
+[1.217s] running install
+[1.217s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.217s]   warnings.warn(
+[1.217s] running install_lib
+[1.218s] running install_data
+[1.220s] running install_egg_info
+[1.221s] removing '/home/lucas/dev_ws/install/dexhand_description/lib/python3.10/site-packages/dexhand_description-0.0.1-py3.10.egg-info' (and everything under it)
+[1.222s] Copying ../../build/dexhand_description/dexhand_description.egg-info to /home/lucas/dev_ws/install/dexhand_description/lib/python3.10/site-packages/dexhand_description-0.0.1-py3.10.egg-info
+[1.223s] running install_scripts
+[1.245s] writing list of installed files to '/home/lucas/dev_ws/build/dexhand_description/install.log'
+[1.271s] Invoked command in '/home/lucas/dev_ws/src/dexhand_description' returned '0': PYTHONPATH=/home/lucas/dev_ws/build/dexhand_description/prefix_override:/home/lucas/dev_ws/install/dexhand_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/dexhand_description build --build-base /home/lucas/dev_ws/build/dexhand_description/build install --record /home/lucas/dev_ws/build/dexhand_description/install.log --single-version-externally-managed

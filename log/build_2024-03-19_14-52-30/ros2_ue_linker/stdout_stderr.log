@@ -1,0 +1,43 @@
+[35m[1mConsolidate compiler generated dependencies of target ue_connector[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/ue_connector.dir/src/ue_connector.cpp.o[0m
+[01m[K/home/lucas/dev_ws/src/ros2_ue_linker/src/ue_connector.cpp:[m[K In constructor ‘[01m[KTFSubscriber::TFSubscriber()[m[K’:
+[01m[K/home/lucas/dev_ws/src/ros2_ue_linker/src/ue_connector.cpp:34:24:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kshm_msg*[m[K’ to ‘[01m[Kuint8_t*[m[K’ {aka ‘[01m[Kunsigned char*[m[K’} in assignment
+   34 |             shm_data = [01;31m[K(shm_msg *)shmat(shmid, NULL, 0)[m[K;
+      |                        [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                        [01;31m[K|[m[K
+      |                        [01;31m[Kshm_msg*[m[K
+[01m[K/home/lucas/dev_ws/src/ros2_ue_linker/src/ue_connector.cpp:[m[K In member function ‘[01m[Kvoid TFSubscriber::topic_callback(sensor_msgs::msg::JointState_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/lucas/dev_ws/src/ros2_ue_linker/src/ue_connector.cpp:53:19:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kmsg_id[m[K’ in ‘[01m[K*((TFSubscriber*)this)->TFSubscriber::shm_data[m[K’, which is of non-class type ‘[01m[Kuint8_t[m[K’ {aka ‘[01m[Kunsigned char[m[K’}
+   53 |         shm_data->[01;31m[Kmsg_id[m[K = msg_id;
+      |                   [01;31m[K^~~~~~[m[K
+[01m[K/home/lucas/dev_ws/src/ros2_ue_linker/src/ue_connector.cpp:57:31:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kjoint_names[m[K’ in ‘[01m[K*((TFSubscriber*)this)->TFSubscriber::shm_data[m[K’, which is of non-class type ‘[01m[Kuint8_t[m[K’ {aka ‘[01m[Kunsigned char[m[K’}
+   57 |             strncpy(shm_data->[01;31m[Kjoint_names[m[K[i], msg->name[i].c_str(), sizeof(shm_data->joint_names[i]) - 1);
+      |                               [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/lucas/dev_ws/src/ros2_ue_linker/src/ue_connector.cpp:57:86:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kjoint_names[m[K’ in ‘[01m[K*((TFSubscriber*)this)->TFSubscriber::shm_data[m[K’, which is of non-class type ‘[01m[Kuint8_t[m[K’ {aka ‘[01m[Kunsigned char[m[K’}
+   57 |             strncpy(shm_data->joint_names[i], msg->name[i].c_str(), sizeof(shm_data->[01;31m[Kjoint_names[m[K[i]) - 1);
+      |                                                                                      [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/lucas/dev_ws/src/ros2_ue_linker/src/ue_connector.cpp:58:23:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kposition[m[K’ in ‘[01m[K*((TFSubscriber*)this)->TFSubscriber::shm_data[m[K’, which is of non-class type ‘[01m[Kuint8_t[m[K’ {aka ‘[01m[Kunsigned char[m[K’}
+   58 |             shm_data->[01;31m[Kposition[m[K[i] = msg->position[i];
+      |                       [01;31m[K^~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/lucas/dev_ws/src/ros2_ue_linker/src/ue_connector.cpp:1[m[K:
+[01m[K/home/lucas/dev_ws/src/ros2_ue_linker/src/ue_connector.cpp:59:84:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kjoint_names[m[K’ in ‘[01m[K*((TFSubscriber*)this)->TFSubscriber::shm_data[m[K’, which is of non-class type ‘[01m[Kuint8_t[m[K’ {aka ‘[01m[Kunsigned char[m[K’}
+   59 |             RCLCPP_INFO(this->get_logger(), "Joint name: %s, Value: %f", shm_data->[01;31m[Kjoint_names[m[K[i], shm_data->position[i]);
+      |                                                                                    [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/lucas/dev_ws/src/ros2_ue_linker/src/ue_connector.cpp:59:110:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kposition[m[K’ in ‘[01m[K*((TFSubscriber*)this)->TFSubscriber::shm_data[m[K’, which is of non-class type ‘[01m[Kuint8_t[m[K’ {aka ‘[01m[Kunsigned char[m[K’}
+   59 |            RCLCPP_INFO(this->get_logger(), "Joint name: %s, Value: %f", shm_data->joint_names[i], shm_data->[01;31m[Kposition[m[K[i]);
+      |                                                                                                             [01;31m[K^~~~~~~~[m[K
+
+gmake[2]: *** [CMakeFiles/ue_connector.dir/build.make:76 : CMakeFiles/ue_connector.dir/src/ue_connector.cpp.o] Erreur 1
+gmake[1]: *** [CMakeFiles/Makefile2:137 : CMakeFiles/ue_connector.dir/all] Erreur 2
+gmake: *** [Makefile:146 : all] Erreur 2

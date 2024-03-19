@@ -1,0 +1,20 @@
+[0.306s] Invoking command in '/home/lucas/dev_ws/build/ros2_ue_linker': CMAKE_PREFIX_PATH=/home/lucas/dev_ws/install/ros2_ue_linker:/home/lucas/dev_ws/install/ros2_control_hand:/home/lucas/dev_ws/install/ros2_control_demo_description:/home/lucas/dev_ws/install/dexhand_description:/opt/ros/humble:/home/lucas/dev_ws/install/hand_urdf:/home/lucas/ros2_ws/install/udp_driver:/home/lucas/ros2_ws/install/serial_driver:/home/lucas/ros2_ws/install/ros2_ue_connector_node:/home/lucas/ros2_ws/install/io_context:/home/lucas/ros2_ws/install/custom_hardware:/home/lucas/ros2_ws/install/asio_cmake_module /usr/bin/cmake --build /home/lucas/dev_ws/build/ros2_ue_linker -- -j8 -l8
+[0.339s] [35m[1mConsolidate compiler generated dependencies of target ue_connector[0m
+[0.351s] [ 50%] [32mBuilding CXX object CMakeFiles/ue_connector.dir/src/ue_connector.cpp.o[0m
+[1.978s] [01m[K/home/lucas/dev_ws/src/ros2_ue_linker/src/ue_connector.cpp:[m[K In member function ‘[01m[Kvoid TFSubscriber::serialize(const std::vector<std::__cxx11::basic_string<char> >&, double*, int)[m[K’:
+[1.978s] [01m[K/home/lucas/dev_ws/src/ros2_ue_linker/src/ue_connector.cpp:74:18:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[1.978s]    74 |         while ([01;35m[Ki < joint_names.size()[m[K)
+[1.978s]       |                [01;35m[K~~^~~~~~~~~~~~~~~~~~~~[m[K
+[1.978s] [01m[K/home/lucas/dev_ws/src/ros2_ue_linker/src/ue_connector.cpp:83:13:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kint i[m[K’
+[1.978s]    83 |         int [01;31m[Ki[m[K = 0;
+[1.978s]       |             [01;31m[K^[m[K
+[1.978s] [01m[K/home/lucas/dev_ws/src/ros2_ue_linker/src/ue_connector.cpp:73:13:[m[K [01;36m[Knote: [m[K‘[01m[Kint i[m[K’ previously declared here
+[1.978s]    73 |         int [01;36m[Ki[m[K = 0;
+[1.978s]       |             [01;36m[K^[m[K
+[1.978s] [01m[K/home/lucas/dev_ws/src/ros2_ue_linker/src/ue_connector.cpp:84:18:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> >::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[1.978s]    84 |         while ([01;35m[Ki < joint_names.size()[m[K)
+[1.978s]       |                [01;35m[K~~^~~~~~~~~~~~~~~~~~~~[m[K
+[3.675s] gmake[2]: *** [CMakeFiles/ue_connector.dir/build.make:76 : CMakeFiles/ue_connector.dir/src/ue_connector.cpp.o] Erreur 1
+[3.675s] gmake[1]: *** [CMakeFiles/Makefile2:137 : CMakeFiles/ue_connector.dir/all] Erreur 2
+[3.676s] gmake: *** [Makefile:146 : all] Erreur 2
+[3.677s] Invoked command in '/home/lucas/dev_ws/build/ros2_ue_linker' returned '2': CMAKE_PREFIX_PATH=/home/lucas/dev_ws/install/ros2_ue_linker:/home/lucas/dev_ws/install/ros2_control_hand:/home/lucas/dev_ws/install/ros2_control_demo_description:/home/lucas/dev_ws/install/dexhand_description:/opt/ros/humble:/home/lucas/dev_ws/install/hand_urdf:/home/lucas/ros2_ws/install/udp_driver:/home/lucas/ros2_ws/install/serial_driver:/home/lucas/ros2_ws/install/ros2_ue_connector_node:/home/lucas/ros2_ws/install/io_context:/home/lucas/ros2_ws/install/custom_hardware:/home/lucas/ros2_ws/install/asio_cmake_module /usr/bin/cmake --build /home/lucas/dev_ws/build/ros2_ue_linker -- -j8 -l8

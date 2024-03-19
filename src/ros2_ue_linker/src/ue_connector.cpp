@@ -5,10 +5,13 @@
 
 const int NUM_JOINTS = 24;
 
+const int MAX_JOINT_NAME_LENGTH = 18; // Taille maximale du nom du joint
+
 struct shm_msg
 {
     unsigned long msg_id;
     double position[NUM_JOINTS];
+    char joint_names[NUM_JOINTS][MAX_JOINT_NAME_LENGTH]; // Tableau de noms de joint
 } shm_msg;
 
 class TFSubscriber : public rclcpp::Node
@@ -44,13 +47,15 @@ public:
     }
 
 private:
+    private:
     void topic_callback(const sensor_msgs::msg::JointState::SharedPtr msg)
     {
         static unsigned long msg_id = 0;
         double *position = &(msg->position)[0];
-        msg_id++;
-        serialize(position, msg_id);
+        std::vector<std::string> joint_names = msg->name; // Extract joint names from message
         
+        msg_id++;
+        serialize(joint_names, position, msg_id);
     }
 
     rclcpp::Subscription<sensor_msgs::msg::JointState>::SharedPtr subscription_;
@@ -58,17 +63,29 @@ private:
     int shmid;
     uint8_t *shm_data;
 
-    void serialize(double* position, int msg_id)
+    void serialize(std::vector<std::string>& joint_names, double* position, int msg_id)
     {
         unsigned long *q = (unsigned long*)shm_data;
         *q = msg_id;
         q++;
+
         double* t = (double*)q;
         int i = 0;
-        while(i < NUM_JOINTS)
+        while (i < joint_names.size())
         {
+            std::cout << "Joint name: " << joint_names[i] << ", Value: " << position[i] << std::endl; // Print joint name and value
             *t = position[i];
             t++;
+            i++;
+        }
+        q++;
+        char* name = (char*)q;
+        i = 0;
+        while (i < joint_names.size())
+        {
+            std::cout << "Joint name: " << joint_names[i][0] << std::endl;
+            *name = joint_names[i][0];
+            name++;
             i++;
         }
     }

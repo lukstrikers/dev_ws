@@ -1,0 +1,12 @@
+[35m[1mConsolidate compiler generated dependencies of target ue_connector[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/ue_connector.dir/src/ue_connector.cpp.o[0m
+[01m[K/home/lucas/dev_ws/src/ros2_ue_linker/src/ue_connector.cpp:[m[K In member function ‘[01m[Kvoid TFSubscriber::serialize(const std::vector<std::__cxx11::basic_string<char> >&, double*, int)[m[K’:
+[01m[K/home/lucas/dev_ws/src/ros2_ue_linker/src/ue_connector.cpp:73:9:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kint[m[K’
+   73 |         [01;31m[Kint[m[K i = 0;
+      |         [01;31m[K^~~[m[K
+[01m[K/home/lucas/dev_ws/src/ros2_ue_linker/src/ue_connector.cpp:74:16:[m[K [01;31m[Kerror: [m[K‘[01m[Ki[m[K’ was not declared in this scope
+   74 |         while ([01;31m[Ki[m[K < joint_names.size())
+      |                [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/ue_connector.dir/build.make:76 : CMakeFiles/ue_connector.dir/src/ue_connector.cpp.o] Erreur 1
+gmake[1]: *** [CMakeFiles/Makefile2:137 : CMakeFiles/ue_connector.dir/all] Erreur 2
+gmake: *** [Makefile:146 : all] Erreur 2
